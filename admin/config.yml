@@ -88,7 +88,7 @@ collections:
         name: "form"
         widget: "string"
       - label: "Status kota"
-        name: "status",
+        name: "status"
         widget: "select"
         options: ["do adopcji", "adoptowany"]
       - label: "Zdjęcia"
