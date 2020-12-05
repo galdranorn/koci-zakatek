@@ -1,11 +1,41 @@
-{% assign navurl = page.url | remove: 'index.html' %}
-<ul>
-{% for item in include.navigation %}
-  <li>
-    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}</a>
-    {% if item.subitems %}
-      {% include navigation.html navigation=item.subitems %}
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+<div class="navigation">
+  <nav class="navigation-wrapper">
+    <span class="icon icon-phone"></span>
+    <img
+      class="navigation-logo"
+      src="/assets/global/logo.png" alt="logo fundacji"
+    />
+    <ul class="navigation-list">
+      <li class="navigation-item">
+        <a class="navigation-item_link" href="#01">
+          Kim jesteśmy
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-item-link" href="#02">
+          Adopcje
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-item-link" href="#03">
+          Jak pomóc
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-item-link" href="#04">
+          Koty we Wrocławiu
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-item-link" href="/#05">
+          Metamorfozy
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-item__link" href="#06">
+          Kontakt
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
