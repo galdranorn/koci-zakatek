@@ -1,11 +1,9 @@
 @charset "utf-8";
 
 @import
-  "partials/fonts",
-  "partials/variables",
-  "partials/mixins",
-  "partials/normalize",
-  "partials/utilities",
-  "partials/typography",
-  "partials/app"
+  "global/normalize",
+  "global/variables",
+  "global/headers",
+  "global/buttons",
+  "global/navigation"
 ;

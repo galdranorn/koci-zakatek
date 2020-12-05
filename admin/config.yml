@@ -26,8 +26,7 @@ collections:
       - label: "Author"
         name: "author"
         widget: "select"
-        options:
-          - label: "Edyta Gal", value: "edyta_gal"
+        options: ["Edyta Gal"]
       - label: "Publish Date"
         name: "date"
         widget: "datetime"
@@ -68,30 +67,30 @@ collections:
         widget: "string"
       - label: "Płeć"
         name: "gender"
-        widget: "list"
-        default: ["kotka", "kocur"]
+        widget: "select"
+        options: ["kotka", "kocur"]
       - label: "Wiek"
         name: "age"
         widget: "string"
       - label: "Sterylizacja/kastracja"
         name: "fertility"
-        widget: "list"
-        default: ["tak", "nie"]
+        widget: "select"
+        options: ["tak", "nie"]
       - label: "Odrobaczenie"
         name: "deworming"
-        widget: "list"
-        default: ["tak", "nie"]
+        widget: "select"
+        options: ["tak", "nie"]
       - label: "Szczepienie"
         name: "grafting"
-        widget: "list"
-        default: ["tak", "nie"]
+        widget: "select"
+        options: ["tak", "nie"]
       - label: "Adres do formularza"
         name: "form"
         widget: "string"
       - label: "Status kota"
         name: "status",
-        widget: "list"
-        default: ["do adopcji", "adoptowany"]
+        widget: "select"
+        options: ["do adopcji", "adoptowany"]
       - label: "Zdjęcia"
         name: "photos"
         widget: "image"

@@ -1,0 +1,13 @@
+.header-dark, .header-white {
+  font-size: 60px;
+}
+
+.header-dark {
+  font-weight: $font-weight-extrabold;
+  color: $color-main;
+}
+
+.header-white {
+  font-weight: $font-weight-bold;
+  color: $color-white;
+}

@@ -1,0 +1,33 @@
+.btn {
+  transition: $transition;
+  cursor: pointer;
+
+  &-big {
+    padding: 16px 36px;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+
+  &-small {
+    padding: 10px 17px;
+    border-radius: 25px;
+  }
+
+  &-orange {
+    background-color: $color-orange;
+    color: $color-white;
+    text-transform: uppercase;
+  }
+
+  &-blue {
+    background-color: $color-blue;
+    color: $color-white;
+    text-transform: uppercase;
+  }
+
+  &-white {
+    background-color: $color-white;
+    color: $color-main;
+    font-weight: $font-weight-bold;
+  }
+}

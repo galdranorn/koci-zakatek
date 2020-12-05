@@ -1,0 +1,23 @@
+$breakpoint-xs: 480px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-4k: 1536px;
+
+$font-main:     'Montserrat', sans-serif;
+$font-buttons:  'Varela Round', sans-serif;
+
+$font-weight-ultralight:   200;
+$font-weight-light:        300;
+$font-weight-normal:       400;
+$font-weight-bold:         700;
+$font-weight-extrabold:    800;
+
+$color-main:          #1f272a;
+$color-orange:        #f86522;
+$color-blue:          #2aafc0;
+$color-white:         #ffffff;
+$color-transparent:   rgba(255, 255, 255, 0);
+
+$transition: .2s;
