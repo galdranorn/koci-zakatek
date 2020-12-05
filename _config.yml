@@ -39,17 +39,20 @@ defaults:
       path: ''
       type: 'cats'
     values:
-      layout: 'cats'
+      layout: 'cat'
       published: ' '
+      date: ' '
+      slug: ' '
       name: ' '
       gender: ' '
       age: ' '
       fertility: ' '
       deworming: ' '
-      grafting: ' ',
+      grafting: ' '
       form: ' '
       status: ' '
       photos: ' '
+      description: ' '
 markdown: kramdown
 kramdown:
   auto_ids: false

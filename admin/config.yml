@@ -1,37 +1,108 @@
-# Everything you need to know about configuring the CMS can be found here:-
-# https://www.netlifycms.org/docs/configuration-options/
-
 backend:
-  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
-  branch: master # Branch to update (master by default)
-
-media_folder: "assets/img/uploads" # Folder where user uploaded files should go
-
-publish_mode: editorial_workflow # Enable drafts
-
-collections: # A list of collections the CMS should be able to edit
-  # POSTS
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+  name: git-gateway
+  branch: master
+media_folder: "assets/images"
+publish_mode: editorial_workflow
+collections:
+  - name: "post"
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Meta Description", name: "meta_description", widget: "string", required: false}
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "post"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        tagname: "h1"
+      - label: "Meta Description"
+        name: "meta_description"
+        widget: "string"
+        required: false
       - label: "Author"
         name: "author"
         widget: "select"
         options:
-          - { label: "Dan Urbanowicz", value: "dan_urbanowicz" }
-          - { label: "John Doe", value: "john_doe" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Categories", name: "categories", widget: "string", required: false}
-    # PAGES
+          - label: "Edyta Gal", value: "edyta_gal"
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Intro Paragraph"
+        name: "intro_paragraph"
+        widget: "markdown"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
+      - label: "Categories"
+        name: "categories"
+        widget: "string"
+        required: false
+  -
+    name: "cat"
+    label: "Koty"
+    label_singular: "Kot"
+    folder: "_cats"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Opublikowano"
+        name: "published"
+        widget: "boolean"
+        default: true
+      - label: "Data publikacji"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Imię kota"
+        name: "name"
+        widget: "string"
+      - label: "Imię do adresu (myślniki zamiast spacji i bez polskich znaków)"
+        name: "slug"
+        widget: "string"
+      - label: "Płeć"
+        name: "gender"
+        widget: "list"
+        default: ["kotka", "kocur"]
+      - label: "Wiek"
+        name: "age"
+        widget: "string"
+      - label: "Sterylizacja/kastracja"
+        name: "fertility"
+        widget: "list"
+        default: ["tak", "nie"]
+      - label: "Odrobaczenie"
+        name: "deworming"
+        widget: "list"
+        default: ["tak", "nie"]
+      - label: "Szczepienie"
+        name: "grafting"
+        widget: "list"
+        default: ["tak", "nie"]
+      - label: "Adres do formularza"
+        name: "form"
+        widget: "string"
+      - label: "Status kota"
+        name: "status",
+        widget: "list"
+        default: ["do adopcji", "adoptowany"]
+      - label: "Zdjęcia"
+        name: "photos"
+        widget: "image"
+        default: "/uploads/chocolate-dogecoin.jpg"
+        media_library:
+          config:
+            multiple: true
+      - label: "Opis"
+        name: "description"
+        widget: "markdown"
+        required: false
   - name: "page"
     label: "Page"
     folder: "pages"
