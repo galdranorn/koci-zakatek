@@ -1,0 +1,94 @@
+.home-facebook {
+  &_header, &_text {
+    padding: 0 20px;
+  }
+
+  &_header {
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: $font-weight-extrabold;
+    color: $color-main;
+  }
+
+  &_text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: $font-weight-light;
+  }
+
+  &_feed {
+    padding: 0 10px;
+
+    &-icon {
+      display: none;
+    }
+
+    &-posts {
+      display: flex;
+      flex-flow: row wrap;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    &-post {
+      box-sizing: border-box;
+      position: relative;
+      width: 50%;
+      height: 46vw;
+      padding: 10px;
+      overflow: hidden;
+
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .home-facebook {
+    &_header, &_text {
+      padding: 0 60px;
+    }
+
+    &_feed {
+      padding: 0 50px;
+
+      &-post {
+        height: 40vw;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .home-facebook_feed-post {
+    width: 25%;
+    height: calc(0.22 * 100vw);
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .home-facebook {
+    &_header, &_text {
+      padding: 0 80px;
+    }
+
+    &_header {
+      font-size: 28px;
+    }
+
+    &_feed {
+      padding: 0 70px;
+
+      &-post {
+        height: calc(0.22 * 100vw);
+      }
+    }
+  }
+}

@@ -116,3 +116,12 @@ collections:
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "fb-posts"
+    label: "Posty na facebooku"
+    folder: "_fb-posts/"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'ID posta', name: 'id', widget: 'string', required: true }
+      - { label: 'Adres zdjęcia', name: 'img', widget: 'string', required: true }
