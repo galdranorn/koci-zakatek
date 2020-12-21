@@ -1,11 +1,52 @@
-<header>
-
-  <h1>
-    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+<header class="header">
+  <h1 class="header-name">
+    Fundacja Koci Zakątek
   </h1>
-
-  <nav>
-    {% include navigation.html navigation=site.data.navigation %}
+  <nav class="header-nav">
+    <div class="header-nav_icon">
+      <div id="navTrigger" class="header-nav_icon-wrapper">
+        <span class="icon icon-cross"data-function="close"></span>
+        <span class="icon icon-menu" data-function="open"></span>
+      </div>
+    </div>
+    <a class="header-nav_logo" href="/">
+      <img src="/assets/global/logo.png" alt="logo fundacji"/>
+    </a>
+    <ul id="navBox" class="header-nav_list">
+      <li class="header-nav_item">
+        <a class="header-nav_item-link" href="#01">
+          Kim jesteśmy
+        </a>
+      </li>
+      <li class="header-nav_item">
+        <a class="header-nav_item-link" href="#02">
+          Adopcje
+        </a>
+      </li>
+      <li class="header-nav_item">
+        <a class="header-nav_item-link" href="#03">
+          Jak pomóc
+        </a>
+      </li>
+      <li class="header-nav_item">
+        <a class="header-nav_item-link" href="#04">
+          Koty we Wrocławiu
+        </a>
+      </li>
+      <li class="header-nav_item">
+        <a class="header-nav_item-link" href="/#05">
+          Metamorfozy
+        </a>
+      </li>
+      <li class="header-nav_item">
+        <a class="header-nav_item-link" href="#06">
+          Kontakt
+        </a>
+      </li>
+    </ul>
   </nav>
-
 </header>
+
+<script type="text/javascript">
+  {% include mobile-nav.js %}
+</script>
