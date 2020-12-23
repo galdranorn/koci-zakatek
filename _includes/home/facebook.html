@@ -1,0 +1,24 @@
+<div class="home-facebook">
+  <h3 class="home-facebook_header">
+    {{ page.facebook-header }}
+  </h3>
+  <p class="home-facebook_text">
+    {{ page.facebook-text }}
+  </p>
+  <div class="home-facebook_feed">
+    <a class="home-facebook_feed-icon" href="https://www.facebook.com/fundacja.EBRA.koci.zakatek" target="_blank">
+      <img src="{{ page.facebook-logo }}" alt="{{ page.facebook-logo_alt }}"/>
+    </a>
+    <ul class="home-facebook_feed-posts">
+      {% for post in site.data.fb-posts limit: 4 %}
+        <li class="home-facebook_feed-post">
+          <a
+            href="https://www.facebook.com/fundacja.EBRA.koci.zakatek/posts/{{ post.id }}"
+            target="_blank"
+            style="background-image: url('{{ post.img }}');"
+          ></a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
