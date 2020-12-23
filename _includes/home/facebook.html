@@ -6,11 +6,9 @@
     {{ page.facebook-text }}
   </p>
   <div class="home-facebook_feed">
-    <img
-      class="home-facebook_feed-icon"
-      src="{{ page.facebook-logo }}"
-      alt="{{ page.facebook-logo_alt }}"
-    />
+    <a class="home-facebook_feed-icon" href="https://www.facebook.com/fundacja.EBRA.koci.zakatek" target="_blank">
+      <img src="{{ page.facebook-logo }}" alt="{{ page.facebook-logo_alt }}"/>
+    </a>
     <ul class="home-facebook_feed-posts">
       {% for post in site.data.fb-posts limit: 4 %}
         <li class="home-facebook_feed-post">

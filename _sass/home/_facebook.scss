@@ -92,3 +92,44 @@
     }
   }
 }
+
+@media (min-width: $breakpoint-lg) {
+  .home-facebook_feed {
+    display: flex;
+    flex-flow: row nowrap;
+
+    &-icon, &-post {
+      opacity: .9;
+      transition: opacity .2s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &-icon {
+      display: flex;
+      align-items: center;
+      width: 20%;
+      padding-right: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &-posts {
+      width: 80%;
+    }
+
+    &-post {
+      height: calc(0.18 * 100vw);
+    }
+  }
+}
+
+@media (min-width: $breakpoint-4k) {
+  .home-facebook_feed-post {
+    height: 255px;
+  }
+}
