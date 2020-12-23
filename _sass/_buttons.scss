@@ -1,10 +1,13 @@
 .btn {
+  text-decoration: none;
   transition: $transition;
   cursor: pointer;
 
   &-big {
+    display: block;
+    margin: 0 auto;
     padding: 16px 36px;
-    font-size: 16px;
+    font-size: 13px;
     border-radius: 30px;
   }
 
@@ -29,5 +32,11 @@
     background-color: $color-white;
     color: $color-main;
     font-weight: $font-weight-bold;
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .btn-big {
+    font-size: 16px;
   }
 }

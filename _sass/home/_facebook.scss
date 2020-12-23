@@ -1,4 +1,6 @@
 .home-facebook {
+  padding-bottom: 50px;
+
   &_header, &_text {
     padding: 0 20px;
   }
@@ -75,6 +77,8 @@
 
 @media (min-width: $breakpoint-md) {
   .home-facebook {
+    padding-bottom: 100px;
+
     &_header, &_text {
       padding: 0 80px;
     }
@@ -94,36 +98,40 @@
 }
 
 @media (min-width: $breakpoint-lg) {
-  .home-facebook_feed {
+  .home-facebook {
+    padding-bottom: 140px;
+
+    &_feed {
     display: flex;
     flex-flow: row nowrap;
 
-    &-icon, &-post {
-      opacity: .9;
-      transition: opacity .2s;
+      &-icon, &-post {
+        opacity: .9;
+        transition: opacity .2s;
 
-      &:hover {
-        opacity: 1;
+        &:hover {
+          opacity: 1;
+        }
       }
-    }
 
-    &-icon {
-      display: flex;
-      align-items: center;
-      width: 20%;
-      padding-right: 20px;
+      &-icon {
+        display: flex;
+        align-items: center;
+        width: 20%;
+        padding-right: 20px;
 
-      img {
-        width: 100%;
+        img {
+          width: 100%;
+        }
       }
-    }
 
-    &-posts {
-      width: 80%;
-    }
+      &-posts {
+        width: 80%;
+      }
 
-    &-post {
-      height: calc(0.18 * 100vw);
+      &-post {
+        height: calc(0.18 * 100vw);
+      }
     }
   }
 }
