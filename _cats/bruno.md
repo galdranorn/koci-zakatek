@@ -1,6 +1,5 @@
 ---
 published: true
-layout: cat
 date: 2021-01-09 10:31:12
 name: Bruno
 slug: bruno
@@ -11,7 +10,9 @@ deworming: tak
 grafting: tak
 form: https://goo.gl/forms/tSFeQWO4RzCMm2X72
 status: do adopcji
-photos: /assets/images/bruno-profile.jpg
+photo: /assets/images/bruno-profile.jpg
+photos: ""
+layout: cat
 description: >-
   [Bruno – miziasty wrażliwiec czeka na
   dom](https://kocizakatek.pl/bruno-miziasty-wrazliwiec-czeka-dom/)
