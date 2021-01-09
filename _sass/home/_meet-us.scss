@@ -132,15 +132,21 @@
     }
 
     &_image {
-      padding: 0;
-      padding-right: 50px;
+      padding: 0 25px;
     }
   }
 }
 
 @media (min-width: $breakpoint-xl) {
-  .home-meetus_text-header {
-    font-size: 60px;
-    line-height: 80px;
+  .home-meetus {
+    &_text-header {
+      font-size: 60px;
+      line-height: 80px;
+    }
+
+    &_image {
+      padding: 0;
+      padding-right: 50px;
+    }
   }
 }

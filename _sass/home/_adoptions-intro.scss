@@ -22,9 +22,14 @@
     }
   }
 
-  &_image, &_image img {
+  &_image {
     box-sizing: border-box;
     width: 100%;
+    margin-top: 40px;
+
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -53,7 +58,7 @@
 @media (min-width: $breakpoint-md) {
   .home-adoptions {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     &_text {
       padding: 0 80px;
@@ -90,15 +95,22 @@
     }
 
     &_image {
-      padding: 0;
-      padding-right: 50px;
+      margin-top: 0;
+      padding: 0 25px;
     }
   }
 }
 
 @media (min-width: $breakpoint-xl) {
-  .home-adoptions_text-header {
-    font-size: 60px;
-    line-height: 80px;
+  .home-adoptions {
+    &_text-header {
+      font-size: 60px;
+      line-height: 80px;
+    }
+
+    &_image {
+      padding: 0;
+      padding-right: 50px;
+    }
   }
 }
