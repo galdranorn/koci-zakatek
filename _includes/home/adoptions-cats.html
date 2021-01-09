@@ -2,17 +2,48 @@
   <h3 class="home-cats_header">
     {{ page.adoptions-header-2 }}
   </h3>
+  <ul class="home-cats_list">
 
   {% for cat in site.cats limit: 3 %}
 
-    <div class="home-cats_cat">
-      <h4 class="home-cats_cat-name">
-        {{ cat.name }}
-      </h4>
-    </div>
+    <li class="home-cats_cat">
+      <img
+        class="home-cats_cat-image"
+        src="{{ cat.photos }}"
+        alt="{{ page.adoptions-slug }} - {{ cat.name }}"
+      />
+      <span class="home-cats_cat-background"></span>
+      <div class="home-cats_cat-cover">
+        <h4 class="home-cats_cat-name">{{ cat.name }}</h4>
+        <ul class="home-cats_cat-spec">
+          <li>
+            <strong>{{ page.adoptions-gender }}</strong>:
+            {{ cat.gender }}
+          </li>
+          <li>
+            <strong>{{ page.adoptions-age }}</strong>:
+            {{ cat.age }}
+          </li>
+          <li>
+            <strong>{{ page.adoptions-fertility }}</strong>:
+            {{ cat.fertility }}
+          </li>
+          <li>
+            <strong>{{ page.adoptions-deworming }}</strong>:
+            {{ cat.deworming }}
+          </li>
+          <li>
+            <strong>{{ page.adoptions-grafting }}</strong>:
+            {{ cat.grafting }}
+          </li>
+        </ul>
+        <a class="btn btn-mini" href="/koty/{{ cat.name }}"></a>
+      </div>
+    </li>
 
   {% endfor %}
 
+  </ul>
   <a class="btn btn-big btn-orange" href="{{ page.adoptions-link-2 }}">
     {{ page.adoptions-cta-2 }}
   </a>
