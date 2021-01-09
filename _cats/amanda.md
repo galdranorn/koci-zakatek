@@ -1,6 +1,5 @@
 ---
 published: true
-layout: cat
 date: 2021-01-09 10:41:20
 name: Amanda
 slug: amanda
@@ -11,7 +10,9 @@ deworming: tak
 grafting: tak
 form: https://goo.gl/forms/tSFeQWO4RzCMm2X72
 status: do adopcji
-photos: /assets/images/amanda-profile.jpg
+photo: /assets/images/amanda-profile.jpg
+photos: ""
+layout: cat
 description: >-
   Amanda - ślicznotka czeka na dom
 
