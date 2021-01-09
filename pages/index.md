@@ -44,6 +44,8 @@ adoptions-text: >-
   że w swoim stałym domu kot będzie <strong>bezpieczny i odpowiednio zaopiekowany</strong>.
 adoptions-image: /assets/home/adoptions.jpg
 adoptions-alt:  zdjęcie kota w klatce
+adoptions-line: /assets/home/process-lines.png
+adoptions-line-alt: przerywana linia
 adoptions-header-1: Proces adopcyjny
 adoptions-cta-1: Dowiedz się więcej o adopcji
 adoptions-link-1: /adopcje
@@ -56,28 +58,33 @@ adopt-step-1-text: >-
   Na stronie opisaliśmy wszystko, co musisz wiedzieć, zanim zdecydujesz się na adopcję
   i jak się do niej przygotować
 adopt-step-1-image: /assets/home/process1.png
+adopt-step-1-alt: ikona z komputerem
 adopt-step-2-intro: Etap 1
 adopt-step-2-title: Wypełnij ankietę adopcyjną
 adopt-step-2-text: >-
   Zapytamy Cię o podstawowe dane, preferencje dotyczące kota, warunki bytowe i doświadczenie.
   Musimy wiedzieć, jak możemy Ci pomóc w procesie adopcji.
 adopt-step-2-image: /assets/home/process2.png
+adopt-step-2-alt: ikona formularza
 adopt-step-3-intro: Etap 2
 adopt-step-3-title: Wizyta przedadopcyjna
 adopt-step-3-text: >-
   Chcemy Cię poznać! Przy okazji omówimy bezpieczeństwo kota, prawidłowe żywienie, doradzimy
   jak dostosować przyszły dom do potrzeb zwierzęcia.
 adopt-step-3-image: /assets/home/process3.png
+adopt-step-3-alt: ikona z postaciami
 adopt-step-4-intro: Etap 3
 adopt-step-4-title: Poznaj kota
 adopt-step-4-text: >-
-  Zaoraszamy do domu tycmczasowego - czas poznać naszego nowego przyjaciela, porozmawiać
+  Zapraszamy do domu tymczasowego - czas poznać naszego nowego przyjaciela, porozmawiać
   o jego charakterze, wymienić pierwsze zaciekawione spojrzenia i głaski.
 adopt-step-4-image: /assets/home/process4.png
+adopt-step-4-alt: ikona z kotem pod lupą
 adopt-step-5-intro: Etap ostatni
 adopt-step-5-title: Podejmij decyzję i podpisz umowę adopcyjną
 adopt-step-5-text: >-
   Potwierdzamy na piśmie wszystko, o czym rozmawialiśmy i co zostało ustalone
   w poprzednich etapach.
 adopt-step-5-image: /assets/home/process5.png
+adopt-step-5-alt: ikona z dokumentem i długopisem
 ---
