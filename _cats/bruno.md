@@ -1,5 +1,6 @@
 ---
 published: true
+layout: cat
 date: 2021-01-09 10:31:12
 name: Bruno
 slug: bruno

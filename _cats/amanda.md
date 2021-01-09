@@ -1,5 +1,6 @@
 ---
 published: true
+layout: cat
 date: 2021-01-09 10:41:20
 name: Amanda
 slug: amanda

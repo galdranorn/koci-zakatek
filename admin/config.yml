@@ -62,7 +62,7 @@ collections:
       - label: "Imię kota"
         name: "name"
         widget: "string"
-      - label: "Imię do adresu (myślniki zamiast spacji i bez polskich znaków)"
+      - label: "Imię do adresu (małe litery, myślniki zamiast spacji i bez polskich znaków)"
         name: "slug"
         widget: "string"
       - label: "Płeć"
@@ -91,13 +91,21 @@ collections:
         name: "status"
         widget: "select"
         options: ["do adopcji", "adoptowany"]
-      - label: "Zdjęcia"
-        name: "photos"
+      - label: "Zdjęcie główne"
+        name: "photo"
         widget: "image"
-        default: "/uploads/chocolate-dogecoin.jpg"
+        default: "/assets/images/bruno-profile.jpg"
+        allow_multiple: true
         media_library:
           config:
             multiple: true
+      - label: "Galeria zdjęć"
+        name: "photos"
+        widget: "image"
+        media_library:
+          config:
+            multiple: true
+        required: false
       - label: "Opis"
         name: "description"
         widget: "markdown"
