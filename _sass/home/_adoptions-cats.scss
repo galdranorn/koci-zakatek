@@ -23,6 +23,10 @@
     margin-bottom: 10px;
     overflow: hidden;
 
+    &--fourth {
+      display: none;
+    }
+
     &-image {
       box-sizing: border-box;
       z-index: 1;
@@ -127,6 +131,10 @@
       box-sizing: border-box;
       width: 50%;
       padding: 0 10px;
+
+      &--fourth {
+        display: block;
+      }
     }
 
     .btn-orange {
@@ -147,17 +155,21 @@
 }
 
 @media (min-width: $breakpoint-lg) {
-  .home-cats {
-    &_cat {
-      width: 33.3%;
+  .home-cats_cat {
+    width: 33.3%;
+
+    &--fourth {
+      display: none;
     }
   }
 }
 
 @media (min-width: $breakpoint-xl) {
-  .home-cats {
-    &_cat {
-      width: 25%;
+  .home-cats_cat {
+    width: 25%;
+
+    &--fourth {
+      display: block;
     }
   }
 }

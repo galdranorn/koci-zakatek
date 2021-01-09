@@ -4,12 +4,12 @@
   </h3>
   <ul class="home-cats_list">
 
-  {% for cat in site.cats limit: 3 %}
+  {% for cat in site.cats limit: 4 %}
 
-    <li class="home-cats_cat">
+    <li class="home-cats_cat {% if forloop.index == 4 %} home-cats_cat--fourth {% endif %}">
       <img
         class="home-cats_cat-image"
-        src="{{ cat.photos }}"
+        src="{{ cat.photo }}"
         alt="{{ page.adoptions-slug }} - {{ cat.name }}"
       />
       <span class="home-cats_cat-background"></span>
