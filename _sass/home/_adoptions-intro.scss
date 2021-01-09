@@ -1,4 +1,4 @@
-.home-meetus {
+.home-adoptions {
   margin-top: 50px;
   margin-bottom: 50px;
 
@@ -20,37 +20,12 @@
         font-weight: $font-weight-bold;
       }
     }
-
-    &-platform {
-      display: flex;
-      flex-flow: row nowrap;
-      align-items: center;
-      justify-content: space-between;
-
-      &_paragraph {
-        box-sizing: border-box;
-        width: 60%;
-        font-size: 14px;
-        line-height: 24px;
-      }
-
-      &_image {
-        box-sizing: border-box;
-        width: 40%;
-        max-width: 140px;
-
-        img {
-          width: 100%;
-        }
-      }
-    }
   }
 
   &_image {
     box-sizing: border-box;
     width: 100%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 40px;
 
     img {
       width: 100%;
@@ -59,7 +34,7 @@
 }
 
 @media (min-width: $breakpoint-xs) {
-  .home-meetus {
+  .home-adoptions {
     &_text {
       padding: 0 60px;
     }
@@ -75,22 +50,15 @@
 }
 
 @media (min-width: $breakpoint-sm) {
-  .home-meetus {
-    &_text-platform_paragraph {
-      font-size: 16px;
-      line-height: 28px;
-    }
-
-    &_image {
-      padding: 0 60px;
-    }
+  .home-adoptions_image {
+    padding: 0 60px;
   }
 }
 
 @media (min-width: $breakpoint-md) {
-  .home-meetus {
+  .home-adoptions {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     &_text {
       padding: 0 80px;
@@ -98,11 +66,6 @@
       &-header {
         font-size: 48px;
         line-height: 60px;
-      }
-
-      &-platform_image {
-        box-sizing: border-box;
-        padding-right: 20px;
       }
     }
 
@@ -114,10 +77,10 @@
 }
 
 @media (min-width: $breakpoint-lg) {
-  .home-meetus {
+  .home-adoptions {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     overflow: hidden;
 
@@ -132,13 +95,14 @@
     }
 
     &_image {
+      margin-top: 0;
       padding: 0 25px;
     }
   }
 }
 
 @media (min-width: $breakpoint-xl) {
-  .home-meetus {
+  .home-adoptions {
     &_text-header {
       font-size: 60px;
       line-height: 80px;
