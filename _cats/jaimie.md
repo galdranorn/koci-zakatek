@@ -1,6 +1,5 @@
 ---
 published: true
-layout: cat
 date: 2021-01-09 10:48:36
 name: Jaimie
 slug: jaimie
@@ -11,7 +10,9 @@ deworming: tak
 grafting: tak
 form: https://docs.google.com/forms/d/1DKvUxOt1dKKkZMqvz0-4asMZaatrq01Zsb1JsyC3uzc/viewform?ts=59944aad&edit_requested=true
 status: do adopcji
-photos: /assets/images/jaimie-profile.jpg
+photo: /assets/images/jaimie-profile.jpg
+photos: ""
+layout: cat
 description: >-
   Jaimie - czeka na swoją szansę na dom
 
