@@ -1,0 +1,19 @@
+<div class="home-cats">
+  <h3 class="home-cats_header">
+    {{ page.adoptions-header-2 }}
+  </h3>
+
+  {% for cat in site.cats limit: 3 %}
+
+    <div class="home-cats_cat">
+      <h4 class="home-cats_cat-name">
+        {{ cat.name }}
+      </h4>
+    </div>
+
+  {% endfor %}
+
+  <a class="btn btn-big btn-orange" href="{{ page.adoptions-link-2 }}">
+    {{ page.adoptions-cta-2 }}
+  </a>
+</div>
