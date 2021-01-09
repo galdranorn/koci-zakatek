@@ -50,7 +50,7 @@ adoptions-header-1: Proces adopcyjny
 adoptions-cta-1: Dowiedz się więcej o adopcji
 adoptions-link-1: /adopcje
 adoptions-header-2: Koty do adopcji
-adoptions-cta-2: Zobacz wszystkie koty
+adoptions-cta-2: Zobacz wszystkie
 adoptions-link-2: /koty/do-adopcji
 adopt-step-1-intro: Zanim zaczniemy...
 adopt-step-1-title: Zapoznaj się z materiałami
@@ -87,4 +87,11 @@ adopt-step-5-text: >-
   w poprzednich etapach.
 adopt-step-5-image: /assets/home/process5.png
 adopt-step-5-alt: ikona z dokumentem i długopisem
+adoptions-slug: kot do adopcji
+adoptions-gender: Płeć
+adoptions-age: Wiek
+adoptions-fertility: Sterylizacja
+adoptions-deworming: Odrobaczenie
+adoptions-grafting: Szczepienie
+adoptions-cat-link: Zobacz więcej
 ---
