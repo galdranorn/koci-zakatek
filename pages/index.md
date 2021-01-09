@@ -41,7 +41,7 @@ adoptions-title: Adopcje
 adoptions-text: >-
   Zanim oddamy Ci kota, chcemy Cię poznać - postaraj się to zrozumieć. Ratowanie kotów kosztuje
   nas wiele czasu, emocji, nie mówiąc o finansach. Dlatego chcemy mieć jak największą pewność,
-  że w swoim stałym domu kot będzie bezpieczny i odpowiednio zaopiekowany.
+  że w swoim stałym domu kot będzie <strong>bezpieczny i odpowiednio zaopiekowany</strong>.
 adoptions-image: /assets/home/adoptions.jpg
 adoptions-alt:  zdjęcie kota w klatce
 adoptions-header-1: Proces adopcyjny
