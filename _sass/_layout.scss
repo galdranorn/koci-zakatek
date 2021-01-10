@@ -5,6 +5,14 @@
 
 .full {
   width: 100%;
-  background-color: $color-main;
-  color: $color-white;
+
+  &--dark {
+    background-color: $color-main;
+    color: $color-white;
+  }
+
+  &--grey {
+    background-color: $color-grey;
+    color: $color-main;
+  }
 }

@@ -163,13 +163,3 @@
     }
   }
 }
-
-@media (min-width: $breakpoint-xl) {
-  .home-cats_cat {
-    width: 25%;
-
-    &--fourth {
-      display: block;
-    }
-  }
-}
