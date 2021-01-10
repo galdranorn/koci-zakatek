@@ -156,27 +156,29 @@ support-text-3: >-
 support-link-3: /zbiorki-darow
 wroclove-title: Koty we Wrocławiu
 wroclove-text-1: >-
-  Ustawa nakłada <strong>obowiązek opieki nad kotami wolnożyjącymi</strong>. Zakazy dokarmiania,
-  stawiania budek czy nawet zamykanie okienek piwniczych z premedytacją, przyczyniają się
-  do cierpienia kotów i są niezgodne z prawem - jest to znęcanie się nad zwierzętami i może
-  zostać zgłoszone na policję.
-wroclove-text-2: Dokarmianie kotów wolnożyjących jest pożyteczne i legalne.
+  Populację kotów wolnożyjących na terenie Gminy Wrocław szacuje się na ok.&nbsp;40&nbsp;000
+  osobników. Szczęśliwie dla nich w naszym mieście mieszka wiele osób, które - często latami -
+  opiekują się kocimi stadami w swoich społecznościach lokalnych. Nazywane są <strong>Społecznymi
+  Opiekunami Kotów</strong>. Dokarmiają, sterylizują, dbają o miejsca schronienia dla kotów.
+  Niestety realia życia kotów i ich opiekunów dalekie są od ideału. Osoby dokarmiające i odławiające
+  koty są atakowane przez sąsiadów, przeciwników kotów, zarządców terenów i nieruchomości.
+wroclove-text-2: Dowiedz się, jakie przysługują Ci prawa i jaką pomoc można uzyskać we Wrocławiu.
 wroclove-image: /assets/home/wroclove.jpg
 wroclove-alt: zdjęcie kota wolnożyjącego
 numbers-header: Wrocław w liczbach
 numbers-link: /koty-miejskie
 numbers-cta: Zobacz aktualne informacje
-numbers-count-1: ponad
-numbers-number-1: 1000
-numbers-description-1: kotów wolnożyjących w mieście
-numbers-count-2: około
-numbers-number-2: 430
-numbers-description-2: kotów kastrowanych rocznie
-numbers-count-3: prawie
-numbers-number-3: 100
-numbers-description-3: tutaj kolejna statystyka o kotach
+numbers-count-1: około
+numbers-number-1: 40
+numbers-description-1: tysięcy kotów wolnożyjących w mieście
+numbers-count-2: ponad
+numbers-number-2: 2000
+numbers-description-2: sterylizacji fundowanych przez gminę
+numbers-count-3: niecałe
+numbers-number-3: 20
+numbers-description-3: fundacji i organizacji pozarządowych
 numbers-count-4: prawie
-numbers-number-4: 30
-numbers-description-4: jakaś inna statystyka o kotach
+numbers-number-4: 100
+numbers-description-4: kotów przebywa w naszej fundacji
 metamorphosis-header: Zobacz ile można zmienić
 ---
