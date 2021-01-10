@@ -133,4 +133,26 @@ donate-name: Fundacja Koci Zakątek, Wrocław
 donate-nip: '<strong>NIP</strong>: 8992692671'
 donate-regon: '<strong>REGON</strong>: 021258044'
 donate-krs: '<strong>KRS</strong>: 0000356442'
+support-header: Inne formy pomocy
+support-cta: Zobacz jak pomóc
+support-img-alt: ikona
+support-img-1: /assets/home/support1.png
+support-title-1: Wolontariat
+support-text-1: >-
+  Jako wolontariusz <strong>to Ty decydujesz, jak chcesz działać</strong>. Możesz robić to, w czym
+  czujesz się pewnie i na co pozwala Ci Twój czas.
+support-link-1: /wolontariat
+support-img-2: /assets/home/support2.png
+support-title-2: Dom tymczasowy
+support-text-2: >-
+  Jako dom tymczasowy <strong>pomagasz w leczeniu i oswajaniu kota</strong>. Podczas oczekiwania
+  na dom stały uczysz go jak znowu zaufać człowiekowi.
+support-link-2: /dom-tymczasowy
+support-img-3: /assets/home/support3.png
+support-title-3: Zbiórki darów
+support-text-3: >-
+  W każdej chwili możesz <strong>dostarczyć nam dary</strong>, których nasi podopieczni
+  najbardziej potrzebują, np. karmę lub żwirek.
+support-link-3: /zbiorki-darow
+
 ---

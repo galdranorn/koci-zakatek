@@ -1,0 +1,157 @@
+.home-support {
+  padding: 50px 20px;
+
+  &_list {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  &_header {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: $font-weight-extrabold;
+  }
+
+  &_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  &_icon {
+    order: -1;
+    width: 240px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &_title {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: $font-weight-bold;
+  }
+
+  &_text {
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: $font-weight-light;
+    overflow: hidden;
+    transition: $transition-long;
+  }
+
+  .btn {
+    width: 190px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .home-support {
+    padding: 50px 60px;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .home-support {
+    padding: 100px 80px;
+
+    &_list {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    &_item {
+      box-sizing: border-box;
+      width: 33.3%;
+      padding: 10px;
+    }
+
+    &_title {
+      height: 80px;
+    }
+
+    &_icon {
+      order: unset;
+      width: 150px;
+      height: 130px;
+
+      &--gifts img {
+        transform: translateY(20px);
+      }
+    }
+
+    &_header {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    &_text {
+      max-width: 340px;
+      height: 180px;
+      margin-bottom: 50px;
+    }
+
+    .btn {
+      width: 160px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .home-support {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &_title {
+      font-size: 28px;
+      font-weight: $font-weight-bolder;
+    }
+
+    &_text {
+      max-width: 300px;
+      height: 130px;
+    }
+
+    &_icon {
+      width: 240px;
+      height: 220px;
+
+      &--gifts img {
+        transform: translateY(40px);
+      }
+    }
+
+    .btn {
+      width: 200px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .home-support {
+    &_header {
+      font-size: 60px;
+      line-height: 80px;
+    }
+
+    &_title {
+      font-size: 36px;
+      line-height: 50px;
+    }
+
+    &_text {
+      height: 110px;
+    }
+  }
+}
