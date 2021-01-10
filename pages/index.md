@@ -154,5 +154,31 @@ support-text-3: >-
   W każdej chwili możesz <strong>dostarczyć nam dary</strong>, których nasi podopieczni
   najbardziej potrzebują, np. karmę lub żwirek.
 support-link-3: /zbiorki-darow
-
+wroclove-title: Koty we Wrocławiu
+wroclove-text-1: >-
+  Populację kotów wolnożyjących na terenie Gminy Wrocław szacuje się na ok.&nbsp;40&nbsp;000
+  osobników. Szczęśliwie dla nich w naszym mieście mieszka wiele osób, które - często latami -
+  opiekują się kocimi stadami w swoich społecznościach lokalnych. Nazywane są <strong>Społecznymi
+  Opiekunami Kotów</strong>. Dokarmiają, sterylizują, dbają o miejsca schronienia dla kotów.
+  Niestety realia życia kotów i ich opiekunów dalekie są od ideału. Osoby dokarmiające i odławiające
+  koty są atakowane przez sąsiadów, przeciwników kotów, zarządców terenów i nieruchomości.
+wroclove-text-2: Dowiedz się, jakie przysługują Ci prawa i jaką pomoc można uzyskać we Wrocławiu.
+wroclove-image: /assets/home/wroclove.jpg
+wroclove-alt: zdjęcie kota wolnożyjącego
+numbers-header: Wrocław w liczbach
+numbers-link: /koty-miejskie
+numbers-cta: Zobacz aktualne informacje
+numbers-count-1: około
+numbers-number-1: 40
+numbers-description-1: tysięcy kotów wolnożyjących w mieście
+numbers-count-2: ponad
+numbers-number-2: 2000
+numbers-description-2: sterylizacji fundowanych przez gminę
+numbers-count-3: niecałe
+numbers-number-3: 20
+numbers-description-3: fundacji i organizacji pozarządowych
+numbers-count-4: prawie
+numbers-number-4: 100
+numbers-description-4: kotów przebywa w naszej fundacji
+metamorphosis-header: Zobacz ile można zmienić
 ---
