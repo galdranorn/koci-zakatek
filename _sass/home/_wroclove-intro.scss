@@ -1,0 +1,136 @@
+.home-wroclove {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  &_text {
+    padding: 0 20px;
+
+    &-header {
+      font-size: 32px;
+      line-height: 48px;
+      font-weight: $font-weight-extrabold;
+      color: $color-main;
+    }
+
+    &-paragraph {
+      font-size: 18px;
+      line-height: 32px;
+
+      strong {
+        font-weight: $font-weight-bolder;
+      }
+
+      &--secondary {
+        color: $color-orange;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: $font-weight-extrabold;
+      }
+    }
+
+
+  }
+
+  &_image {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 40px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .home-wroclove {
+    &_text {
+      padding: 0 60px;
+    }
+
+    &_image {
+      padding: 0 20px;
+
+      img {
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .home-wroclove_image {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .home-wroclove {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    &_text {
+      padding: 0 80px;
+
+      &-header {
+        font-size: 46px;
+        line-height: 60px;
+      }
+    }
+
+    &_image {
+      margin-top: 50px;
+      padding: 0 80px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .home-wroclove {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow: hidden;
+
+    &_text, &_image {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &_text {
+      max-width: 630px;
+      padding-right: 0;
+
+      &-header {
+        margin-top: 0;
+      }
+    }
+
+    &_image {
+      margin-top: 0;
+      padding: 0 25px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .home-wroclove {
+    &_text-header {
+      width: auto;
+      font-size: 58px;
+      line-height: 80px;
+    }
+
+    &_image {
+      padding: 0;
+      padding-right: 50px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-4k) {
+  .home-wroclove_text-header {
+    width: 620px;
+  }
+}

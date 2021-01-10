@@ -154,5 +154,14 @@ support-text-3: >-
   W każdej chwili możesz <strong>dostarczyć nam dary</strong>, których nasi podopieczni
   najbardziej potrzebują, np. karmę lub żwirek.
 support-link-3: /zbiorki-darow
+wroclove-title: Koty we Wrocławiu
+wroclove-text-1: >-
+  Ustawa nakłada <strong>obowiązek opieki nad kotami wolnożyjącymi</strong>. Zakazy dokarmiania,
+  stawiania budek czy nawet zamykanie okienek piwniczych z premedytacją, przyczyniają się
+  do cierpienia kotów i są niezgodne z prawem - jest to znęcanie się nad zwierzętami i może
+  zostać zgłoszone na policję.
+wroclove-text-2: Dokarmianie kotów wolnożyjących jest pożyteczne i legalne.
+wroclove-image: /assets/home/wroclove.jpg
+wroclove-alt: zdjęcie kota wolnożyjącego
 
 ---
