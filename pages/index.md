@@ -178,4 +178,5 @@ numbers-description-3: tutaj kolejna statystyka o kotach
 numbers-count-4: prawie
 numbers-number-4: 30
 numbers-description-4: jakaś inna statystyka o kotach
+metamorphosis-header: Zobacz ile można zmienić
 ---

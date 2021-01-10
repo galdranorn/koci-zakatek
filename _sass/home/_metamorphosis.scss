@@ -1,0 +1,34 @@
+.home-metamorphosis {
+  padding: 50px 20px;
+
+  &_header {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: $font-weight-extrabold;
+    color: $color-main;
+  }
+}
+
+
+@media (min-width: $breakpoint-xs) {
+  .home-metamorphosis {
+    padding: 50px 60px;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .home-metamorphosis {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .home-metamorphosis {
+    &_header {
+      font-size: 60px;
+      line-height: 80px;
+    }
+  }
+}
