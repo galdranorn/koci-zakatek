@@ -1,0 +1,150 @@
+.home-numbers {
+  padding: 50px 20px;
+
+  &_header {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: $font-weight-extrabold;
+  }
+
+  &_list {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  &_item {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: calc(100vw - 40px);
+    height: calc(100vw - 40px);
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 25px;
+    padding: 50px;
+    background-color: $color-home-background;
+    border-radius: 100%;
+  }
+
+  &_round {
+    font-size: 12px;
+    font-weight: $font-weight-ultralight;
+  }
+
+  &_number {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: $font-weight-extrabold;
+    color: $color-orange;
+  }
+
+  &_description {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: $font-weight-light;
+    text-align: center;
+  }
+
+  .btn {
+    width: 225px;
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .home-numbers {
+    &_header {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    &_list {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    &_item {
+      width: calc(50vw - 30px);
+      height: calc(50vw - 30px);
+      max-width: auto;
+      max-height: auto;
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .home-numbers {
+    padding: 50px 60px;
+
+    &_header {
+      margin-bottom: 60px;
+      padding: 0;
+    }
+
+    &_list {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    &_item {
+      width: calc(50vw - 80px);
+      height: calc(50vw - 80px);
+      max-width: 100%;
+      max-height: 100%;
+      margin-right: 20px;
+    }
+
+    .btn {
+      width: 280px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .home-numbers {
+    padding: 100px 80px;
+
+    &_header {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    &_list {
+      margin-bottom: 50px;
+    }
+
+    &_item {
+      width: calc(50vw - 100px);
+      height: calc(50vw - 100px);
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .home-numbers {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &_list {
+      flex-wrap: nowrap;
+    }
+
+    &_item {
+      width: calc(25vw - 60px);
+      height: calc(25vw - 60px);
+      max-height: 300px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .home-numbers_header {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}

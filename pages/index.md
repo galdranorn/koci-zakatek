@@ -163,5 +163,19 @@ wroclove-text-1: >-
 wroclove-text-2: Dokarmianie kotów wolnożyjących jest pożyteczne i legalne.
 wroclove-image: /assets/home/wroclove.jpg
 wroclove-alt: zdjęcie kota wolnożyjącego
-
+numbers-header: Wrocław w liczbach
+numbers-link: /koty-miejskie
+numbers-cta: Zobacz aktualne informacje
+numbers-count-1: ponad
+numbers-number-1: 1000
+numbers-description-1: kotów wolnożyjących w mieście
+numbers-count-2: około
+numbers-number-2: 430
+numbers-description-2: kotów kastrowanych rocznie
+numbers-count-3: prawie
+numbers-number-3: 100
+numbers-description-3: tutaj kolejna statystyka o kotach
+numbers-count-4: prawie
+numbers-number-4: 30
+numbers-description-4: jakaś inna statystyka o kotach
 ---

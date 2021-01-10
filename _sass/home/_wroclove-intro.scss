@@ -1,6 +1,6 @@
 .home-wroclove {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: -10px;
 
   &_text {
     padding: 0 20px;
@@ -44,6 +44,8 @@
 
 @media (min-width: $breakpoint-xs) {
   .home-wroclove {
+    margin-bottom: 20px;
+
     &_text {
       padding: 0 60px;
     }
@@ -59,15 +61,19 @@
 }
 
 @media (min-width: $breakpoint-sm) {
-  .home-wroclove_image {
-    padding: 0 60px;
+  .home-wroclove {
+    margin-bottom: 60px;
+
+    &_image {
+      padding: 0 60px;
+    }
   }
 }
 
 @media (min-width: $breakpoint-md) {
   .home-wroclove {
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     &_text {
       padding: 0 80px;
@@ -116,6 +122,8 @@
 
 @media (min-width: $breakpoint-xl) {
   .home-wroclove {
+    margin: 150px 0 120px;
+
     &_text-header {
       width: auto;
       font-size: 58px;
@@ -123,8 +131,7 @@
     }
 
     &_image {
-      padding: 0;
-      padding-right: 50px;
+      padding: 0 50px 0 20px;
     }
   }
 }
