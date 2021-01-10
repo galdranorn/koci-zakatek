@@ -94,4 +94,43 @@ adoptions-fertility: Sterylizacja
 adoptions-deworming: Odrobaczenie
 adoptions-grafting: Szczepienie
 adoptions-cat-link: Zobacz więcej
+donate-header: Jak możesz pomóc
+donate-img-alt: ikona
+donate-img-1: /assets/home/donate1.png
+donate-title-1: Wyślij przelew
+donate-text-1: >-
+  Każdy, nawet niewielki przelew to kolejny pełny brzuszek, chwile zabawy, lepsze warunki
+  bytowe lub wizyta u weterynarza dla naszych podopiecznych
+donate-cta-1: Dane do przelewu
+donate-cta-1-hide: Ukryj dane
+donate-img-2: /assets/home/donate2.png
+donate-title-2: Przekaż darowiznę
+donate-text-2: >-
+  Za pośrednictwem poniższego formularza szybko i łatwo przekażesz nam dowolną kwotę
+  jednorazowo lub miesięcznie
+donate-link-2: https://www.paypal.com/donate?token=f7zaBlvOo0WA9-jDThbbGZCNzuSVsD0wlfKxKZwUzmc-Ztat3B652EzYh0zlUcoucnwDGWYNgFBy5E9k
+donate-cta-2: Przejdź do formularza
+donate-img-3: /assets/home/donate3.png
+donate-title-3: Przekaż 1%
+donate-text-3: >-
+  Raz w roku możesz przekazać nam swój 1% podatku wpisując w naszą fundację w swoim zeznaniu
+  podatkowym. To nic nie kosztuje!
+donate-cta-3: Dane fundacji
+donate-cta-3-hide: Ukryj dane
+donate-img-4: /assets/home/donate4.png
+donate-title-4: Kupuj w Zooplusie
+donate-text-4: >-
+  Jeżeli zrobisz zakupy jak zwykle za pośrednictwem poniższego linku, dostaniemy procent
+  od wartości Twoich zakupów
+donate-link-4: https://www.awin1.com/cread.php?awinmid=10247&amp;awinaffid=344897&amp;clickref=&amp;ued=
+donate-cta-4: Zrób zakupy
+donate-bank: Bank PKO SA
+donate-account: '<strong>Numer konta</strong>:<br> 38 1240 6768 1111 0010 6579 9904'
+donate-swift: '<strong>Kod BIC (SWIFT)</strong>:<br> PKOP PL PW'
+donate-iban: '<strong>IBAN</strong>:<br> PL 38 1240 6768 1111 0010 6579 9904'
+donate-note: '<strong>Z dopiskiem</strong>:<br> "darowizna na cele statutowe"'
+donate-name: Fundacja Koci Zakątek, Wrocław
+donate-nip: '<strong>NIP</strong>: 8992692671'
+donate-regon: '<strong>REGON</strong>: 021258044'
+donate-krs: '<strong>KRS</strong>: 0000356442'
 ---
