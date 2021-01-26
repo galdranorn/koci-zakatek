@@ -134,6 +134,7 @@ collections:
         name: "photo"
         widget: "image"
         default: "/assets/images/bruno-profile.jpg"
+        public_folder: "/assets/images/facebook"
   - name: "page"
     label: "Page"
     folder: "pages"
