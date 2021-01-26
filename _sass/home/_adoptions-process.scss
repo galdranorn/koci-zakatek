@@ -95,22 +95,26 @@
       box-sizing: border-box;
       display: flex;
       flex-flow: row nowrap;
-      align-items: center;
+      align-items: flex-start;
+      margin-bottom: 25px;
 
       &-image {
         position: relative;
         box-sizing: border-box;
-        width: 20%;
-        text-align: center;
+        width: 25%;
+        padding-right: 35px;
 
         img {
           max-width: 130px;
         }
       }
 
+      &-number {
+        padding-top: 0;
+      }
+
       &-name {
         box-sizing: border-box;
-        order: -1;
         width: 30%;
         min-height: auto;
         padding-left: 0;
@@ -125,7 +129,7 @@
         box-sizing: border-box;
         width: 50%;
         margin-top: 0;
-        padding-left: 50px;
+        padding-left: 25px;
         text-align: left;
       }
     }
@@ -148,142 +152,39 @@
 }
 
 @media (min-width: $breakpoint-lg) {
-  $image-size: 150px;
-  $padding-size: 25px;
+  .home-process_step {
+    margin-bottom: 25px;
 
-  .home-process {
-    &_scheme {
-      display: flex;
-      flex-direction: column;
-      margin: 50px 0;
+    &-header {
+      margin: 75px 0;
     }
 
-    &_step {
-      position: relative;
-      min-height: $image-size;
-      margin-bottom: 0;
+    &-title {
+      max-width: 100%;
+      font-size: 24px;
+      line-height: 36px;
+    }
 
-      &-line {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 100px;
-      }
+    &-text {
+      padding-top: 35px;
+      font-size: 16px;
+      line-height: 28px;
+    }
 
-      &-image {
-        width: 20%;
-
-        img {
-          max-width: $image-size;
-        }
-      }
-
-      &-name {
-        order: 2;
-        width: 30%;
-      }
-
-      &-text {
-        width: 50%;
-        padding-left: 0;
-      }
-
-      &:nth-of-type(odd) {
-        align-self: flex-start;
-
-        .home-process_step {
-          &-text {
-            order: 3;
-            padding-left: $padding-size;
-            padding-right: 10%;
-            text-align: left;
-          }
-
-          &-name {
-            padding-right: $padding-size;
-            text-align: right;
-          }
-
-          &-image {
-            order: 1;
-            text-align: left;
-          }
-
-          &-line {
-            transform: translate(-50%, 40%);
-          }
-        }
-      }
-
-      &:nth-of-type(even) {
-        align-self: flex-end;
-
-        .home-process_step {
-          &-text {
-            order: 1;
-            padding-right: $padding-size;
-            padding-left: 10%;
-            text-align: right;
-          }
-
-          &-name {
-            padding-left: $padding-size;
-          }
-
-          &-image {
-            order: 3;
-            text-align: right;
-          }
-
-          &-line {
-            transform: translate(-50%, 40%) scaleX(-1);
-          }
-        }
-      }
+    .btn {
+      margin-top: 50px;
     }
   }
 }
 
 @media (min-width: $breakpoint-xl) {
-  $image-size: 180px;
-  $padding-size: 50px;
-
-  .home-process {
-    &_scheme {
-      margin-right: 110px;
+  .home-process_step {
+    &-image {
+      width: 20%;
     }
 
-    &_step {
-      min-height: $image-size;
-
-      &-image img {
-        max-width: $image-size;
-      }
-
-      &-line {
-        width: 170px;
-      }
-    }
-
-    &:nth-of-type(odd) .home-process_step {
-      &-text {
-        padding-left: $padding-size;
-      }
-
-      &-name {
-        padding-right: $padding-size;
-      }
-    }
-
-    &:nth-of-type(even) .home-process_step {
-      &-text {
-        padding-right: $padding-size;
-      }
-
-      &-name {
-        padding-left: $padding-size;
-      }
+    &-text {
+      padding-left: 100px;
     }
   }
 }

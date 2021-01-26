@@ -28,7 +28,10 @@
       }
     }
 
-
+    .btn {
+      width: 225px;
+      margin-top: 30px;
+    }
   }
 
   &_image {
@@ -64,6 +67,10 @@
   .home-wroclove {
     margin-bottom: 60px;
 
+    &_text .btn {
+      width: 280px;
+    }
+
     &_image {
       padding: 0 60px;
     }
@@ -81,6 +88,10 @@
       &-header {
         font-size: 46px;
         line-height: 60px;
+      }
+
+      .btn {
+        margin-top: 50px;
       }
     }
 
@@ -124,10 +135,16 @@
   .home-wroclove {
     margin: 150px 0 120px;
 
-    &_text-header {
-      width: auto;
-      font-size: 58px;
-      line-height: 80px;
+    &_text {
+      &-header {
+        width: auto;
+        font-size: 58px;
+        line-height: 80px;
+      }
+
+      .btn {
+        margin-top: 75px;
+      }
     }
 
     &_image {

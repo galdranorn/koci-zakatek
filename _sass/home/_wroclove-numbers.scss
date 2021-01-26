@@ -22,8 +22,8 @@
     height: calc(100vw - 40px);
     max-width: 300px;
     max-height: 300px;
-    margin-bottom: 25px;
-    padding: 50px;
+    margin: 0 auto 25px;
+    padding: 50px 25px;
     background-color: $color-home-background;
     border-radius: 100%;
   }
@@ -34,22 +34,19 @@
   }
 
   &_number {
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 60px;
     font-weight: $font-weight-extrabold;
     color: $color-orange;
   }
 
   &_description {
+    max-width: 230px;
     margin: 0;
     font-size: 16px;
     line-height: 24px;
     font-weight: $font-weight-light;
     text-align: center;
-  }
-
-  .btn {
-    width: 225px;
   }
 }
 
@@ -96,10 +93,6 @@
       max-height: 100%;
       margin-right: 20px;
     }
-
-    .btn {
-      width: 280px;
-    }
   }
 }
 
@@ -114,6 +107,11 @@
 
     &_list {
       margin-bottom: 50px;
+    }
+
+    &_number {
+      font-size: 52px;
+      line-height: 70px;
     }
 
     &_item {
@@ -134,6 +132,11 @@
       flex-wrap: nowrap;
     }
 
+    &_number {
+      font-size: 40px;
+      line-height: 60px;
+    }
+
     &_item {
       width: calc(25vw - 60px);
       height: calc(25vw - 60px);
@@ -143,8 +146,15 @@
 }
 
 @media (min-width: $breakpoint-xl) {
-  .home-numbers_header {
-    font-size: 60px;
-    line-height: 80px;
+  .home-numbers {
+    &_header {
+      font-size: 60px;
+      line-height: 80px;
+    }
+
+    &_number {
+      font-size: 52px;
+      line-height: 70px;
+    }
   }
 }
