@@ -176,7 +176,7 @@ numbers-number-2: 2000
 numbers-description-2: sterylizacji fundowanych przez gminę
 numbers-count-3: mniej niż
 numbers-number-3: 20
-numbers-description-3: fundacji i organizacji pozarządowych
+numbers-description-3: organizacji i grup nieformalnych
 numbers-count-4: prawie
 numbers-number-4: 100
 numbers-description-4: kotów przebywa w naszej fundacji
