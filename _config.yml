@@ -38,12 +38,13 @@ defaults:
     scope:
       path: ''
       type: 'cats'
+      slug: '{{year}}-{{month}}-{{day}}-{{name}}'
     values:
       layout: 'cat'
       published: ' '
       date: ' '
       slug: ' '
-      name: ' '
+      title: ' '
       gender: ' '
       age: ' '
       fertility: ' '
@@ -57,8 +58,10 @@ defaults:
     scope:
       path: ''
       type: 'facebook'
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     values:
       layout: 'facebook'
+      title: ' '
       published: ' '
       date: ' '
       id: ' '
