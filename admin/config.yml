@@ -47,6 +47,7 @@ collections:
     name: "cat"
     label: "Koty"
     label_singular: "Kot"
+    sort: "date:desc"
     folder: "_cats"
     create: true
     slug: "{{slug}}"
@@ -110,6 +111,29 @@ collections:
         name: "description"
         widget: "markdown"
         required: false
+  -
+    name: "facebookPosts"
+    label: "Posty na Facebooku"
+    label_singular: "Post na Facebooku"
+    folder: "_facebookPosts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Opublikowano"
+        name: "published"
+        widget: "boolean"
+        default: true
+      - label: "Data publikacji"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Id posta"
+        name: "id"
+        widget: "string"
+      - label: "Zdjęcie posta"
+        name: "photo"
+        widget: "image"
+        default: "/assets/images/bruno-profile.jpg"
   - name: "page"
     label: "Page"
     folder: "pages"

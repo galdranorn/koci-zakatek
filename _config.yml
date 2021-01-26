@@ -53,6 +53,16 @@ defaults:
       status: ' '
       photos: ' '
       description: ' '
+  -
+    scope:
+      path: ''
+      type: 'facebookPosts'
+    values:
+      layout: 'facebookPost'
+      published: ' '
+      date: ' '
+      id: ' '
+      photo: ' '
 markdown: kramdown
 kramdown:
   auto_ids: false
