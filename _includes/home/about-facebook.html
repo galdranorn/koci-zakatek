@@ -10,12 +10,12 @@
       <img src="{{ page.facebook-logo }}" alt="{{ page.facebook-logo_alt }}"/>
     </a>
     <ul class="home-facebook_feed-posts">
-      {% for post in site.data.fb-posts limit: 4 %}
+      {% for post in site.facebook limit: 4 %}
         <li class="home-facebook_feed-post">
           <a
             href="https://www.facebook.com/fundacja.EBRA.koci.zakatek/posts/{{ post.id }}"
             target="_blank"
-            style="background-image: url('{{ post.img }}');"
+            style="background-image: url('{{ post.photo }}');"
           ></a>
         </li>
       {% endfor %}
