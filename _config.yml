@@ -58,7 +58,6 @@ defaults:
     scope:
       path: ''
       type: 'facebook'
-      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     values:
       layout: 'facebook'
       title: ' '
