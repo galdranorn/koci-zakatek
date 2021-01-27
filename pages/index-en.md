@@ -8,12 +8,19 @@ language: en
 name: Koci Zakątek Foundation
 logo-alt: foundation logo
 menu-1: About us
+menu-link-1: '#01'
 menu-2: Adoptions
+menu-link-2: '#02'
 menu-3: How to help
+menu-link-3: '#03'
 menu-4: Cats in Wroclaw
+menu-link-4: '#04'
 menu-5: Metamorphosis
+menu-link-5: '#05'
 menu-6: FAQ
+menu-link-6: '#06'
 menu-7: Contact
+menu-link-7: '#footer'
 meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : zdjęcie kotów z fundacji
@@ -176,7 +183,7 @@ wroclove-text-3: Dowiedz się, jakie przysługują Ci prawa i jaką pomoc można
 wroclove-image: /assets/home/wroclove.jpg
 wroclove-alt: zdjęcie kota wolno żyjącego
 wroclove-cta: Zobacz aktualne informacje
-wroclove-link: /koty-miejskie
+wroclove-link: /cats-in-wroclaw
 numbers-header: Wrocław w liczbach
 numbers-count-1: około
 numbers-number-1: 40&nbsp;000

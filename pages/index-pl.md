@@ -8,12 +8,19 @@ language: pl
 name: Fundacja Koci Zakątek
 logo-alt: logo fundacji
 menu-1: Kim jesteśmy
+menu-link-1: '#01'
 menu-2: Adopcje
+menu-link-2: '#02'
 menu-3: Jak pomóc
+menu-link-3: '#03'
 menu-4: Koty we Wrocławiu
+menu-link-4: '#04'
 menu-5: Metamorfozy
+menu-link-5: '#05'
 menu-6: FAQ
+menu-link-6: '#06'
 menu-7: Kontakt
+menu-link-7: '#footer'
 meet-us_text: Poznaj nas bliżej
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : zdjęcie kotów z fundacji
@@ -176,7 +183,7 @@ wroclove-text-3: Dowiedz się, jakie przysługują Ci prawa i jaką pomoc można
 wroclove-image: /assets/home/wroclove.jpg
 wroclove-alt: zdjęcie kota wolno żyjącego
 wroclove-cta: Zobacz aktualne informacje
-wroclove-link: /koty-miejskie
+wroclove-link: /koty-we-wroclawiu
 numbers-header: Wrocław w liczbach
 numbers-count-1: około
 numbers-number-1: 40&nbsp;000
