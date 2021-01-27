@@ -99,4 +99,22 @@ duty-accident-3: >-
   <strong>może wykonać sekcję zwłok</strong>, która potwierdzi Twoim podejrzenia – lub im zaprzeczy. 
   <span class="blue">Tylko w ten sposób możemy walczyć z okrucieństwem wobec kotów i ścigać prawnie 
   sprawców!</span>
+
+shelter-header: Schronisko dla bezdomnych zwierząt
+shelter-text-1: >-
+  We Wrocławiu działa Schronisko dla Bezdomnych Zwierząt. Prowadzone jest przez Towarzystwo
+  Opieki Nad Zwierzętami na mocy umowy z Gminą Wrocław. Schronisko dysponuje pomieszczeniami
+  do przetrzymywania około 200 kotów jednocześnie. 
+shelter-text-2: Pamiętaj jednak, że schronisko to ostateczność!
+shelter-text-3: >-
+  Wiele zwierząt popada w nim w depresję, która z czasem może prowadzić do śmierci. Ponadto
+  istnieje spore ryzyko zapadnięcia kota na śmiertelną chorobę wirusową, panleukopenię. 
+  <strong>Zrób wszystko, co możliwe</strong>, aby umieścić kota w potrzebie w warunkach domowych!
+shelter-text-4: >-
+  Jeśli próbujesz odłowić kota własnymi siłami, ale bez powodzenia, zwróć się o pomoc do 
+  schroniska – jest o tym mowa w <strong>Gminnym Programie opieki nad zwierzętami</strong>. 
+  W miarę możliwości schronisko zapewnia też możliwość wykonania zabiegu sterylizacji oraz przetrzymania 
+  kota po zabiegu.
+shelter-image: /assets/wroclove/shelter.jpg
+shelter-alt: zdjęcie kota
 ---
