@@ -2,9 +2,19 @@
 layout: home
 title: Koci Zakątek
 description:
-permalink: /
+permalink: /en
 section: home
-meet-us_text: Poznaj nas bliżej
+language: en
+name: Koci Zakątek Foundation
+logo-alt: foundation logo
+menu-1: About us
+menu-2: Adoptions
+menu-3: How to help
+menu-4: Cats in Wroclaw
+menu-5: Metamorphosis
+menu-6: FAQ
+menu-7: Contact
+meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : zdjęcie kotów z fundacji
 meet-us_foundation: >-

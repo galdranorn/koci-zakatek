@@ -1,9 +1,16 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+  {% include head.html %}
 
-<h2>{{ page.title }}</h2>
+  <body>
+    {% include header.html %}
 
-{% include page-intro.html %}
+    <main>
+      <section class="container">
+        {% include wroclove/duty-documents.html %}
+      </section>
+    </main>
 
-{{ content }}
+    {% include footer.html %}
+  </body>
+</html>

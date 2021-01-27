@@ -1,6 +1,6 @@
 <header class="header">
   <h1 class="header-name">
-    Fundacja Koci Zakątek
+    {{ page.name }}
   </h1>
   <nav class="header-nav">
     <div class="header-nav_icon">
@@ -9,44 +9,30 @@
         <span class="icon icon-menu" data-function="open"></span>
       </div>
     </div>
-    <a class="header-nav_logo" href="/">
-      <img src="/assets/global/logo.png" alt="logo fundacji"/>
+    <a class="header-nav_logo" href="{{ page.home-url }}">
+      <img src="/assets/global/logo.png" alt="{{ page.logo-alt }}"/>
     </a>
     <ul id="navBox" class="header-nav_list">
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="#01">
-          Kim jesteśmy
-        </a>
+        <a class="header-nav_item-link" href="#01">{{ page.menu-1 }}</a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="#02">
-          Adopcje
-        </a>
+        <a class="header-nav_item-link" href="#02">{{ page.menu-2 }}</a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="#03">
-          Jak pomóc
-        </a>
+        <a class="header-nav_item-link" href="#03">{{ page.menu-3 }}</a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="#04">
-          Koty we Wrocławiu
-        </a>
+        <a class="header-nav_item-link" href="#04">{{ page.menu-4 }}</a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="#05">
-          Metamorfozy
-        </a>
+        <a class="header-nav_item-link" href="#05">{{ page.menu-5 }}</a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="#06">
-          FAQ
-        </a>
+        <a class="header-nav_item-link" href="#06">{{ page.menu-6 }}</a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="#footer">
-          Kontakt
-        </a>
+        <a class="header-nav_item-link" href="#footer">{{ page.menu-7 }}</a>
       </li>
     </ul>
   </nav>

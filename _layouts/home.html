@@ -1,51 +1,60 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+  {% include head.html %}
 
-<section class="container">
-  {% include home/about-meet-us.html %}
-</section>
+  <body>
+    {% include header.html %}
 
-<section class="container">
-  {% include home/about-facebook.html %}
-</section>
+    <main>
+      <section class="container">
+        {% include home/about-meet-us.html %}
+      </section>
+      
+      <section class="container">
+        {% include home/about-facebook.html %}
+      </section>
+      
+      <section class="full full--dark">
+        {% include home/about-actions.html %}
+      </section>
+      
+      <section class="container">
+        {% include home/adoptions-intro.html %}
+      </section>
+      
+      <section class="container">
+        {% include home/adoptions-process.html %}
+      </section>
+      
+      <section class="container">
+        {% include home/adoptions-cats.html %}
+      </section>
+      
+      <section class="full full--dark">
+        {% include home/help-donate.html %}
+      </section>
+      
+      <section class="full full--grey">
+        {% include home/help-support.html %}
+      </section>
+      
+      <section class="container">
+        {% include home/wroclove-intro.html %}
+      </section>
+      
+      <section class="full full--dark">
+        {% include home/wroclove-numbers.html %}
+      </section>
+      
+      <section class="container">
+        {% include home/metamorphosis.html %}
+      </section>
+      
+      <script type="text/javascript">
+        {% include home/donate.js %}
+      </script>      
+    </main>
 
-<section class="full full--dark">
-  {% include home/about-actions.html %}
-</section>
-
-<section class="container">
-  {% include home/adoptions-intro.html %}
-</section>
-
-<section class="container">
-  {% include home/adoptions-process.html %}
-</section>
-
-<section class="container">
-  {% include home/adoptions-cats.html %}
-</section>
-
-<section class="full full--dark">
-  {% include home/help-donate.html %}
-</section>
-
-<section class="full full--grey">
-  {% include home/help-support.html %}
-</section>
-
-<section class="container">
-  {% include home/wroclove-intro.html %}
-</section>
-
-<section class="full full--dark">
-  {% include home/wroclove-numbers.html %}
-</section>
-
-<section class="container">
-  {% include home/metamorphosis.html %}
-</section>
-
-<script type="text/javascript">
-  {% include home/donate.js %}
-</script>
+    {% include footer.html %}
+  </body>
+</html>
