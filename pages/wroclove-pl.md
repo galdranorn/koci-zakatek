@@ -117,4 +117,60 @@ shelter-text-4: >-
   kota po zabiegu.
 shelter-image: /assets/wroclove/shelter.jpg
 shelter-alt: zdjęcie kota
+
+safety-header: Bezpieczeństwo Twoje i kotów
+safety-subheader-1: Problemy podczas opieki
+safety-problems-text-1: >-
+  Jeżeli opiekujesz się kotami wolno żyjącymi i spotykasz się z takimi problemami jak
+safety-problems-list-1: żądanie zabrania zwierząt
+safety-problems-list-2: groźby pod adresem Twoim lub kotów
+safety-problems-list-3: odcinanie kotom wejścia do piwnic
+safety-problems-list-4: likwidowanie stanowiska karmienia z polecenia zarządcy nieruchomości
+safety-problems-text-2: Pamiętaj, że nie robisz nic złego!
+safety-problems-text-3: >-
+  Ta osoba, zarządca czy firma, która Cię atakuje, nie zna obowiązujących przepisów. Nie jest 
+  świadoma, że to nie Twoje, a <strong>jej postępowanie jest niewłaściwe</strong>, a w niektórych 
+  przypadkach – może być obciążone konsekwencjami!
+safety-problems-img: /assets/wroclove/safety-1.jpg
+safety-problems-alt: zdjęcie kota
+
+safety-subheader-2: Kodeks karny i kodeks cywilny
+safety-law-text-1: >-
+  Każde zachowanie ze strony drugiego człowieka jak szturchanie, popychanie, wyrywanie czegoś 
+  z ręki czy zamierzenie się ręką jest formą agresji, a w świetle prawa – <span class="orange">sytuacją 
+  zagrożenia czyjegoś zdrowia lub życia</span>. 
+safety-law-text-2: >-
+  <strong>Art. 23 Kodeksu cywilnego</strong> zawiera otwarty katalog dóbr osobistych, które podlegają 
+  ochronie prawa cywilnego. Na pierwszym miejscu wymienia się zdrowie!
+safety-law-text-3: >-
+  Ochroną dóbr osobistych zajmuje się także prawo karne. <strong>Kodeks karny w artykułach od 212 do 217</strong> 
+  określa przestępstwa przeciwko czci i nietykalności cielesnej.
+safety-law-contact: Jeśli obawiasz się o swoje bezpieczeństwo lub utratę zdrowia
+safety-law-contact-1: zgłoś to na policję
+safety-law-number-1: 997 lub 112
+safety-law-contact-2: poproś o pomoc
+safety-law-number-2: lokalny komisariat lub bezpośrednio dzielnicowego
+safety-law-contact-details: >-
+  By móc liczyć na jak najszybszą interwencję i uzyskać pomoc, <strong>podczas zgłoszenia powiedz, że chodzi
+  o sytuację zagrożenia utraty zdrowia</strong>.
+safety-law-cta: Sprawdź, kto jest Twoim dzielnicowym
+safety-law-link: http://www.wroclaw.policja.gov.pl/dwr/kontakt/twoj-dzielnicowy
+
+safety-subheader-3: Wrocław Bez Barier
+safety-wroclove-text-1: >-
+  Koordynacją działań dotyczących zwierząt bezdomnych i wolno żyjących w Urzędzie Miasta zajmuje się
+  <span class="blue">Biuro Wrocław Bez Barier</span>. Jeśli doświadczasz regularnych trudności w sprawowaniu 
+  opieki nad kotami, zwierzę lub Ty jesteś ofiarą ataków, skontaktuj się z <span class="blue">Rzecznikiem 
+  ds.&nbsp;zwierząt</span> i poproś o pomoc.
+safety-wroclove-cta-1: Dane kontaktowe Rzecznika
+safety-wroclove-link-1: https://bip.um.wroc.pl/artykul/228/37682/biuro-wroclaw-bez-barier
+safety-wroclove-text-2: >-
+  Aby zapewnić sobie wsparcie w działaniu, możesz wydrukować i w razie potrzeby okazywać
+safety-wroclove-cta-2: Pismo z Urzędu Miasta
+safety-wroclove-link-2: /
+safety-wroclove-text-3: lub
+safety-wroclove-cta-3: Apel Prezydenta Wrocławia
+safety-wroclove-link-3: https://www.wroclaw.pl/files/zwierzaki%20schron/APEL%20KOTY%20PODPISANY%20SKAN.pdf
+safety-wroclove-img: /assets/wroclove/safety-2.jpg
+safety-wroclove-alt: zdjęcie małych kotów
 ---

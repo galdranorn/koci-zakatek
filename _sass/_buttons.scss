@@ -43,6 +43,14 @@
     color: $color-main;
     font-weight: $font-weight-bold;
   }
+
+  &-bordered {
+    font-weight: $font-weight-bold;
+    color: $color-blue;
+    text-transform: uppercase;
+    background-color: $color-grey;
+    border: 2px solid $color-blue;
+  }
 }
 
 @media (min-width: $breakpoint-sm) {
