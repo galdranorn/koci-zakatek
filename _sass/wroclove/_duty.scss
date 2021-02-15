@@ -1,0 +1,383 @@
+.wroclove-header {
+  margin: 0;
+  padding: 25px 20px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: $font-weight-extrabold;
+  color: $color-main;
+}
+
+.wroclove-duty {
+  box-sizing: border-box;
+  width: 100%;
+  
+  &_header {
+    padding: 0 20px;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: $font-weight-extrabold;
+    color: $color-main;
+  }
+
+  &_subheader {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: $font-weight-bolder;
+    color: $color-main;
+  }
+
+  &_paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: $font-weight-normal;
+    color: $color-main;
+
+    &--small {
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+
+  &_act, &_program {
+    .btn {
+      width: 230px;
+      margin: 25px auto;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  &_program, &_accident {
+    padding: 0 20px;
+  }
+
+  &_act {
+    .wroclove-duty {
+      &_subheader, &_paragraph {
+        padding: 0 20px;
+      }
+    }
+
+    &-image img {
+      width: 100%;
+    }
+  }
+
+  &_program {
+    margin: 50px 0 75px;
+  }
+
+  &_free {
+    .wroclove-duty_subheader, &-left, &-right, &-foundations {
+      padding: 0 20px;
+    }
+
+    &-list {
+      margin: 35px 0;
+      padding-left: 0;
+      list-style-type: none;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+
+      li {
+        padding: 10px 20px;
+        border: 1px solid $color-orange;
+        border-radius: 8px;
+
+        &:first-of-type {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    &-right .wroclove-duty_paragraph {
+      margin-bottom: 0;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .btn {
+      width: 250px;
+      margin: 25px auto 15px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    &-contact, &-number, &-detail, &-alert {
+      margin: 5px 0;
+    }
+
+    &-number, &-alert {
+      color: $color-orange;
+    }
+
+    &-contact {
+      font-weight: $font-weight-bold;
+    }
+
+    &-number {
+      font-weight: $font-weight-bolder;
+    }
+
+    &-detail {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &-alert {
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    &-image {
+      margin-top: 50px;
+      
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &_accident {
+    margin: 50px 0;
+
+    &-corpse {
+      padding: 15px 20px;
+      text-align: center;
+      border: 1px solid $color-blue;
+      border-radius: 8px;
+
+      .wroclove-duty_paragraph {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .wroclove-header {
+    margin-bottom: 50px;
+    padding: 50px 60px;
+  }
+
+  .wroclove-duty {
+    &_header, &_program, &_accident {
+      padding: 0 60px;
+    }
+
+    &_act, &_free {
+      padding: 0 20px;
+
+      .wroclove-duty_subheader, .wroclove-duty_paragraph, &-list {
+        padding: 0 40px;
+      }
+
+      &-image img {
+        border-radius: 8px;
+      }
+    }
+
+    &_free-left, &_free-right {
+      padding: 0;
+    }
+
+    &_program {
+      margin-top: 75px;
+    }
+
+    &_accident {
+      margin: 75px 0;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .wroclove-duty {
+    &_act, &_free {
+      padding: 0 60px;
+
+      .wroclove-duty_subheader, .wroclove-duty_paragraph, &-list {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .wroclove-header {
+    font-size: 54px;
+    line-height: 70px;
+    text-align: center;
+  }
+
+  .wroclove-duty {
+    &_header, &_program, &_accident, &_act, &_free {
+      padding: 0 80px;
+    }
+      
+    &_header {
+      font-size: 40px;
+      line-height: 54px;
+    }
+
+    &_subheader {
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    &_act, &_program {
+      .btn {
+        width: 300px;
+        padding: 15px 20px;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .wroclove-duty {
+    &_header {
+      margin-top: 75px;
+      margin-bottom: 75px; 
+    }
+
+    &_paragraph {
+      max-width: 550px;
+    }
+
+    &_act {  
+      position: relative;
+
+      &-wrapper {
+        width: 50%;
+      }
+
+      &-image {
+        position: absolute;
+        top: 15px;
+        left: 53%;
+        height: calc(100% - 100px);
+
+        img {
+          width: auto;
+          height: 100%;
+        }
+      }
+
+      .btn {
+        margin-top: 75px;
+      }
+    }
+
+    &_program {
+      &-wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+      }
+      
+      .wroclove-duty_paragraph {
+        width: 50%;
+
+        &:first-of-type {
+          padding-right: 50px;
+        }
+        
+        &:last-of-type {
+          padding-left: 50px;
+        }
+      }
+    }
+
+    &_free {
+      &-wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+      }
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        padding-right: 50px;
+      }
+
+      &-right {
+        padding-left: 50px;
+
+        .wroclove-duty_paragraph {
+          max-width: 100%;
+        }
+      }
+
+      &-list {
+        margin: 0;
+        margin-top: 15px;
+      }
+
+      &-foundations {
+        width: 50%;
+        padding-right: 50px;
+      }
+    }
+
+    &_accident {
+      &-wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+      }
+
+      &-corpse {
+        max-width: 500px;
+      }
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        padding-right: 50px;
+      }
+
+      &-right {
+        padding-left: 50px;
+
+        .blue {
+          display: block;
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .wroclove-duty {
+    &_act {  
+      .wroclove-duty_paragraph {
+        padding-right: 50px;
+      }
+
+      &-image {
+        top: 0;
+        max-height: 480px;
+      }   
+    }
+
+    &_program {
+      .wroclove-duty_paragraph:last-of-type {
+        padding-left: 75px;
+      }
+    }
+
+    &_free-right {
+      padding-left: 35px;
+    }
+  }
+}

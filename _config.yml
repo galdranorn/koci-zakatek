@@ -18,6 +18,8 @@ collections:
   cats:
     output: true
     permalink: /koty/:path
+  facebook:
+    output: true
 defaults:
   defaults:
   -

@@ -1,0 +1,368 @@
+.wroclove-safety {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  &_header, &_subheader, &_paragraph {
+    padding: 0 20px;
+    color: $color-main;
+  }
+  
+  &_header {
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: $font-weight-extrabold;
+  }
+
+  &_subheader {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: $font-weight-bolder;
+  }
+
+  &_paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: $font-weight-normal;
+  }
+
+  &_problems {
+    &-list {
+      padding: 0 20px 0 45px;
+      list-style-type: none;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: $font-weight-normal;
+
+      li {
+        position: relative;
+        padding: 5px 0;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 12px;
+          left: -25px;
+          width: 12px;
+          height: 12px;
+          border-radius: 100%;
+          background-color: $color-blue;
+        }
+      }
+    }
+
+    &-alert {
+      padding: 0 20px;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: $font-weight-extrabold;
+      color: $color-blue;
+    }
+
+    &-image {
+      margin: 35px 0 30px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &_law {
+    &-contact {
+      &_text {
+        margin-bottom: 5px;
+      }
+
+      &_number {
+        margin-top: 5px;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: $font-weight-extrabold;
+        color: $color-orange;
+      }
+    }
+
+    &-list {
+      padding: 0 20px;
+      list-style-type: none;
+      text-align: center;
+      
+      li {
+        margin: 10px 0;
+        padding: 0 20px;
+        border: 1px solid $color-orange;
+        border-radius: 8px;
+      }
+
+      .btn-orange {
+        width: 250px;
+        margin: 0 auto 20px;
+        font-size: 14px;
+        border-radius: 30px;
+
+      }
+    }
+  }
+
+  &_wroclove {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+    .btn-blue, .btn-bordered {
+      width: 240px;
+      margin: 0 auto;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .btn-blue {
+      padding: 15px 20px;
+    }
+
+    &-docs {
+      text-align: center;
+    }
+
+    &-image {
+      margin: 25px 0;
+      order: -1;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media(min-width: $breakpoint-xs) {
+  .wroclove-safety {
+    padding: 75px 20px;
+
+    &_header, &_subheader, &_paragraph {
+      padding: 0 40px;
+    }
+
+    &_header {
+      margin-bottom: 50px;
+    }
+
+    &_problems {
+      &-list {
+        padding: 0 40px 0 70px;
+      }
+
+      &-alert {
+        padding: 0 40px;
+        text-align: center;
+      }
+
+      &-image {
+        margin: 55px 0;
+
+        img {
+          border-radius: 8px;
+        }
+      }
+    }
+
+    &_law-list {
+      margin: 25px 0;
+      padding: 0 40px;
+
+      li {
+        margin: 20px 0;
+      }
+    }
+
+    &_wroclove {
+      padding: 0;
+
+      &-docs {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 570px;
+        margin: 0 auto;
+        padding: 0 40px;
+
+        .wroclove-safety_paragraph {
+          padding: 0 10px;
+        }
+
+        .btn-bordered {
+          width: 140px;
+          margin: 0;
+          padding: 14px;
+          font-size: 13px;
+          border-radius: 30px;
+        }
+      }
+
+      &-image img {
+        border-radius: 8px;
+      }
+
+      .btn-blue {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+@media(min-width: $breakpoint-sm) {
+  .wroclove-safety {
+    padding: 75px 60px;
+
+    &_header, &_subheader, &_paragraph, &_problems-list &_problems-alert, &_law-list {
+      padding: 0;
+    }
+
+    &_problems-list {
+      padding-left: 25px;
+    }
+
+    &_law .btn-orange {
+      width: 330px;
+      padding: 15px 20px;
+    }
+
+    &_wroclove-docs {
+      padding: 0;
+
+      .btn-bordered {
+        &:first-of-type {
+          width: 190px;
+        }
+        
+        &:last-of-type {
+          width: 230px;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: $breakpoint-md) {
+  .wroclove-safety {
+    padding: 100px 80px;
+
+    &_header {
+      font-size: 40px;
+      line-height: 54px;
+    }
+
+    &_subheader {
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    &_problems-alert {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+}
+
+@media(min-width: $breakpoint-lg) {
+  .wroclove-safety {
+    &_problems, &_wroclove {
+      align-items: center;
+
+      &-text, &-image {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-image {
+        position: relative;
+        left: 50px;
+        margin: 0;
+      }
+    }
+
+    &_problems {
+      display: flex;
+
+      .wroclove-safety_paragraph, &-list, &-alert {
+        padding-right: 50px;
+      }
+    }
+
+    &_law {
+      padding: 50px 0;
+      
+      &-wrapper {
+        display: flex;
+      }
+
+      &-left, &-contact {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        padding-right: 50px;
+      }
+
+      &-contact {
+        padding-left: 50px;
+
+        .btn-orange {
+          width: 300px;
+          font-size: 13px;
+        }
+      }
+    }
+
+    &_wroclove {
+      flex-direction: row;
+
+      &-text {
+        padding-right: 50px;
+      }
+
+      &-image {
+        order: unset;
+        margin-top: 80px;
+      }
+
+      .btn-blue {
+        margin-bottom: 50px;
+        padding: 17px 20px;
+      }
+    }
+  }
+}
+
+@media(min-width: $breakpoint-xl) {
+  .wroclove-safety {
+    &_problems-image {
+      top: 30px;
+      padding-right: 50px;
+    }
+
+    &_law {
+      padding: 100px 0 50px;
+
+      &-contact {
+        position: relative;
+        top: -55px;
+      }
+    }
+
+    &_wroclove {
+      align-items: flex-start;
+
+      &-image {
+        margin-top: 40px;
+        padding-right: 50px;
+      }
+    }
+  }
+}

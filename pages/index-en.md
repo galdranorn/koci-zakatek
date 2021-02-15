@@ -2,9 +2,26 @@
 layout: home
 title: Koci Zakątek
 description:
-permalink: /
+permalink: /en
 section: home
-meet-us_text: Poznaj nas bliżej
+language: en
+name: Koci Zakątek Foundation
+logo-alt: foundation logo
+menu-1: About us
+menu-link-1: '#01'
+menu-2: Adoptions
+menu-link-2: '#02'
+menu-3: How to help
+menu-link-3: '#03'
+menu-4: Cats in Wroclaw
+menu-link-4: '#04'
+menu-5: Metamorphosis
+menu-link-5: '#05'
+menu-6: FAQ
+menu-link-6: '#06'
+menu-7: Contact
+menu-link-7: '#footer'
+meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : zdjęcie kotów z fundacji
 meet-us_foundation: >-
@@ -44,8 +61,6 @@ adoptions-text: >-
   że w swoim stałym domu kot będzie <strong>bezpieczny i odpowiednio zaopiekowany</strong>.
 adoptions-image: /assets/home/adoptions.jpg
 adoptions-alt:  zdjęcie kota w klatce
-adoptions-line: /assets/home/process-lines.png
-adoptions-line-alt: przerywana linia
 adoptions-header-1: Proces adopcyjny
 adoptions-cta-1: Dowiedz się więcej o adopcji
 adoptions-link-1: /adopcje
@@ -81,10 +96,10 @@ adopt-step-4-text: >-
 adopt-step-4-image: /assets/home/process4.png
 adopt-step-4-alt: ikona z kotem pod lupą
 adopt-step-5-intro: Etap ostatni
-adopt-step-5-title: Podejmij decyzję i podpisz umowę adopcyjną
+adopt-step-5-title: Podpisz umowę adopcyjną
 adopt-step-5-text: >-
-  Potwierdzamy na piśmie wszystko, o czym rozmawialiśmy i co zostało ustalone
-  w poprzednich etapach.
+  Jeśli podejmiesz decyzję, potwierdzamy na piśmie wszystko, o czym rozmawialiśmy i co 
+  zostało ustalone w poprzednich etapach.
 adopt-step-5-image: /assets/home/process5.png
 adopt-step-5-alt: ikona z dokumentem i długopisem
 adoptions-slug: kot do adopcji
@@ -156,27 +171,29 @@ support-text-3: >-
 support-link-3: /zbiorki-darow
 wroclove-title: Koty we Wrocławiu
 wroclove-text-1: >-
-  Populację kotów wolnożyjących na terenie Gminy Wrocław szacuje się na ok.&nbsp;40&nbsp;000
+  Populację kotów wolno żyjących na terenie Gminy Wrocław szacuje się na ok.&nbsp;40&nbsp;000
   osobników. Szczęśliwie dla nich w naszym mieście mieszka wiele osób, które - często latami -
   opiekują się kocimi stadami w swoich społecznościach lokalnych. Nazywane są <strong>Społecznymi
-  Opiekunami Kotów</strong>. Dokarmiają, sterylizują, dbają o miejsca schronienia dla kotów.
-  Niestety realia życia kotów i ich opiekunów dalekie są od ideału. Osoby dokarmiające i odławiające
-  koty są atakowane przez sąsiadów, przeciwników kotów, zarządców terenów i nieruchomości.
-wroclove-text-2: Dowiedz się, jakie przysługują Ci prawa i jaką pomoc można uzyskać we Wrocławiu.
+  Opiekunami Kotów</strong>.
+wroclove-text-2: >-
+  Dokarmiają, sterylizują, dbają o miejsca schronienia dla kotów. Niestety realia życia kotów 
+  i ich opiekunów dalekie są od ideału. Osoby dokarmiające i odławiające koty są atakowane przez 
+  sąsiadów, przeciwników kotów, zarządców terenów i nieruchomości.
+wroclove-text-3: Dowiedz się, jakie przysługują Ci prawa i jaką pomoc można uzyskać we Wrocławiu.
 wroclove-image: /assets/home/wroclove.jpg
-wroclove-alt: zdjęcie kota wolnożyjącego
+wroclove-alt: zdjęcie kota wolno żyjącego
+wroclove-cta: Zobacz aktualne informacje
+wroclove-link: /cats-in-wroclaw
 numbers-header: Wrocław w liczbach
-numbers-link: /koty-miejskie
-numbers-cta: Zobacz aktualne informacje
 numbers-count-1: około
-numbers-number-1: 40
-numbers-description-1: tysięcy kotów wolnożyjących w mieście
+numbers-number-1: 40&nbsp;000
+numbers-description-1: kotów wolnożyjących w mieście
 numbers-count-2: ponad
 numbers-number-2: 2000
 numbers-description-2: sterylizacji fundowanych przez gminę
-numbers-count-3: niecałe
+numbers-count-3: mniej niż
 numbers-number-3: 20
-numbers-description-3: fundacji i organizacji pozarządowych
+numbers-description-3: organizacji i grup nieformalnych
 numbers-count-4: prawie
 numbers-number-4: 100
 numbers-description-4: kotów przebywa w naszej fundacji
