@@ -173,4 +173,104 @@ safety-wroclove-cta-3: Apel Prezydenta Wrocławia
 safety-wroclove-link-3: https://www.wroclaw.pl/files/zwierzaki%20schron/APEL%20KOTY%20PODPISANY%20SKAN.pdf
 safety-wroclove-img: /assets/wroclove/safety-2.jpg
 safety-wroclove-alt: zdjęcie małych kotów
+commune-title: Gmina Wrocław
+commune-subtitle-1: Karty sterylizacji
+commune-cards-budget: >-
+  Z budżetu wrocławskiego Schroniska dla Bezdomnych Zwierząt każdego roku finansowane są <span class="orange">Karty 
+  sterylizacji i kastracji kotów wolno żyjących</span>, zwane potocznie talonami. Zwierzęta mogą przejść zabieg w kilku 
+  lecznicach, które zostały wyłonione na drodze przetargu – ich adresy znajdziesz na karcie. Co roku mieszkańcom 
+  Gminy wydaje się <strong>ponad 2000 takich kart</strong>.
+commune-cards-shelter: >-
+  Kartę może otrzymać <span class="orange">każdy mieszkaniec Gminy Wrocław</span>, który planuje wysterylizowanie 
+  lub kastrację kota bytującego na terenie Gminy Wrocław. Jedna osoba może otrzymać <strong>jednorazowo (raz w miesiącu)
+  maksymalnie 2 karty</strong>. Karty wydawane są w schronisku na początku każdego miesiąca - dokładne terminy publikowane 
+  są na stronie schroniska.
+commune-cards-shelter-cta: Sprawdź terminy na stronie schroniska
+commune-cards-shelter-link: https://www.schroniskowroclaw.pl/)
+commune-cards-list-intro: Aby otrzymać kartę, musisz
+commune-cards-list-1: posiadać przy sobie <strong>dowód osobisty</strong>,
+commune-cards-list-2: podać swoje <strong>dane osobowe</strong>,
+commune-cards-list-3: >- 
+  podać miejsce (ulicę, nazwę terenu, obiektu), <strong>gdzie bytuje kot</strong>, którego zamierzasz wysterylizować 
+  lub wykastrować.
+commune-cards-outro: >- 
+  Na tym kończy się udział gminy w procesie ograniczania kociej populacji. Kwestie odłowienia, transportowania 
+  i – co najważniejsze – przetrzymania kota w czasie rekonwalescencji po zabiegu <span class="orange">spoczywają po 
+  Twojej stronie</span>. 
+commune-cards-help: >-
+  Sporadycznej pomocy w odławianiu czy przetrzymaniu kota po zabiegu mogą – w miarę swoich możliwości – udzielić 
+  Ci <strong>schronisko lub organizacje prozwierzęce</strong>.
+commune-cards-img: /assets/wroclove/commune-1.jpg
+commune-cards-alt: zdjęcie kotów
+commune-subtitle-2: Karma dla kotów
+commune-food-text: >-
+  Wrocławskie schronisko co miesiąc wydaje też suchą karmę dla społecznych opiekunów zwierząt, której zakup finansuje 
+  Gmina Wrocław. <span class="blue">Jeśli chcesz ją otrzymywać, zgłoś to w schronisku</span>, które powinno poinformować
+  Cię, czy i kiedy będzie to możliwe. Zostaniesz wówczas <strong>wpisany na listę karmicieli we Wrocławiu</strong>. Ilość 
+  wydawanej karmy zależy od ilości kotów, które dokarmiasz.
+commune-food-img: /assets/wroclove/commune-2.jpg
+commune-food-alt: zdjęcie kota z miską
+card-title: Legitymacja opiekuna społecznego kotów
+card-text: >-
+  Jeśli regularnie opiekujesz się kocim stadem na terenie naszej gminy, możesz uzyskać w Urzędzie Miasta 
+  legitymację opiekuna społecznego. Biorąc pod uwagę różnorakie trudności, które często wiążą się z dokarmianiem 
+  kotów we Wrocławiu, <span class="orange">gorąco Cię do tego namawiamy</span>! Autoryzacja tego, co robisz
+  przez Urząd Miasta to <strong>dobry argument dla nieprzychylnych kotom mieszkańców osiedla czy zarządców
+  nieruchomości</strong>. 
+card-how-1: Jak pozyskać taki dokument? To bardzo proste – wystarczy wysłać maila na adres
+card-mail: malgorzata.szewczyk@um.wroc.pl
+card-how-list-intro: i podać
+card-how-list-1: swoje imię i nazwisko,
+card-how-list-2: numer dowodu osobistego,
+card-how-list-3: adres, pod którym opiekujesz się kotami.
+card-how-outro: Dokumenty wydawane są także w czasie pandemii COVID-19! Otrzymasz go drogą mailową.
+card-cta: Wyślij maila
+foundations: Organizacje we Wrocławiu
+foundations-text-1: >-
+  Na terenie naszej gminy działa <span class="blue">kilkanaście organizacji pozarządowych oraz 
+  grup nieformalnych</span>, których celem jest <strong>udzielanie pomocy zwierzętom, w tym kotom</strong>. 
+  My również pomagamy kotom, ich opiekunom oraz mieszkańcom gminy, którzy znajdą kota w potrzebie. 
+  Miej jednak na uwadze, że działamy w bardzo niekomfortowych warunkach, a nasze możliwości są niestety 
+  ograniczone. Codziennie sami znajdujemy nowe koty, które należy gdzieś umieścić. Każdego dnia otrzymujemy
+  zgłoszenia i prośby o przyjęcie lub odłowienie kolejnych kotów. Opiekujemy się stale kilkoma kocimi
+  stadami w mieście, w których także są chore lub nowe koty, wymagające zabezpieczenia i opieki. Z tego
+  powodu – mimo szczerych chęci – <strong>nie jesteśmy w stanie przyjąć kotów od wszystkich</strong>...
+foundations-alert: ...ale Ty też możesz pomóc!
+foundations-text-2: >-
+  Jeśli spotkasz kota, który wymaga zabrania z ulicy, pamiętaj, że <span class="blue">Ty też możesz wziąć 
+  go do domu</span>! Warunki mieszkaniowe wolontariuszy fundacji nie tylko nie są lepsze od Twoich, ale często
+  zdecydowanie gorsze – <strong>większość z nas ma w domu około 5-10 kotów jednocześnie</strong>!
+foundation-text-3: >-
+  Nie masz wprawy w opiece nad takim kotem lub wymaga on kosztownego leczenia czy operacji chirurgicznej? 
+  Możesz jako osoba prywatna <span class="blue">założyć zbiórkę na jednym z popularnych portali</span> – na
+  przykład <strong>pomagam.pl</strong> – a następnie rozpowszechnić ją wśród znajomych, choćby za pośrednictwem
+  Facebooka. Z kolei by znaleźć kot dom, zrób mu zdjęcia, opisz stan jego zdrowia, nawyki oraz charakter
+  i zamieść ogłoszenia na różnych portalach.
+foundations-text-4: >-
+  Uwaga! Pamiętaj, że <span class="blue">priorytetem jest zagwarantowanie kotu bezpiecznego losu</span>. 
+  Nie oddawaj go pierwszej chętnej  osobie – z potencjalnym domem dla kota <strong>przeprowadź wywiad telefoniczny 
+  i zapytaj o osiatkowanie wybranego okna lub balkonu</strong>.
+foundations-text-5: >- 
+  Jeśli możesz wziąć kota do siebie, ale czujesz, że jego leczenie czy szukanie nowego domu Cię przerasta, 
+  <span class="blue">możesz zwrócić się do fundacji</span> o pomoc w tym względzie.
+foundations-subtitle: Koszty pomocy
+foundations-costs-text-1: >-
+  Walczymy o każdą złotówkę. Koszty leczenia, badań weterynaryjnych oraz utrzymania 70-100&nbsp;kotów 
+  miesięcznie w Kocim Zakątku są gigantyczne. W 2019 roku na leczenie kotów wydaliśmy 
+  <span class="blue">ponad 68&nbsp;000&nbsp;zł</span>, a na karmę <span class="blue>blisko 64&nbsp;000&nbsp;zł.</span>
+foundations-costs-text-2: >-
+  Przy takiej skali wydatków i kilkunastu potencjalnych beneficjentach, Gmina Wrocław przeznacza na potrzeby 
+  <strong>wszystkich</span> wrocławskich organizacji prozwierzęcych <span class="blue">30&nbsp;000&nbsp;zł rocznie</span>,
+  które zostają rozdysponowane na początku roku. 
+foundations-costs-text-3: >- 
+  W przeciwieństwie do innych obszarów aktywności obywatelskiej, <strong>budżet Wrocławia nie uwzględnia środków 
+  na organizację otwartych konkursów ofert na działania o celach prozwierzęcych</strong>. Podobnie wygląda kwestia 
+  różnego typu – poza gminnymi – konkursów dotacyjnych. Ich priorytety niestety nie uwzględniają przeznaczenia
+  środków finansowych na ochronę zwierząt.
+foundations-costs-text-4: >-
+  Nasze działania możemy prowadzić głównie <span class="blue">dzięki wspaniałym, cudownym ludziom</span>, którzy 
+  przez cały rok wpłacają darowizny, pozwalające pokryć nasze wydatki, oraz przekazują nam 1% podatku.
+foundations-costs-thanks: Z całego serca w imieniu kotów <span class="blue">dziękujemy</span> :)
+foundations-help: Też chcesz nam pomóc?
+foundations-help-subtitle: Zobacz, jak możesz to zrobić
 ---

@@ -1,0 +1,59 @@
+<div id="03" class="wroclove-commune">
+  <h2 class="wroclove-commune_header">
+    {{ page.commune-title }}
+  </h2>
+  <div class="wroclove-commune_cards">
+    <h3 class="wroclove-commune_subheader">
+      {{ page.commune-subtitle-1 }}
+    </h3>
+    <div class="wroclove-commune_cards-paragraphs">
+      <p class="wroclove-commune_text">
+        {{ page.commune-cards-budget }}
+      </p>
+      <p class="wroclove-commune_text">
+        {{ page.commune-cards-shelter }}
+      </p>
+    </div>
+    <div class="wroclove-commune_image">
+      <img src="{{ page.commune-cards-img}}" alt="{{ page.commune-cards-alt }}"/>
+    </div>
+    <div class="wroclove-commune_how">
+      <div class="wroclove-commune_how-text">
+        <div class="wroclove-commune_how-box">
+          <p class="wroclove-commune_how-intro">
+            {{ page.commune-cards-list-intro }}:
+          </p>
+          <ul class="wroclove-commune_how-list">
+            <li>{{ page.commune-cards-list-1 }}</li>
+            <li>{{ page.commune-cards-list-2 }}</li>
+            <li>{{ page.commune-cards-list-3 }}</li>
+          </ul>
+          <a class="btn btn-small btn-orange" href="{{ page.commune-cards-shelter-link }}" target="_blank">
+            {{ page.commune-cards-shelter-cta }}
+          </a>
+        </div>
+        <div class="wroclove-commune_how-paragraphs">
+          <p class="wroclove-commune_text">
+            {{ page.commune-cards-outro }}
+          </p>
+          <p class="wroclove-commune_text">
+            {{ page.commune-cards-help }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wroclove-commune_food">
+    <div class="wroclove-commune_food-text">
+      <h3 class="wroclove-commune_subheader">
+        {{ page.commune-subtitle-2 }}
+      </h3>
+      <p class="wroclove-commune_text">
+        {{ page.commune-food-text }}
+      </p>
+    </div>
+    <div class="wroclove-commune_food-image">
+      <img src="{{ page.commune-food-img }}" alt="{{ page.commune-food-alt }}"/>
+    </div>
+  </div>
+</div>
