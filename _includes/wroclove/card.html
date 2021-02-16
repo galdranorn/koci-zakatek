@@ -1,0 +1,35 @@
+<div id="04" class="wroclove-card">
+  <div class="wroclove-card_wrapper">
+    <h2 class="wroclove-card_header">
+      {{ page.card-title }}
+    </h2>
+    <div class="wroclove-card_content">
+      <p class="wroclove-card_text wroclove-card_left">
+        {{ page.card-text }}
+      </p>
+      <div class="wroclove-card_box">
+        <p class="wroclove-card_text">
+          {{ page.card-how-1 }}
+          <a href="mailto:{{ page.card-mail }}">
+            {{ page.card-mail }}
+          </a>
+          {{ page.card-how-list-intro }}:
+        </p>
+        <ul class="wroclove-card_list">
+          <li>{{ page.card-how-list-1 }}</li>
+          <li>{{ page.card-how-list-2 }}</li>
+          <li>{{ page.card-how-list-3 }}</li>
+        </ul>
+        <p class="wroclove-card_text wroclove-card_text--small">
+          {{ page.card-how-outro }}
+        </p>
+        <a href="mailto:{{ page.card-mail }}" class="btn btn-small btn-orange">
+          {{ page.card-cta }}
+        </a>
+      </div>
+    </div>
+    <div class="wroclove-card_image">
+      <img src="{{ page.card-img }}" alt="{{ page.card-alt }}"/>
+    </div>
+  </div>
+</div>

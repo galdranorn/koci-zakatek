@@ -220,11 +220,13 @@ card-text: >-
 card-how-1: Jak pozyskać taki dokument? To bardzo proste – wystarczy wysłać maila na adres
 card-mail: malgorzata.szewczyk@um.wroc.pl
 card-how-list-intro: i podać
-card-how-list-1: swoje imię i nazwisko,
-card-how-list-2: numer dowodu osobistego,
-card-how-list-3: adres, pod którym opiekujesz się kotami.
+card-how-list-1: swoje <strong>imię i nazwisko</strong>,
+card-how-list-2: <strong>numer dowodu</strong> osobistego,
+card-how-list-3: <strong>adres</strong>, pod którym opiekujesz się kotami.
 card-how-outro: Dokumenty wydawane są także w czasie pandemii COVID-19! Otrzymasz go drogą mailową.
 card-cta: Wyślij maila
+card-img: /assets/wroclove/card.jpg
+card-alt: zdjęcie kota
 foundations: Organizacje we Wrocławiu
 foundations-text-1: >-
   Na terenie naszej gminy działa <span class="blue">kilkanaście organizacji pozarządowych oraz 
