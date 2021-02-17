@@ -227,52 +227,58 @@ card-how-outro: Dokumenty wydawane są także w czasie pandemii COVID-19! Otrzym
 card-cta: Wyślij maila
 card-img: /assets/wroclove/card.jpg
 card-alt: zdjęcie kota
-foundations: Organizacje we Wrocławiu
+foundations-title: Organizacje we Wrocławiu
 foundations-text-1: >-
   Na terenie naszej gminy działa <span class="blue">kilkanaście organizacji pozarządowych oraz 
   grup nieformalnych</span>, których celem jest <strong>udzielanie pomocy zwierzętom, w tym kotom</strong>. 
   My również pomagamy kotom, ich opiekunom oraz mieszkańcom gminy, którzy znajdą kota w potrzebie. 
   Miej jednak na uwadze, że działamy w bardzo niekomfortowych warunkach, a nasze możliwości są niestety 
-  ograniczone. Codziennie sami znajdujemy nowe koty, które należy gdzieś umieścić. Każdego dnia otrzymujemy
+  ograniczone.
+foundations-text-2: >-
+  Codziennie sami znajdujemy nowe koty, które należy gdzieś umieścić. Każdego dnia otrzymujemy
   zgłoszenia i prośby o przyjęcie lub odłowienie kolejnych kotów. Opiekujemy się stale kilkoma kocimi
   stadami w mieście, w których także są chore lub nowe koty, wymagające zabezpieczenia i opieki. Z tego
   powodu – mimo szczerych chęci – <strong>nie jesteśmy w stanie przyjąć kotów od wszystkich</strong>...
 foundations-alert: ...ale Ty też możesz pomóc!
-foundations-text-2: >-
+foundations-text-3: >-
   Jeśli spotkasz kota, który wymaga zabrania z ulicy, pamiętaj, że <span class="blue">Ty też możesz wziąć 
   go do domu</span>! Warunki mieszkaniowe wolontariuszy fundacji nie tylko nie są lepsze od Twoich, ale często
   zdecydowanie gorsze – <strong>większość z nas ma w domu około 5-10 kotów jednocześnie</strong>!
-foundation-text-3: >-
+foundation-text-4: >-
   Nie masz wprawy w opiece nad takim kotem lub wymaga on kosztownego leczenia czy operacji chirurgicznej? 
   Możesz jako osoba prywatna <span class="blue">założyć zbiórkę na jednym z popularnych portali</span> – na
   przykład <strong>pomagam.pl</strong> – a następnie rozpowszechnić ją wśród znajomych, choćby za pośrednictwem
   Facebooka. Z kolei by znaleźć kot dom, zrób mu zdjęcia, opisz stan jego zdrowia, nawyki oraz charakter
   i zamieść ogłoszenia na różnych portalach.
-foundations-text-4: >-
+foundations-text-5: >-
   Uwaga! Pamiętaj, że <span class="blue">priorytetem jest zagwarantowanie kotu bezpiecznego losu</span>. 
   Nie oddawaj go pierwszej chętnej  osobie – z potencjalnym domem dla kota <strong>przeprowadź wywiad telefoniczny 
   i zapytaj o osiatkowanie wybranego okna lub balkonu</strong>.
-foundations-text-5: >- 
+foundations-text-6: >- 
   Jeśli możesz wziąć kota do siebie, ale czujesz, że jego leczenie czy szukanie nowego domu Cię przerasta, 
   <span class="blue">możesz zwrócić się do fundacji</span> o pomoc w tym względzie.
+foundations-image: /assets/wroclove/foundations-1.jpg
+foundations-alt: zdjęcie kotów
 foundations-subtitle: Koszty pomocy
 foundations-costs-text-1: >-
   Walczymy o każdą złotówkę. Koszty leczenia, badań weterynaryjnych oraz utrzymania 70-100&nbsp;kotów 
   miesięcznie w Kocim Zakątku są gigantyczne. W 2019 roku na leczenie kotów wydaliśmy 
-  <span class="blue">ponad 68&nbsp;000&nbsp;zł</span>, a na karmę <span class="blue>blisko 64&nbsp;000&nbsp;zł.</span>
+  <span class="orange">ponad 68&nbsp;000&nbsp;zł</span>, a na karmę <span class="orange">blisko 64&nbsp;000&nbsp;zł.</span>
 foundations-costs-text-2: >-
   Przy takiej skali wydatków i kilkunastu potencjalnych beneficjentach, Gmina Wrocław przeznacza na potrzeby 
-  <strong>wszystkich</span> wrocławskich organizacji prozwierzęcych <span class="blue">30&nbsp;000&nbsp;zł rocznie</span>,
-  które zostają rozdysponowane na początku roku. 
+  <strong>wszystkich</strong> wrocławskich organizacji prozwierzęcych <span class="orange">30&nbsp;000&nbsp;zł 
+  rocznie</span>, które zostają rozdysponowane na początku roku. 
 foundations-costs-text-3: >- 
   W przeciwieństwie do innych obszarów aktywności obywatelskiej, <strong>budżet Wrocławia nie uwzględnia środków 
   na organizację otwartych konkursów ofert na działania o celach prozwierzęcych</strong>. Podobnie wygląda kwestia 
   różnego typu – poza gminnymi – konkursów dotacyjnych. Ich priorytety niestety nie uwzględniają przeznaczenia
   środków finansowych na ochronę zwierząt.
 foundations-costs-text-4: >-
-  Nasze działania możemy prowadzić głównie <span class="blue">dzięki wspaniałym, cudownym ludziom</span>, którzy 
+  Nasze działania możemy prowadzić głównie <span class="orange">dzięki wspaniałym, cudownym ludziom</span>, którzy 
   przez cały rok wpłacają darowizny, pozwalające pokryć nasze wydatki, oraz przekazują nam 1% podatku.
-foundations-costs-thanks: Z całego serca w imieniu kotów <span class="blue">dziękujemy</span> :)
+foundations-costs-thanks: Z całego serca w imieniu kotów <span class="orange">dziękujemy</span> :)
+foundations-costs-image: /assets/wroclove/foundations-2.jpg
+foundations-costs-alt: zdjęcie kota w lecznicy
 foundations-help: Też chcesz nam pomóc?
 foundations-help-subtitle: Zobacz, jak możesz to zrobić
 ---
