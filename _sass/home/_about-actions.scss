@@ -13,12 +13,17 @@
   }
 
   &_icon {
-    width: 170px;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+    img {
+      width: 220px;
+    }
   }
 
   &_title {
-    font-size: 24px;
+    margin: 15px 0 20px;
+    font-size: 26px;
     line-height: 36px;
     font-weight: $font-weight-normal;
   }
@@ -31,6 +36,7 @@
   }
 
   .btn {
+    margin-top: 50px;
     width: 235px;
   }
 }
@@ -58,9 +64,12 @@
       padding-right: 25px;
     }
 
-    &_icon {
-      width: auto;
-      height: 150px;
+    &_icon img {
+      width: 200px;
+    }
+
+    &_title {
+      margin: 25px 0 30px;
     }
 
     &_text {
@@ -70,6 +79,7 @@
 
     .btn {
       width: 290px;
+      margin-top: 0;
     }
   }
 }
@@ -91,6 +101,7 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    padding-right: 0;
 
     &_list {
       flex-wrap: nowrap;
@@ -100,12 +111,24 @@
       width: 25%;
     }
 
+    &_icon {
+      text-align: left;
+    }
+
+    &_action:first-of-type .home-actions_icon img {
+      margin-left: -15px;
+    }
+
+    &_action:last-of-type .home-actions_icon img {
+      margin-left: -10px;
+    }
+
     &_title {
-      margin: 40px 0;
+      margin: 35px 0 40px;
     }
 
     &_text {
-      max-width: 220px;
+      max-width: 250px;
     }
   }
 }

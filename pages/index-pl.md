@@ -132,13 +132,6 @@ donate-text-3: >-
   podatkowym. To nic nie kosztuje!
 donate-cta-3: Dane fundacji
 donate-cta-3-hide: Ukryj dane
-donate-img-4: /assets/home/donate4.png
-donate-title-4: Kupuj w Zooplusie
-donate-text-4: >-
-  Jeżeli zrobisz zakupy jak zwykle za pośrednictwem poniższego linku, dostaniemy procent
-  od wartości Twoich zakupów
-donate-link-4: https://www.awin1.com/cread.php?awinmid=10247&amp;awinaffid=344897&amp;clickref=&amp;ued=
-donate-cta-4: Zrób zakupy
 donate-bank: Bank PKO SA
 donate-account: '<strong>Numer konta</strong>:<br> 38 1240 6768 1111 0010 6579 9904'
 donate-swift: '<strong>Kod BIC (SWIFT)</strong>:<br> PKOP PL PW'
