@@ -4,75 +4,67 @@
   </h2>
   <ul class="home-donate_list">
     <li class="home-donate_item">
-      <div class="home-donate_icon">
-        <img src="{{ page.donate-img-1 }}" alt="{{ page.donate-img-alt }}"/>
+      <div class="home-donate_item-wrapper">
+        <div class="home-donate_icon">
+          <img src="{{ page.donate-img-1 }}" alt="{{ page.donate-img-alt }}"/>
+        </div>
+        <h3 class="home-donate_title">
+          {{ page.donate-title-1 }}
+        </h3>
+        <div class="home-donate_text" data-donate-text="transfer">
+          <p>{{ page.donate-text-1 }}</p>
+          <ul class="home-donate_text-details home-donate_text-details--hidden" data-donate-field="transfer">
+            <li>{{ page.donate-bank }}</li>
+            <li>{{ page.donate-account }}</li>
+            <li>{{ page.donate-swift }}</li>
+            <li>{{ page.donate-iban }}</li>
+            <li>{{ page.donate-note }}</li>
+          </ul>
+        </div>
+        <button class="btn btn-small btn-white" data-donate="button" data-donate-type="transfer">
+          <p class="btn-text">{{ page.donate-cta-1 }}</p>
+          <p class="btn-text">{{ page.donate-cta-1-hide }}</p>
+        </button>
       </div>
-      <h3 class="home-donate_title">
-        {{ page.donate-title-1 }}
-      </h3>
-      <div class="home-donate_text" data-donate-text="transfer">
-        <p>{{ page.donate-text-1 }}</p>
-        <ul class="home-donate_text-details home-donate_text-details--hidden" data-donate-field="transfer">
-          <li>{{ page.donate-bank }}</li>
-          <li>{{ page.donate-account }}</li>
-          <li>{{ page.donate-swift }}</li>
-          <li>{{ page.donate-iban }}</li>
-          <li>{{ page.donate-note }}</li>
-        </ul>
-      </div>
-      <button class="btn btn-small btn-white" data-donate="button" data-donate-type="transfer">
-        <p class="btn-text">{{ page.donate-cta-1 }}</p>
-        <p class="btn-text">{{ page.donate-cta-1-hide }}</p>
-      </button>
     </li>
     <li class="home-donate_item">
-      <div class="home-donate_icon home-donate_icon--paypal">
-        <img src="{{ page.donate-img-2 }}" alt="{{ page.donate-img-alt }}"/>
+      <div class="home-donate_item-wrapper">
+        <div class="home-donate_icon">
+          <img src="{{ page.donate-img-2 }}" alt="{{ page.donate-img-alt }}"/>
+        </div>
+        <h3 class="home-donate_title">
+          {{ page.donate-title-2 }}
+        </h3>
+        <p class="home-donate_text">
+          {{ page.donate-text-2 }}
+        </p>
+        <a class="btn btn-small btn-white" href="{{ page.donate-link-2 }}" target="_blank">
+          {{ page.donate-cta-2 }}
+        </a>
       </div>
-      <h3 class="home-donate_title">
-        {{ page.donate-title-2 }}
-      </h3>
-      <p class="home-donate_text">
-        {{ page.donate-text-2 }}
-      </p>
-      <a class="btn btn-small btn-white" href="{{ page.donate-link-2 }}" target="_blank">
-        {{ page.donate-cta-2 }}
-      </a>
     </li>
     <li class="home-donate_item">
-      <div class="home-donate_icon">
-        <img src="{{ page.donate-img-3 }}" alt="{{ page.donate-img-alt }}"/>
+      <div class="home-donate_item-wrapper">
+        <div class="home-donate_icon">
+          <img src="{{ page.donate-img-3 }}" alt="{{ page.donate-img-alt }}"/>
+        </div>
+        <h3 class="home-donate_title">
+          {{ page.donate-title-3 }}
+        </h3>
+        <div class="home-donate_text">
+          <p>{{ page.donate-text-3 }}</p>
+          <ul class="home-donate_text-details home-donate_text-details--hidden" data-donate-field="tax">
+            <li>{{ page.donate-name }}</li>
+            <li>{{ page.donate-nip }}</li>
+            <li>{{ page.donate-regon }}</li>
+            <li>{{ page.donate-krs }}</li>
+          </ul>
+        </div>
+        <button class="btn btn-small btn-white" data-donate="button" data-donate-type="tax">
+          <p class="btn-text">{{ page.donate-cta-3 }}</p>
+          <p class="btn-text">{{ page.donate-cta-3-hide }}</p>
+        </button>
       </div>
-      <h3 class="home-donate_title">
-        {{ page.donate-title-3 }}
-      </h3>
-      <div class="home-donate_text">
-        <p>{{ page.donate-text-3 }}</p>
-        <ul class="home-donate_text-details home-donate_text-details--hidden" data-donate-field="tax">
-          <li>{{ page.donate-name }}</li>
-          <li>{{ page.donate-nip }}</li>
-          <li>{{ page.donate-regon }}</li>
-          <li>{{ page.donate-krs }}</li>
-        </ul>
-      </div>
-      <button class="btn btn-small btn-white" data-donate="button" data-donate-type="tax">
-        <p class="btn-text">{{ page.donate-cta-3 }}</p>
-        <p class="btn-text">{{ page.donate-cta-3-hide }}</p>
-      </button>
-    </li>
-    <li class="home-donate_item">
-      <div class="home-donate_icon home-donate_icon--zooplus">
-        <img src="{{ page.donate-img-4 }}" alt="{{ page.donate-img-alt }}"/>
-      </div>
-      <h3 class="home-donate_title">
-        {{ page.donate-title-4 }}
-      </h3>
-      <p class="home-donate_text">
-        {{ page.donate-text-4 }}
-      </p>
-      <a class="btn btn-small btn-white" href="{{ page.donate-link-4 }}" target="_blank">
-        {{ page.donate-cta-4 }}
-      </a>
     </li>
   </ul>
 </div>

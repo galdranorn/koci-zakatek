@@ -13,18 +13,23 @@
   }
 
   &_icon {
-    width: 170px;
+    text-align: center;
 
     img {
-      width: 100%;
+      width: 170px;
     }
   }
 
   &_item {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+
+    &:last-of-type {
+      margin-bottom: 50px;
+    }
   }
 
   &_title {
+    text-align: center;
     font-size: 24px;
     line-height: 36px;
     font-weight: $font-weight-normal;
@@ -32,7 +37,7 @@
 
   &_text {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 26px;
     font-weight: $font-weight-light;
@@ -71,6 +76,7 @@
     box-sizing: border-box;
     width: 230px;
     height: 40px;
+    margin: 0 auto;
     text-align: center;
     border: none;
     overflow: hidden;
@@ -97,56 +103,63 @@
 
 @media (min-width: $breakpoint-sm) {
   .home-donate {
-    &_list {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    &_item {
-      box-sizing: border-box;
-      width: 50%;
-      margin-top: 50px;
-      padding-right: 25px;
-    }
-
-    &_title {
-      height: 40px;
-    }
-
-    &_icon {
-      width: 130px;
-      height: 130px;
-
-      &--paypal {
-        width: 180px;
-      }
-
-      &--zooplus {
-        position: relative;
-        top: -30px;
-        width: 170px;
-      }
+    &_title, &_icon {
+      text-align: left;
     }
 
     &_text {
-      max-width: 340px;
-      height: 170px;
-      margin-bottom: 50px;
+      max-width: 500px;
+    }
+
+    .btn {
+      margin: 0;
     }
   }
 }
 
 @media (min-width: $breakpoint-md) {
   .home-donate {
-    padding: 100px 80px;
+    padding: 100px 80px 130px;
 
     &_header {
       font-size: 48px;
       line-height: 60px;
     }
 
-    &_text {
-      height: 130px;
+    &_list {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: stretch;
+    }
+
+    &_item {
+      box-sizing: border-box;
+      width: 33.3%;
+      margin-top: 20px;
+      padding-right: 25px;
+
+      &-wrapper {
+        position: relative;
+        max-width: 350px;
+        height: 100%;
+      }
+
+      &:last-of-type {
+        margin-bottom: 80px;
+      }
+    }
+
+    &_title {
+      height: 70px;
+    }
+
+    .btn {
+      position: absolute;
+      bottom: -50px;
+      left: 50%;
+      width: 200px;
+      transform: translateX(-50%);
+      font-size: 14px;
     }
   }
 }
@@ -158,28 +171,30 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    &_list {
-      flex-wrap: nowrap;
-    }
-
-    &_item {
-      width: 25%;
+    &_icon {
+      text-align: center;
     }
 
     &_title {
       margin: 40px 0;
+      height: auto;
+      text-align: center;
     }
 
-    &_text {
-      max-width: 220px;
-      height: 160px;
+    .btn {
+      width: 230px;
+      font-size: 16px;
     }
   }
 }
 
 @media (min-width: $breakpoint-xl) {
-  .home-donate_header {
-    font-size: 60px;
-    line-height: 80px;
+  .home-donate {
+    padding-right: 0;
+
+    &_header {
+      font-size: 60px;
+      line-height: 80px;
+    }
   }
 }
