@@ -35,7 +35,7 @@ meet-us_platform-img : /assets/home/safp.png
 meet-us_platform-img_alt : logo organizacji
 facebook-header: Śledź nasze działania na Facebooku
 facebook-text: Znajdziesz tam wszystkie informacje o ostatnich wydarzeniach w Kocim Zakątku.
-facebook-logo: /assets/home/facebook.jpg
+facebook-logo: /assets/home/facebook.png
 facebook-logo_alt: ikona facebooka
 facebook-img_alt: zdjęcie posta
 actions-header: Nasze działania

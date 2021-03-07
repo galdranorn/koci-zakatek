@@ -47,6 +47,7 @@
         height: 100%;
         background-size: cover;
         background-position: 50% 50%;
+        border-radius: 8px;
       }
     }
   }
@@ -104,6 +105,7 @@
     &_feed {
     display: flex;
     flex-flow: row nowrap;
+    padding: 0 15px 0 80px;
 
       &-icon, &-post {
         opacity: .9;
@@ -133,6 +135,12 @@
         height: calc(0.18 * 100vw);
       }
     }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .home-facebook_feed {
+    padding-right: 30px;
   }
 }
 
