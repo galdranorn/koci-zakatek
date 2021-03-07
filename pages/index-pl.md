@@ -8,17 +8,17 @@ language: pl
 name: Fundacja Koci Zakątek
 logo-alt: logo fundacji
 menu-1: Kim jesteśmy
-menu-link-1: '#01'
+menu-link-1: '#about'
 menu-2: Adopcje
-menu-link-2: '#02'
+menu-link-2: '#adoptions'
 menu-3: Jak pomóc
-menu-link-3: '#03'
+menu-link-3: '#help'
 menu-4: Koty we Wrocławiu
-menu-link-4: '#04'
+menu-link-4: '#wroclove'
 menu-5: Metamorfozy
-menu-link-5: '#05'
+menu-link-5: '#metamorphosis'
 menu-6: FAQ
-menu-link-6: '#06'
+menu-link-6: '#faq'
 menu-7: Kontakt
 menu-link-7: '#footer'
 meet-us_text: Poznaj nas bliżej
