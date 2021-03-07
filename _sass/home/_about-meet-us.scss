@@ -68,7 +68,7 @@
       padding: 0 20px;
 
       img {
-        border-radius: 8px;
+        border-radius: 30px;
       }
     }
   }
@@ -89,7 +89,7 @@
 
 @media (min-width: $breakpoint-md) {
   .home-meetus {
-    margin-top: 100px;
+    margin-top: 140px;
     margin-bottom: 100px;
 
     &_text {
@@ -117,7 +117,7 @@
   .home-meetus {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     overflow: hidden;
 
@@ -129,9 +129,14 @@
     &_text {
       max-width: 630px;
       padding-right: 0;
+
+      &-header {
+        margin-top: 0;
+      }
     }
 
     &_image {
+      margin-top: 0;
       padding: 0 25px;
     }
   }
