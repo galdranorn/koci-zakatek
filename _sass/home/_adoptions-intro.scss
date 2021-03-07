@@ -58,7 +58,6 @@
 
 @media (min-width: $breakpoint-md) {
   .home-adoptions {
-    margin-top: 130px;
     margin-bottom: 50px;
 
     &_text {
@@ -84,6 +83,7 @@
     align-items: flex-start;
     justify-content: space-between;
     overflow: hidden;
+    padding-top: 90px;
 
     &_text, &_image {
       box-sizing: border-box;

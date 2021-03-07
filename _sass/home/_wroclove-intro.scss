@@ -1,5 +1,5 @@
 .home-wroclove {
-  margin-top: 50px;
+  padding-top: 25px;
   margin-bottom: -10px;
 
   &_text {
@@ -79,7 +79,7 @@
 
 @media (min-width: $breakpoint-md) {
   .home-wroclove {
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 100px;
 
     &_text {
@@ -133,7 +133,8 @@
 
 @media (min-width: $breakpoint-xl) {
   .home-wroclove {
-    margin: 150px 0;
+    padding-top: 120px;
+    margin-bottom: 150px;
 
     &_text {
       &-header {

@@ -1,5 +1,5 @@
 .home-meetus {
-  margin-top: 50px;
+  padding-top: 25px;
   margin-bottom: 50px;
 
   &_text {
@@ -89,7 +89,6 @@
 
 @media (min-width: $breakpoint-md) {
   .home-meetus {
-    margin-top: 140px;
     margin-bottom: 100px;
 
     &_text {
@@ -120,6 +119,7 @@
     align-items: flex-start;
     justify-content: space-between;
     overflow: hidden;
+    padding-top: 120px;
 
     &_text, &_image {
       box-sizing: border-box;
