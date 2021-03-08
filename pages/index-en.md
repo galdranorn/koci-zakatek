@@ -8,36 +8,36 @@ language: en
 name: Koci Zakątek Foundation
 logo-alt: foundation logo
 menu-1: About us
-menu-link-1: '#01'
+menu-link-1: '#about'
 menu-2: Adoptions
-menu-link-2: '#02'
+menu-link-2: '#adoptions'
 menu-3: How to help
-menu-link-3: '#03'
+menu-link-3: '#help'
 menu-4: Cats in Wroclaw
-menu-link-4: '#04'
+menu-link-4: '#wroclove'
 menu-5: Metamorphosis
-menu-link-5: '#05'
+menu-link-5: '#metamorphosis'
 menu-6: FAQ
-menu-link-6: '#06'
+menu-link-6: '#faq'
 menu-7: Contact
 menu-link-7: '#footer'
 meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
-meet-us_img-alt : zdjęcie kotów z fundacji
+meet-us_img-alt : photo of foundation cats
 meet-us_foundation: >-
-  Fundacja Koci Zakątek powstała w 2009 roku (jako Fundacja EBRA). Celem
-  statutowym Fundacji jest udzielanie pomocy <strong>chorym, krzywdzonym, porzuconym
-  zwierzętom</strong>. Szczególną opieką otaczamy koty.
+  The Koci Zakątek Foundation was established in 2009 (as the EBRA Foundation).
+  The primary goal of the Foundation is to help <strong>sick, injured and abandoned
+  animals</strong>. In particular, we focus on taking special care of cats.
 meet-us_platform: >-
-  Jesteśmy członkiem holenderskiej organizacji parasolowej Animal Foundation
-  Platform, zrzeszającej organizacje prozwierzęce z całego świata.
+  We are a member of the Dutch umbrella organization Animal Foundation Platform,
+  uniting animal organizations from around the world.
 meet-us_platform-img : /assets/home/safp.png
-meet-us_platform-img_alt : logo organizacji
-facebook-header: Śledź nasze działania na Facebooku
+meet-us_platform-img_alt : organization logo
+facebook-header: Follow us on Facebook
 facebook-text: Znajdziesz tam wszystkie informacje o ostatnich wydarzeniach w Kocim Zakątku.
 facebook-logo: /assets/home/facebook.png
-facebook-logo_alt: ikona facebooka
-facebook-img_alt: zdjęcie posta
+facebook-logo_alt: facebook icon
+facebook-img_alt: post photo
 actions-header: Nasze działania
 actions-img_alt: ikona
 actions-img1: /assets/home/action-control.png

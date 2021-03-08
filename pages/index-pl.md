@@ -54,14 +54,16 @@ action-title4: Edukujemy
 action-text4: Walczymy z krzywdzącymi stereotypami na temat kotów, wzywamy do tolerancji i mądrej opieki
 action-cta: Dowiedz się więcej o fundacji
 action-link: /fundacja
-adoptions-title: Adopcje
+adoptions-title: Adoptions
 adoptions-text: >-
-  Zanim oddamy Ci kota, chcemy Cię poznać - postaraj się to zrozumieć. Ratowanie kotów kosztuje
-  nas wiele czasu, emocji, nie mówiąc o finansach. Dlatego chcemy mieć jak największą pewność,
-  że w swoim stałym domu kot będzie <strong>bezpieczny i odpowiednio zaopiekowany</strong>.
+  Prior to adopting a cat from our foundation we would like to get to know you better. 
+  Please see it from our perspective. Rescuing cats involves a lot of time, emotions, not 
+  to mention expense. It is our responsibility to ensure the best possible match between 
+  the potential adopting family and our cats accounting <strong>for their safety and level 
+  of care</strong>.
 adoptions-image: /assets/home/adoptions.jpg
-adoptions-alt:  zdjęcie kota w klatce
-adoptions-header-1: Proces adopcyjny
+adoptions-alt:  photo of cat in cage
+adoptions-header-1: Adoption process
 adoptions-cta-1: Dowiedz się więcej o adopcji
 adoptions-link-1: /adopcje
 adoptions-header-2: Koty do adopcji
@@ -102,7 +104,7 @@ adopt-step-5-text: >-
   zostało ustalone w poprzednich etapach.
 adopt-step-5-image: /assets/home/process5.png
 adopt-step-5-alt: ikona z dokumentem i długopisem
-adoptions-slug: kot do adopcji
+adoptions-slug: cat to adoption
 adoptions-gender: Płeć
 adoptions-age: Wiek
 adoptions-fertility: Sterylizacja
