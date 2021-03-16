@@ -8,7 +8,6 @@ permalink: /koty-we-wroclawiu
 section: wroclove
 language: pl
 header: Koty we Wrocławiu
-
 home-url: /
 logo-alt: logo fundacji
 menu-1: Kim jesteśmy
@@ -25,7 +24,7 @@ menu-6: FAQ
 menu-link-6: '/faq'
 menu-7: Kontakt
 menu-link-7: '#footer'
-
+switcher-link: '/en/cats-in-wroclaw'
 duty-header: Obowiązek opieki
 duty-subheader-1: Ustawa o ochronie zwierząt
 duty-act-1: >-

@@ -21,6 +21,7 @@ menu-6: FAQ
 menu-link-6: '#faq'
 menu-7: Contact
 menu-link-7: '#footer'
+switcher-link: '/'
 meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : photo of foundation cats

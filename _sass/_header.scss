@@ -83,15 +83,46 @@
       text-decoration: none;
       color: $color-white;
     }
+
+    &_switch {
+      display: flex;
+      position: absolute;
+      top: 22px;
+      right: 20px;
+      opacity: .15;
+      text-decoration: none;
+      border: 1px solid $color-white;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: $color-white;
+        border-radius: 20px;
+        transition: $transition;
+      }
+
+      &--en .header-nav_switch-text--en,
+      &--pl .header-nav_switch-text--pl { 
+        background-color: $color-white;
+        color: $color-main;
+      }
+    }
   }
 }
 
-@media (min-width: $breakpoint-md) {
+@media (min-width: $breakpoint-lg) {
   .header-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
@@ -101,23 +132,25 @@
     }
 
     &_logo {
+      width: 190px;
       margin: 0;
+      margin-right: 10px;
     }
 
     &_list {
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: flex-end;
       position: relative;
       top: 0;
       transform: none;
-      width: auto;
+      width: 100%;
       margin: 0;
       padding-bottom: 0;
     }
 
     &_item-link {
       position: relative;
-      padding: 45px 7px;
+      padding: 45px 12px;
       font-size: 14px;
       transition: $transition;
 
@@ -141,18 +174,40 @@
         }
       }
     }
+
+    &_switch {
+      align-self: flex-start;
+      position: relative;
+      top: 10px;
+      right: 0;
+      opacity: 0.12;
+
+      &-text {
+        width: 25px;
+        height: 25px;
+        font-size: 11px;
+      }
+    }
   }
 }
 
-@media (min-width: $breakpoint-lg) {
+@media (min-width: $breakpoint-xl) {
   .header-nav {
-    &_logo {
-      width: 150px;
-    }
-
     &_item-link {
       padding: 55px 15px;
       font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-4k) {
+  .header-nav {
+    &_list {
+      margin-right: -55px;
+    }
+
+    &_switch {
+      right: -55px;
     }
   }
 }

@@ -21,6 +21,7 @@ menu-6: FAQ
 menu-link-6: '#faq'
 menu-7: Kontakt
 menu-link-7: '#footer'
+switcher-link: '/en'
 meet-us_text: Poznaj nas bliżej
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : zdjęcie kotów z fundacji

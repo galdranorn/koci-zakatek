@@ -8,7 +8,6 @@ permalink: /en/cats-in-wroclaw
 section: wroclove
 language: en
 header: Cats in Wroclaw
-
 home-url: /
 logo-alt: logo fundacji
 menu-1: About us
@@ -25,7 +24,7 @@ menu-6: FAQ
 menu-link-6: '/faq'
 menu-7: Contact
 menu-link-7: '#footer'
-
+switcher-link: '/koty-we-wroclawiu'
 duty-header: Duty of care
 duty-subheader-1: Animal Protection Act
 duty-act-1: >-

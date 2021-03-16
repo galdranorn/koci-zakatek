@@ -3,7 +3,7 @@
   <nav class="header-nav">
     <div class="header-nav_icon">
       <div id="navTrigger" class="header-nav_icon-wrapper">
-        <span class="icon icon-cross"data-function="close"></span>
+        <span class="icon icon-cross" data-function="close"></span>
         <span class="icon icon-menu" data-function="open"></span>
       </div>
     </div>
@@ -47,6 +47,13 @@
         </a>
       </li>
     </ul>
+    <a 
+      href="{{ page.switcher-link }}" 
+      class="header-nav_switch header-nav_switch--{{ page.language }}"
+    >
+      <span class="header-nav_switch-text header-nav_switch-text--pl">pl</span>
+      <span class="header-nav_switch-text header-nav_switch-text--en">en</span>
+    </a>
   </nav>
 </header>
 
