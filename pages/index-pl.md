@@ -42,17 +42,17 @@ facebook-img_alt: zdjęcie posta
 actions-header: Nasze działania
 actions-img_alt: ikona
 actions-img1: /assets/home/action-control.png
-action-title1: Kontrolujemy
+action-title1: Sterylizujemy
 action-text1: Ograniczamy populację kotów wolno żyjących metodą tnr (trap-neuter-release)
 actions-img2: /assets/home/action-cure.png
-action-title2: Leczymy
-action-text2: W tym ofiary wypadków, agresji człowieka, długoletnio niesterylizowane i nieleczone
+action-title2: Leczymy  
+action-text2: Ofiary wypadków, choroby wirusowe, przewlekłe i inne
 actions-img3: /assets/home/action-home.png
 action-title3: Szukamy domów
-action-text3: Znajdujemy odpowiedzialnych właścicieli dla średnio ok. 200 kotów rocznie
+action-text3: Znajdujemy odpowiedzialnych opiekunów dla średnio ok. 200 kotów rocznie
 actions-img4: /assets/home/action-education.png
 action-title4: Edukujemy
-action-text4: Walczymy z krzywdzącymi stereotypami na temat kotów, wzywamy do tolerancji i mądrej opieki
+action-text4: Walczymy ze stereotypami, namawiamy do tolerancji i mądrej opieki
 action-cta: Dowiedz się więcej o fundacji
 action-link: /fundacja
 adoptions-title: Adopcje
