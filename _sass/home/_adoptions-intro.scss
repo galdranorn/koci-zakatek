@@ -6,6 +6,7 @@
     padding: 0 20px;
 
     &-header {
+      margin-top: 0;
       font-size: 32px;
       line-height: 48px;
       font-weight: $font-weight-extrabold;
@@ -43,7 +44,7 @@
       padding: 0 20px;
 
       img {
-        border-radius: 8px;
+        border-radius: 30px;
       }
     }
   }
@@ -57,7 +58,6 @@
 
 @media (min-width: $breakpoint-md) {
   .home-adoptions {
-    margin-top: 100px;
     margin-bottom: 50px;
 
     &_text {
@@ -83,6 +83,7 @@
     align-items: flex-start;
     justify-content: space-between;
     overflow: hidden;
+    padding-top: 90px;
 
     &_text, &_image {
       box-sizing: border-box;

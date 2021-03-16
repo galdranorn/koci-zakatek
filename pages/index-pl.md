@@ -8,19 +8,20 @@ language: pl
 name: Fundacja Koci Zakątek
 logo-alt: logo fundacji
 menu-1: Kim jesteśmy
-menu-link-1: '#01'
+menu-link-1: '#about'
 menu-2: Adopcje
-menu-link-2: '#02'
+menu-link-2: '#adoptions'
 menu-3: Jak pomóc
-menu-link-3: '#03'
+menu-link-3: '#help'
 menu-4: Koty we Wrocławiu
-menu-link-4: '#04'
+menu-link-4: '#wroclove'
 menu-5: Metamorfozy
-menu-link-5: '#05'
+menu-link-5: '#metamorphosis'
 menu-6: FAQ
-menu-link-6: '#06'
+menu-link-6: '#faq'
 menu-7: Kontakt
 menu-link-7: '#footer'
+switcher-link: '/en'
 meet-us_text: Poznaj nas bliżej
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : zdjęcie kotów z fundacji
@@ -41,17 +42,17 @@ facebook-img_alt: zdjęcie posta
 actions-header: Nasze działania
 actions-img_alt: ikona
 actions-img1: /assets/home/action-control.png
-action-title1: Kontrolujemy
+action-title1: Sterylizujemy
 action-text1: Ograniczamy populację kotów wolno żyjących metodą tnr (trap-neuter-release)
 actions-img2: /assets/home/action-cure.png
-action-title2: Leczymy
-action-text2: W tym ofiary wypadków, agresji człowieka, długoletnio niesterylizowane i nieleczone
+action-title2: Leczymy  
+action-text2: Ofiary wypadków, choroby wirusowe, przewlekłe i inne
 actions-img3: /assets/home/action-home.png
 action-title3: Szukamy domów
-action-text3: Znajdujemy odpowiedzialnych właścicieli dla średnio ok. 200 kotów rocznie
+action-text3: Znajdujemy odpowiedzialnych opiekunów dla średnio ok. 200 kotów rocznie
 actions-img4: /assets/home/action-education.png
 action-title4: Edukujemy
-action-text4: Walczymy z krzywdzącymi stereotypami na temat kotów, wzywamy do tolerancji i mądrej opieki
+action-text4: Walczymy ze stereotypami, namawiamy do tolerancji i mądrej opieki
 action-cta: Dowiedz się więcej o fundacji
 action-link: /fundacja
 adoptions-title: Adopcje
@@ -102,7 +103,7 @@ adopt-step-5-text: >-
   zostało ustalone w poprzednich etapach.
 adopt-step-5-image: /assets/home/process5.png
 adopt-step-5-alt: ikona z dokumentem i długopisem
-adoptions-slug: kot do adopcji
+adoptions-slug: cat to adoption
 adoptions-gender: Płeć
 adoptions-age: Wiek
 adoptions-fertility: Sterylizacja

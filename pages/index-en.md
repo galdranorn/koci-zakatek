@@ -8,36 +8,37 @@ language: en
 name: Koci Zakątek Foundation
 logo-alt: foundation logo
 menu-1: About us
-menu-link-1: '#01'
+menu-link-1: '#about'
 menu-2: Adoptions
-menu-link-2: '#02'
+menu-link-2: '#adoptions'
 menu-3: How to help
-menu-link-3: '#03'
+menu-link-3: '#help'
 menu-4: Cats in Wroclaw
-menu-link-4: '#04'
+menu-link-4: '#wroclove'
 menu-5: Metamorphosis
-menu-link-5: '#05'
+menu-link-5: '#metamorphosis'
 menu-6: FAQ
-menu-link-6: '#06'
+menu-link-6: '#faq'
 menu-7: Contact
 menu-link-7: '#footer'
+switcher-link: '/'
 meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
-meet-us_img-alt : zdjęcie kotów z fundacji
+meet-us_img-alt : photo of foundation cats
 meet-us_foundation: >-
-  Fundacja Koci Zakątek powstała w 2009 roku (jako Fundacja EBRA). Celem
-  statutowym Fundacji jest udzielanie pomocy <strong>chorym, krzywdzonym, porzuconym
-  zwierzętom</strong>. Szczególną opieką otaczamy koty.
+  The Koci Zakątek Foundation was established in 2009 (as the EBRA Foundation).
+  The primary goal of the Foundation is to help <strong>sick, injured and abandoned
+  animals</strong>. In particular, we focus on taking special care of cats.
 meet-us_platform: >-
-  Jesteśmy członkiem holenderskiej organizacji parasolowej Animal Foundation
-  Platform, zrzeszającej organizacje prozwierzęce z całego świata.
+  We are a member of the Dutch umbrella organization Animal Foundation Platform,
+  uniting animal organizations from around the world.
 meet-us_platform-img : /assets/home/safp.png
-meet-us_platform-img_alt : logo organizacji
-facebook-header: Śledź nasze działania na Facebooku
+meet-us_platform-img_alt : organization logo
+facebook-header: Follow us on Facebook
 facebook-text: Znajdziesz tam wszystkie informacje o ostatnich wydarzeniach w Kocim Zakątku.
 facebook-logo: /assets/home/facebook.png
-facebook-logo_alt: ikona facebooka
-facebook-img_alt: zdjęcie posta
+facebook-logo_alt: facebook icon
+facebook-img_alt: post photo
 actions-header: Nasze działania
 actions-img_alt: ikona
 actions-img1: /assets/home/action-control.png
@@ -54,14 +55,16 @@ action-title4: Edukujemy
 action-text4: Walczymy z krzywdzącymi stereotypami na temat kotów, wzywamy do tolerancji i mądrej opieki
 action-cta: Dowiedz się więcej o fundacji
 action-link: /fundacja
-adoptions-title: Adopcje
+adoptions-title: Adoptions
 adoptions-text: >-
-  Zanim oddamy Ci kota, chcemy Cię poznać - postaraj się to zrozumieć. Ratowanie kotów kosztuje
-  nas wiele czasu, emocji, nie mówiąc o finansach. Dlatego chcemy mieć jak największą pewność,
-  że w swoim stałym domu kot będzie <strong>bezpieczny i odpowiednio zaopiekowany</strong>.
+  Prior to adopting a cat from our foundation we would like to get to know you better. 
+  Please see it from our perspective. Rescuing cats involves a lot of time, emotions, not 
+  to mention expense. It is our responsibility to ensure the best possible match between 
+  the potential adopting family and our cats accounting <strong>for their safety and level 
+  of care</strong>.
 adoptions-image: /assets/home/adoptions.jpg
-adoptions-alt:  zdjęcie kota w klatce
-adoptions-header-1: Proces adopcyjny
+adoptions-alt:  photo of cat in cage
+adoptions-header-1: Adoption process
 adoptions-cta-1: Dowiedz się więcej o adopcji
 adoptions-link-1: /adopcje
 adoptions-header-2: Koty do adopcji
