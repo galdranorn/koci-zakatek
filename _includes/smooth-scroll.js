@@ -1,5 +1,4 @@
 const navLinks = document.querySelectorAll('[data-nav-link]');
-console.log(navLinks)
  
 smoothScroll = (e) => {
   e.preventDefault();

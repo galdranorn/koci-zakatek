@@ -1,0 +1,50 @@
+<div class="home-carousel">
+  <ul class="home-carousel_tabs" carousel>
+    <li class="home-carousel_tabs-tab active" tab tab-active data-tab-index="0">
+      <a class="home-carousel_tabs-tab_link" href="#">
+        <picture>
+          <source media="(max-width: 1023px)" srcset="/assets/home/carousel-allegro-mobile.jpeg" alt="allegro" />
+          <img class="home-carousel_image" src="/assets/home/carousel-allegro.jpeg" alt="allegro" />
+        </picture>
+      </a>
+    </li>
+    <li class="home-carousel_tabs-tab" tab data-tab-index="1">
+      <a class="home-carousel_tabs-tab_link" href="#">
+        <picture>
+          <source media="(max-width: 1023px)" srcset="/assets/home/carousel-zooplus-mobile.jpeg" alt="allegro" />
+          <img class="home-carousel_image" src="/assets/home/carousel-zooplus.jpeg" alt="allegro" />
+        </picture>
+      </a>
+    </li>
+    <li class="home-carousel_tabs-tab" tab data-tab-index="2">
+      <a class="home-carousel_tabs-tab_link" href="#">
+        <picture>
+          <source media="(max-width: 1023px)" srcset="/assets/home/carousel-dlaschroniska-mobile.jpeg" alt="allegro" />
+          <img class="home-carousel_image" src="/assets/home/carousel-dlaschroniska.jpeg" alt="allegro" />
+        </picture>
+      </a>
+    </li>
+    <li class="home-carousel_tabs-tab" tab data-tab-index="3">
+      <a class="home-carousel_tabs-tab_link" href="#">
+        <picture>
+          <source media="(max-width: 1023px)" srcset="/assets/home/carousel-fanimani-mobile.jpeg" alt="allegro" />
+          <img class="home-carousel_image" src="/assets/home/carousel-fanimani.jpeg" alt="allegro" />
+        </picture>
+      </a>
+    </li>
+  </ul>
+  <div class="home-carousel_dots" bars>
+    <div class="home-carousel_dots-item active" bar bar-active data-bar-index="0"></div>
+    <div class="home-carousel_dots-item" bar data-bar-index="1"></div>
+    <div class="home-carousel_dots-item" bar data-bar-index="2"></div>
+    <div class="home-carousel_dots-item" bar data-bar-index="3"></div>
+  </div>
+  <div class="home-carousel_nav" data-carousel="nav">
+    <div class="icon icon-chevron-left home-carousel_nav-item disabled" nav-item nav-disabled data-nav="prev"></div>
+    <div class="icon icon-chevron-right home-carousel_nav-item" nav-item data-nav="next"></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  {% include home/carousel.js %}
+</script>
