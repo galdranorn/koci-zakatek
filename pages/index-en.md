@@ -272,4 +272,6 @@ metamorphosis-text-4: >-
   determines, based on symptoms and behavioral changes, that Pimpek needs to be helped with dignity
   to pass away, <span>we want him to experience the care and love</span> that was missing in his previous life
   for so long.
+metamorphosis-btn: More happy stories
+metamorphosis-btn-link: /en/happy-stories
 ---

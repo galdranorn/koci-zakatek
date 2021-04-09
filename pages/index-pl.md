@@ -262,4 +262,6 @@ metamorphosis-text-4: >-
   Niestety naszą radość zmąciło zmniejszenie apetytu. Gdy wszystko tak pięknie zaczęło się mu układać, badania
   pokazały, że Pimpuś cierpi na chłoniaka :( Jednak ma ogromną wolę życia i przy pomocy leków utrzymujemy jego dobre samopoczucie. Dopóki lekarz nie stwierdzi na podstawie objawów i zmian w zachowaniu, że trzeba mu pomóc godnie
   odejść, <span>chcemy, aby zaznał jeszcze opieki i miłości</span>, jakiej zabrakło w jego wcześniejszym życiu.
+metamorphosis-btn: Więcej szczęśliwych historii
+metamorphosis-btn-link: /szczesliwe-historie
 ---
