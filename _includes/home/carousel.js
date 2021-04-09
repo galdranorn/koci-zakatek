@@ -1,14 +1,14 @@
 window.addEventListener('load', () => {
   const $wrapper = document.querySelector('[carousel]');
-  const $tabs = document.querySelector('[tab]');
-  const $barsWrapper = document.querySelector('[bars]')
-  const $bars = document.querySelector('[bar]');
+  const $barsWrapper = document.querySelector('[bars]');
+  const $navPrev = document.querySelector('[nav-prev]');
+  const $navNext = document.querySelector('[nav-next]');
 
   let carouselState = {};
 
   const setState = () => {
     carouselState = {
-      index: document.querySelector('[tab-active]').dataset.tabIndex,
+      index: parseInt(document.querySelector('[tab-active]').dataset.tabIndex),
       activeTab: document.querySelector('[tab-active]'),
       activeBar: document.querySelector('[bar-active]'),
       windowWidth: window.innerWidth
@@ -40,21 +40,45 @@ window.addEventListener('load', () => {
     newActiveTab.setAttribute('tab-active', '');
   };
 
+  const updateNav = (target) => {
+    $navPrev.classList.remove('disabled');
+    $navNext.classList.remove('disabled');
+
+    if (target == 0) {
+      $navPrev.classList.add('disabled');
+    } else if (target == 3) {
+      $navNext.classList.add('disabled');
+    }
+  };
+
   const carousel = (target) => {
     setState();
     goToSlide(target);
     updateTabs(target);
     updateBars(target);
+    updateNav(target);
   };
 
   $wrapper.addEventListener('click', (e) => {
     const targetIndex = e.target.dataset.tabIndex;
-    if (targetIndex) { carousel(targetIndex); }
+    if (targetIndex) carousel(targetIndex);
   });
 
   $barsWrapper.addEventListener('click', (e) => {
     const targetIndex = e.target.dataset.barIndex;
-    if (targetIndex) { carousel(targetIndex); }
+    if (targetIndex) carousel(targetIndex);
+  });
+
+  $navPrev.addEventListener('click', () => {
+    setState();
+    const targetIndex = carouselState.index - 1;
+    if (targetIndex >= 0) carousel(targetIndex);
+  });
+
+  $navNext.addEventListener('click', () => {
+    setState();
+    const targetIndex = carouselState.index + 1;
+    if (targetIndex < 4) carousel(targetIndex);
   });
 
 }, { passive: true })

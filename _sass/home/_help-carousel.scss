@@ -1,7 +1,10 @@
 .home-carousel {
   box-sizing: border-box;
   width: 100vw;
-  padding: 50px 0;
+
+  &_wrapper {
+    padding: 50px 0;
+  }
 
   &_tabs {
     display: flex;
@@ -56,8 +59,9 @@
       opacity: .2;
       transition: opacity .2s;
       will-change: opacity;
+      cursor: pointer;
 
-      &.active {
+      &.active, &:hover {
         opacity: 1;
       }
     }
@@ -71,8 +75,10 @@
 
 @media (min-width: $breakpoint-xs) {
   .home-carousel {
-    padding: 90px 0;
-
+    &_wrapper {
+      padding: 90px 0;
+    }
+    
     &_tabs {
       width: 320%;
       padding: 0 25px;
@@ -120,11 +126,15 @@
 
 @media (min-width: $breakpoint-lg) {
   .home-carousel {
-    width: calc(100vw - 200px);
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 100px 0 80px;
-    overflow: hidden;
+    position: relative;
+
+    &_wrapper {
+      width: calc(100vw - 200px);
+      max-width: 1130px;
+      margin: 0 auto;
+      padding: 100px 0 80px;
+      overflow: hidden;
+    }
 
     &_tabs {
       width: 400%;
@@ -145,11 +155,50 @@
       &.pos3 { transform: translateX(-75%); }
     }
 
-    &_dots {
-      margin-top: 70px;
+    &_nav {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50px);
+      height: 0;
+      width: 100%;
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 0 25px;
 
-      &-item {
+      &-left, &-right {
+        padding: 25px;
         cursor: pointer;
+
+        &_arrow {
+          display: inline-block;
+          padding: 15px;
+          border: solid $color-blue;
+          border-width: 0 7px 7px 0;
+          border-radius: 0 4px;
+          opacity: 1;
+          transition: opacity .2s;
+          will-change: opacity;
+        }
+
+        &.disabled .home-carousel_nav {
+          &-left_arrow, &-right_arrow {
+            opacity: .15;
+            cursor: default;
+            pointer-events: none;
+          }
+        }
+      }
+
+      &-left_arrow {
+        transform: rotate(135deg);
+      }
+
+      &-right_arrow {
+        transform: rotate(-45deg);
       }
     }
   }
