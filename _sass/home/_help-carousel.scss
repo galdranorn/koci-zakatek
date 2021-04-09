@@ -10,7 +10,7 @@
     display: flex;
     flex-flow: row nowrap;
     transform: none;
-    width: 320vw;
+    width: 320%;
     padding: 0;
     list-style-type: none;
     transition: transform .4s;
@@ -36,9 +36,9 @@
       }
     }
 
-    &.pos1 { transform: translateX(-73vw); }
-    &.pos2 { transform: translateX(-153vw); }
-    &.pos3 { transform: translateX(-225vw); }
+    &.pos1 { transform: translateX(-23%); }
+    &.pos2 { transform: translateX(-48%); }
+    &.pos3 { transform: translateX(-70%); }
   }
 
   &_dots {
@@ -80,16 +80,11 @@
     }
     
     &_tabs {
-      width: 320%;
       padding: 0 25px;
 
       &-tab {
         padding-left: 40px;
       }
-
-      &.pos1 { transform: translateX(-23.5%); }
-      &.pos2 { transform: translateX(-48%); }
-      &.pos3 { transform: translateX(-71.5%); }
     }
 
     &_dots {
@@ -130,7 +125,7 @@
 
     &_wrapper {
       width: calc(100vw - 200px);
-      max-width: 1130px;
+      max-width: 1030px;
       margin: 0 auto;
       padding: 100px 0 80px;
       overflow: hidden;

@@ -192,4 +192,74 @@ numbers-count-4: prawie
 numbers-number-4: 100
 numbers-description-4: kotów przebywa w naszej fundacji
 metamorphosis-header: Zobacz ile można zmienić
+metamorphosis-photo-1-before: /assets/home/metamorphosis-molton-before.jpg
+metamorphosis-photo-1-after: /assets/home/metamorphosis-molton-after.jpg
+metamorphosis-name-1: Molton
+metamorphosis-text-1: >-
+  Otrzymaliśmy zgłoszenie, że w centrum miasta na terenie hurtowni ukrywa się bardzo zabiedzony kot.
+  Kiedy wolontariusze dotarli na miejsce okazało się, że zwierzę jest <span>w bardzo złym stanie</span>. 
+  Wychudzony, z licznymi ubytkami sierści. Zwieszony ogon i chód wskazywały na prawdopodobne złamania.
+  <br><br>
+  Po wielu próbach udało się odłowić kota na klatkę-pułapkę. W akcji uczestniczyli wolontariusze Kociego
+  Zakątka oraz <span>kilkoro lokalnych mieszkańców, którzy zauważyli kota i zwrócili się do nas o pomoc</span>.
+  <br><br>
+  Molton, bo tak otrzymał na imię czarny kocur, rzeczywiście okazał się połamany, prawdopodobnie na skutek
+  wypadku komunikacyjnego - miejsce, gdzie się ukrył, znajdowało się bardzo blisko dużego skrzyżowania. 
+  Ułamany u nasady ogon trzeba było amputować i wiadomo było, że kocurek <span>nie może bez
+  niego wrócić na ulicę</span>.
+  <br><br>
+  Po rekonwalescencji zrosła się miednica, Molton nabrał ciała i odzyskał chęć do życia. Trafił do domu
+  tymczasowego, w którym opiekun nie tylko potrafił go oswoić, ale i zaoferował mu dom na zawsze. Teraz
+  Molton jest pięknym puchatym kotem, który wraz z dwoma innymi kotami <span>śpi w łóżku, nadstawia
+  się do głaskania i ani nie myśli o ucieczce na dwór</span>. Bardzo lubimy takie zakończenia.&nbsp;:)
+metamorphosis-photo-2-before: /assets/home/metamorphosis-brie-before.jpg
+metamorphosis-photo-2-after: /assets/home/metamorphosis-brie-after.jpg
+metamorphosis-name-2: Brie
+metamorphosis-text-2: >-
+  Rudy kocurek trafił pod opiekę Fundacji z podwrocławskiej wsi. <span>Tragicznie wychudzony kot</span> 
+  dosłownie zaglądał od drzwi do drzwi, prosząc o pomoc. Niestety żaden z mieszkańców nie zaoferował mu pomocy 
+  i domu.  Powiadomiła nas osoba z domu z silną alergią, która sama nie mogła go zatrzymać, ale nie potrafiła
+  zostawić go na pastwę losu.
+  <br><br>
+  Kiedy trafił do Kociego Zakątka rudzielec, nazwany Brie, <span>ważył 1,5&nbsp;kilograma i miał na sobie 
+  ok.&nbsp;40 kleszczy</span>! Wyniki badań wykazały anemię, zwierzak musiał długo głodować. Na szczęście wsparty
+  odpowiednimi lekami, suplementami i dobrą dietą zaczął dochodzić do siebie. Oczywiście od początku pokazał nam,
+  że jest domowym miziakiem, spragnionym kontaktu z człowiekiem.
+  <br><br>
+  Teraz Brie <span>mieszka w swoim stałym domku i w niczym nie przypomina tego wychudzonego biedaka</span>, który był
+  na krawędzi życia i śmierci.
+metamorphosis-photo-3-before: /assets/home/metamorphosis-perelka-before.jpg
+metamorphosis-photo-3-after: /assets/home/metamorphosis-perelka-after.jpg
+metamorphosis-name-3: Perełka
+metamorphosis-text-3: >-
+  Ta małą kotka została znaleziona przez wolontariuszkę Fundacji w tragicznym stanie. Wysoka temperatura,
+  silne odczyny związane z kocim wirusem kaliciwirozy, brak apetytu. <span>Oczy zasnute ropą wydawały się
+  nie do uratowania. Weterynarz nie dawał jej dużych szans. :(</span> Jednak walczyliśmy o nią, a małą Perełka,
+  jakby rozumiejąc nasze wysiłki, zaczęła wykazywać wolę życia.
+  <br><br>
+  Leczenie czym się dało, wspomaganie odporności w końcu zaczęły przynosić rezultaty. Mała nie tylko zaczęła
+  przejawiać apetyt, ale nawet biegać i bawić się. Mało tego, udało się uratować jej oczy i tylko małe zrosty
+  po wrzodach, które nie przeszkadzają je w widzeniu świadczą o przebytej infekcji. Perełka <span>trafiła do troskliwego
+  domu i na zawsze pozostanie jednym z tych kotów, które przypominają, że nie można się poddawać</span>!
+metamorphosis-photo-4-before: /assets/home/metamorphosis-pimpek-before.jpg
+metamorphosis-photo-4-after: /assets/home/metamorphosis-pimpek-after.jpg
+metamorphosis-name-4: Pimpek
+metamorphosis-text-4: >-
+  Przypadek Pimpka to <span>jedna z najbardziej wzruszających historii</span> z Kociego Zakątka.
+  <br><br>
+  Ten ewidentnie starszy kocur trafił do nas z ulicy, na której prawdopodobnie spędził większość swojego
+  życia. Leczenie zaczęło się od urazu łapy - <span>wielka ziejąca rana, infekcja, zmiany w tkankach miękkich i na kości,
+  kot nie stawał na łapę</span>. Na szczęście po wdrożonym leczeniu zaczął pięknie się goić. Początkowo był tak przerażony,
+  że do badań i podawania leków musiały trzymać go trzy osoby i martwiliśmy się, że ten koci seniorek będzie musiał
+  wrócić na dwór...
+  <br><br>
+  Jednak zdarzył się cud - znalazła się osoba, która zaoferowała temu starszemu prychającemu obdartusowi dom tymczasowy!
+  I wkrótce nastąpił kolejny w historii naszej fundacji koci szok. Pimpek poczuł się w mieszkaniu jak przysłowiowa
+  "ryba w wodzie". Nie tylko zaczął okazywać przywiązanie do człowieka, pięknie reagować na głaski i towarzyszyć
+  opiekunce na każdym kroku. Ten kocur, który wydawało by się, najlepsze lata życia ma już za sobą, <span>zaczął bawić
+  się zabawkami, spać na poduszkach i ganiać za wędką</span>!
+  <br><br>
+  Niestety naszą radość zmąciło zmniejszenie apetytu. Gdy wszystko tak pięknie zaczęło się mu układać, badania
+  pokazały, że Pimpuś cierpi na chłoniaka :( Jednak ma ogromną wolę życia i przy pomocy leków utrzymujemy jego dobre samopoczucie. Dopóki lekarz nie stwierdzi na podstawie objawów i zmian w zachowaniu, że trzeba mu pomóc godnie
+  odejść, <span>chcemy, aby zaznał jeszcze opieki i miłości</span>, jakiej zabrakło w jego wcześniejszym życiu.
 ---
