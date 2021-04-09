@@ -194,4 +194,82 @@ numbers-count-4: prawie
 numbers-number-4: 100
 numbers-description-4: kotów przebywa w naszej fundacji
 metamorphosis-header: Zobacz ile można zmienić
+metamorphosis-photo-1-before: /assets/home/metamorphosis-molton-before.jpg
+metamorphosis-photo-1-after: /assets/home/metamorphosis-molton-after.jpg
+metamorphosis-name-1: Molton
+metamorphosis-text-1: >-
+  We received a notification that a very emaciated cat is hiding in a warehouse in the city center.
+  When the volunteers arrived, it turned out that the animal was <span>in a very bad condition</span>. 
+  He was emaciated, suffered from significant fur loss, a dangling tail and difficulty in walking
+  which indicated likely fractures.
+  <br><br>
+  After many attempts, the cat was caught in a trap cage. The rescue was attended by volunteers from
+  Cat’s Corner <span>and several local residents who noticed the cat and turned to us for help</span>.
+  <br><br>
+  Molton, as he was later named, whose hiding place was very close to a large intersection did turn out
+  to have been a victim of a traffic accident. The tail which was broken at the base had to be
+  amputated and it soon became obvious that the poor boy <span>would not be able to return to
+  a life on the street</span>.
+  <br><br>
+  With time Molton’s pelvis healed, he gained weight and regained his will to live. He ended up in 
+  a temporary home, where his guardian not only was able to tame him, but also offered him a forever
+  home. Now Molton is a beautiful fluffy cat, a member of a family who along with two other cats 
+  <span>sleeps on the bed, seeks human contact and does not think about running outside</span>.
+  We like such endings very much.&nbsp;:)
+metamorphosis-photo-2-before: /assets/home/metamorphosis-brie-before.jpg
+metamorphosis-photo-2-after: /assets/home/metamorphosis-brie-after.jpg
+metamorphosis-name-2: Brie
+metamorphosis-text-2: >-
+  The domesticated ginger cat came under the care of the Foundation from a village near Wrocław. 
+  A <span>tragically emaciated cat</span>, suffering from owner neglect, was literally begging from door to door,
+  asking for help. Unfortunately, none of the local residents offered him help or shelter. A good Samaritan,
+  who suffered from allergies and was unable to keep him, reached out to us for help.
+  <br><br>
+  When he found his way to Cat's Corner, the ginger <span>weighed 1.5&nbsp;kilograms and was covered in over
+  40&nbsp;ticks</span>! The test results showed anemia, which indicated he was severely malnourished for a long time. 
+  Fortunately, Brie as he was named, responded well to medical treatment, a healthy diet complemented with 
+  supplements. He began to recover. Of course, from the very beginning, he showed us that he is a domestic 
+  mischief, hungry for human affection.
+  <br><br>
+  Now Brie <span>lives in his permanent home and is nothing like that emaciated poor fellow</span> who was
+  on the brink of life and death.
+metamorphosis-photo-3-before: /assets/home/metamorphosis-perelka-before.jpg
+metamorphosis-photo-3-after: /assets/home/metamorphosis-perelka-after.jpg
+metamorphosis-name-3: Perełka
+metamorphosis-text-3: >-
+  This little kitten was found by a Foundation volunteer in a tragic condition. High temperature, severe
+  symptoms caused by to the feline calicivirosis virus, lack of appetite. <span>The pus-filled eyes seemed impossible
+  to save. The vet did not give her great chances</span>: however, we fought for her and this little Pearl, as if
+  understanding our efforts, began to show the will to live.
+  <br><br>
+  We tried every treatment available to boost her immunity. Finally, this little girl started to improve,
+  not only developing a healthy appetite but also an interest in active play. And on top of that we managed
+  to save her eyes, with only small surrounding scars, which do not interfere with her vision, testifying
+  to the infection. Perełka <span>went to a caring home and will forever remain one of those cats that remind us
+  that we cannot give up</span>!
+metamorphosis-photo-4-before: /assets/home/metamorphosis-pimpek-before.jpg
+metamorphosis-photo-4-after: /assets/home/metamorphosis-pimpek-after.jpg
+metamorphosis-name-4: Pimpek
+metamorphosis-text-4: >-
+  Pimpek’s case is <span>one of the most touching stories</span> from Cat's Corner.
+  <br><br>
+  This evidently older male came to us from the street where he probably spent most of his life. The treatment
+  began with a paw injury - a <span>large gaping wound, infection, soft tissue and bone damage prevented the cat
+  from using its paw</span>. Fortunately, after the implemented treatment, the paw started to heal beautifully.
+  At first, he was so scared that three people had to assist in administering drugs and conducting of tests.
+  We were concerned that this senior feline would have to go back on the street...
+  <br><br>
+  However, a miracle happened - there was a person who offered this old, snorting, ragged fellow a temporary
+  home! And soon another cat shock in the history of our foundation followed. Pimpek felt in the apartment
+  like the proverbial "fish in water". He not only started to show affection to people, reacted beautifully
+  to strokes but also was a constant companion to his new foster parent. This tomcat, which seemed to have
+  the best years of his life behind him, <span>started playing with toys, sleeping on pillows and chasing
+  a fishing rod</span>!
+  <br><br>
+  Unfortunately our joy was short lived, as he started to lose his appetite. Just as everything started
+  to go so well for him, tests showed that Pimpuś suffered from lymphoma :( However, he has a great will
+  to live and with the help of appropriate drugs, we continue to ensure his well-being. Until the doctor
+  determines, based on symptoms and behavioral changes, that Pimpek needs to be helped with dignity
+  to pass away, <span>we want him to experience the care and love</span> that was missing in his previous life
+  for so long.
 ---

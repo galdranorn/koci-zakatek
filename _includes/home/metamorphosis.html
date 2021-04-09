@@ -2,4 +2,97 @@
   <h2 class="home-metamorphosis_header">
     {{ page.metamorphosis-header }}
   </h2>
+  <div class="home-metamorphosis_carousel">
+    <div class="home-metamorphosis_carousel-wrapper">
+      <ul class="home-metamorphosis_carousel-tabs" metamorphosis>
+        <li class="home-metamorphosis_carousel-tab active" m-tab-active data-m-tab-index="0">
+          <div class="home-metamorphosis_carousel-tab_wrapper">
+            <div class="home-metamorphosis_image before" data-m-image="0" data-image-state="before">
+              <img class="home-metamorphosis_image-before" src="{{ page.metamorphosis-photo-1-before }}" alt="before photo"/>
+              <img class="home-metamorphosis_image-after" src="{{ page.metamorphosis-photo-1-after }}" alt="after photo"/>
+              <div class="home-metamorphosis_image-dots">
+                <span class="home-metamorphosis_image-dots_before"></span>
+                <span class="home-metamorphosis_image-dots_after"></span>
+              </div>
+            </div>
+            <div class="home-metamorphosis_content">
+              <h3 class="home-metamorphosis_content-header">{{ page.metamorphosis-name-1 }}</h3>
+              <p class="home-metamorphosis_content-text">{{ page.metamorphosis-text-1 }}</p>
+              <span class="home-metamorphosis_content-shadow"></span>
+            </div>
+          </div>
+        </li>
+        <li class="home-metamorphosis_carousel-tab" data-m-tab-index="1">
+          <div class="home-metamorphosis_carousel-tab_wrapper">
+            <div class="home-metamorphosis_image before" data-m-image="1" data-image-state="before">
+              <img class="home-metamorphosis_image-before" src="{{ page.metamorphosis-photo-2-before }}" alt="before photo"/>
+              <img class="home-metamorphosis_image-after" src="{{ page.metamorphosis-photo-2-after }}" alt="after photo"/>
+              <div class="home-metamorphosis_image-dots">
+                <span class="home-metamorphosis_image-dots_before"></span>
+                <span class="home-metamorphosis_image-dots_after"></span>
+              </div>
+            </div>
+            <div class="home-metamorphosis_content">
+              <h3 class="home-metamorphosis_content-header">{{ page.metamorphosis-name-2 }}</h3>
+              <p class="home-metamorphosis_content-text">{{ page.metamorphosis-text-2 }}</p>
+              <span class="home-metamorphosis_content-shadow"></span>
+            </div>
+          </div>
+        </li>
+        <li class="home-metamorphosis_carousel-tab" data-m-tab-index="2">
+          <div class="home-metamorphosis_carousel-tab_wrapper">
+            <div class="home-metamorphosis_image before" data-m-image="2" data-image-state="before">
+              <img class="home-metamorphosis_image-before" src="{{ page.metamorphosis-photo-3-before }}" alt="before photo"/>
+              <img class="home-metamorphosis_image-after" src="{{ page.metamorphosis-photo-3-after }}" alt="after photo"/>
+              <div class="home-metamorphosis_image-dots">
+                <span class="home-metamorphosis_image-dots_before"></span>
+                <span class="home-metamorphosis_image-dots_after"></span>
+              </div>
+            </div>
+            <div class="home-metamorphosis_content">
+              <h3 class="home-metamorphosis_content-header">{{ page.metamorphosis-name-3 }}</h3>
+              <p class="home-metamorphosis_content-text">{{ page.metamorphosis-text-3 }}</p>
+              <span class="home-metamorphosis_content-shadow"></span>
+            </div>
+          </div>
+        </li>
+        <li class="home-metamorphosis_carousel-tab" data-m-tab-index="3">
+          <div class="home-metamorphosis_carousel-tab_wrapper">
+            <div class="home-metamorphosis_image before" data-m-image="3" data-image-state="before">
+              <img class="home-metamorphosis_image-before" src="{{ page.metamorphosis-photo-4-before }}" alt="before photo"/>
+              <img class="home-metamorphosis_image-after" src="{{ page.metamorphosis-photo-4-after }}" alt="after photo"/>
+              <div class="home-metamorphosis_image-dots">
+                <span class="home-metamorphosis_image-dots_before"></span>
+                <span class="home-metamorphosis_image-dots_after"></span>
+              </div>
+            </div>
+            <div class="home-metamorphosis_content">
+              <h3 class="home-metamorphosis_content-header">{{ page.metamorphosis-name-4 }}</h3>
+              <p class="home-metamorphosis_content-text">{{ page.metamorphosis-text-4 }}</p>
+              <span class="home-metamorphosis_content-shadow"></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="home-metamorphosis_carousel-dots" m-bars>
+        <div class="home-metamorphosis_carousel-dots_item active" m-bar-active data-m-bar-index="0"></div>
+        <div class="home-metamorphosis_carousel-dots_item" data-m-bar-index="1"></div>
+        <div class="home-metamorphosis_carousel-dots_item" data-m-bar-index="2"></div>
+        <div class="home-metamorphosis_carousel-dots_item" data-m-bar-index="3"></div>
+      </div>
+    </div>
+    <div class="home-metamorphosis_carousel-nav">
+      <div class="home-metamorphosis_carousel-nav_left disabled" m-nav-prev>
+        <span class="home-metamorphosis_carousel-nav_left-arrow"></span>
+      </div>
+      <div class="home-metamorphosis_carousel-nav_right" m-nav-next>
+        <span class="home-metamorphosis_carousel-nav_right-arrow"></span>
+      </div>
+    </div>
+  </div>
+  
+  <script type="text/javascript">
+    {% include home/metamorphosis.js %}
+  </script>
+  
 </div>

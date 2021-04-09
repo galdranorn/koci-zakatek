@@ -89,9 +89,8 @@
       position: absolute;
       top: 22px;
       right: 20px;
-      opacity: .15;
       text-decoration: none;
-      border: 1px solid $color-white;
+      border: 1px solid $color-blue;
       border-radius: 20px;
       cursor: pointer;
 
@@ -103,15 +102,16 @@
         height: 30px;
         font-size: 12px;
         text-transform: uppercase;
-        color: $color-white;
+        color: $color-blue;
         border-radius: 20px;
         transition: $transition;
       }
 
       &--en .header-nav_switch-text--en,
       &--pl .header-nav_switch-text--pl { 
-        background-color: $color-white;
-        color: $color-main;
+        background-color: $color-blue;
+        color: $color-white;
+        box-shadow: 0 0 1px $color-blue;
       }
     }
   }
@@ -180,7 +180,6 @@
       position: relative;
       top: 10px;
       right: 0;
-      opacity: 0.12;
 
       &-text {
         width: 25px;
