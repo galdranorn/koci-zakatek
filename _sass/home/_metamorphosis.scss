@@ -108,7 +108,7 @@
       height: 280px;
       padding: 0 30px 40px 30px;
       font-size: 14px;
-      line-height: 20px;
+      line-height: 22px;
       overflow: scroll;
 
       span {
@@ -203,6 +203,12 @@
       }
     }
   }
+
+  .btn {
+    width: 240px;
+    margin: 40px auto 0;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: $breakpoint-xs) {
@@ -228,6 +234,13 @@
         padding-left: 60px;
         padding-right: 60px;
       }
+    }
+
+    .btn {
+      width: 300px;
+      margin-top: 60px;
+      text-align: center;
+      font-size: 16px;
     }
   }
 }
@@ -296,11 +309,17 @@
       &-header {
         margin-top: 0;
       }
+
+      &-text {
+        height: 320px;
+        font-size: 15px;
+        line-height: 24px;
+      }
     }
 
     &_carousel {
       width: calc(100vw - 200px);
-      max-width: 1030px;
+      max-width: 1080px;
       margin: 0 auto;
       overflow: hidden;
 
@@ -330,7 +349,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50%, -40px);
         height: 0;
         width: 100%;
         max-width: 1360px;
