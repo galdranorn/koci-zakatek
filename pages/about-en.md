@@ -43,6 +43,7 @@ about-text-3: >-
 about-text-4: >-
   Koty w mieście nie przetrwają bez wsparcia od człowieka.
   <span>Dlatego właśnie powstał Koci&nbsp;Zakątek.</span>
+people-intro: Fundację tworzą...
 people-name-1: Edyta
 people-text-1: >-
   My adventure with homeless cats began in 2009 when I picked up a sick kitten from a street.

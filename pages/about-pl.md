@@ -43,34 +43,30 @@ about-text-3: >-
 about-text-4: >-
   Koty w mieście nie przetrwają bez wsparcia od&nbsp;człowieka.
   <span>Dlatego właśnie powstał Koci&nbsp;Zakątek.</span>
+people-intro: Fundację tworzą...
 people-name-1: Edyta
 people-text-1: >-
-  Moja przygoda z bezdomniakami zaczęła się w 2009 roku od zabrania z ulicy chorego kociego malucha,
-  który na oślep, z oczami zaklejonymi ropą, spacerował między samochodami. Potem pojawiła się kocia 
-  rodzina, mieszkająca na brzegu Odry w uwłaczających warunkach. Nie mogłam przestać myśleć o tych
-  chorych, brudnych stworzeniach, żyjących w ciągłym strachu przed psami i ludźmi - dotarłam do osób
-  pomagających kotom, w tym do Iwony i udało się zabrać je wszystkie do domów. Seniorka tego stada
-  zamieszkała u mnie w domu i została moją ukochaną przyjaciółką. Łyknęłam „kociego bakcyla” 
+  Moja przygoda z bezdomniakami zaczęła się w 2009 roku od zabrania z ulicy malucha, który na oślep, 
+  z oczami zaklejonymi ropą, błądził między samochodami. Potem pojawiła się kocia rodzina, mieszkająca
+  na brzegu Odry w uwłaczających warunkach. <span>Nie mogłam przestać myśleć o tych chorych, brudnych stworzeniach,
+  żyjących w ciągłym strachu</span> - dotarłam do osób pomagających kotom i udało się zabrać je do domów. 
+  Seniorka tego stada zamieszkała u mnie i została moją ukochaną przyjaciółką. Łyknęłam „kociego bakcyla” 
   i tak to trwa do dziś.
 people-name-2: Iwona
 people-text-2: >-
-  14 lat temu w zimie znalazłam potrąconą kotkę na parkingu i od tego się zaczęło moje “kocie życie” -
-  koteczka przeżyła i została kochanym członkiem rodziny. Potem dorobiłam sie jeszcze kilku kocich
-  pociech z traumatyczną przeszłością. Zainteresował mnie los wolno żyjących kotów w naszym mieście.
-  Zajęłam się dokarmianiem, leczeniem, sterylizacją i adopcją tych pięknych zwierząt. Razem z Edytą
-  zaczęłyśmy działać w fundacji, ponieważ – mimo wielu dodatkowych obowiązków  daje to więcej możliwości
-  pomagania. Zaczynałyśmy od opieki nad kilkoma kotami, a z czasem i z pomocą innych wspaniałych ludzi
-  nasza działalność rozrosła się do ok. 200 kotów rocznie.
+  14 lat temu w zimie znalazłam potrąconą kotkę na parkingu - od tego się zaczęło moje “kocie życie”.
+  Koteczka przeżyła i została kochanym członkiem rodziny. Potem dorobiłam sie jeszcze kilku kocich
+  pociech z traumatyczną przeszłością. Zainteresował mnie los wolno żyjących kotów w naszym mieście, więc
+  zajęłam się dokarmianiem, leczeniem, sterylizacją i adopcją tych pięknych zwierząt. Zaczęłam działać 
+  w fundacji, ponieważ – <span>mimo wielu dodatkowych obowiązków daje to więcej możliwości pomagania</span>.
 people-name-3: Kasia
 people-text-3: >- 
-  O fundacji dowiedziałam się w ... roku, kiedy Iwona i Edyta prowadziły dużą akcję interwencyjną
-  i adopcyjną na terenie jednego z wrocławskich szpitali. Byłam wtedy świeżo po stracie jednej z moich
-  dwóch ukochanych kotek... pomyślałam, że uratuję chociaż jedno kocie istnienie. Adoptowałam jedną
-  z kocic, które trzeba było stamtąd zabrać. Początkowo całkowicie nieufna kotka z czasem zaczęła robić
-  postępy w kontakcie, a ja zdałam sobie sprawę, jak wspaniałe i fascynujące jest towarzyszenie kotu
-  w tej drodze. Potem napotkałam kocią mamę z dwoma pokoleniami dzieci i postanowiłam im pomóc.
-  Z pomocą fundacji udalo się wszystkim znaleźć domy. Każdy dom dla kota to jedno uratowane życie,
-  dlatego zajmuję się tym do dziś.
+  O fundacji dowiedziałam się podczas dużej akcji interwencyjnej i adopcyjnej we wrocławskim szpitalu. Będąc 
+  wtedy świeżo po stracie ukochanej kotki, pomyślałam, że uratuję chociaż jedno kocie istnienie. Adoptowałam 
+  kotkę, którą trzeba było stamtąd zabrać. Całkowicie nieufna, z czasem zaczęła robić postępy, a ja zobaczyłam, 
+  jak wspaniałe jest towarzyszenie kotu w tej drodze. Później z pomocą fundacji udało nam się znaleźć domy 
+  kociej mamie z dwoma pokoleniami dzieci <span>Każdy dom to jedno uratowane życie, dlatego zajmuję się tym 
+  do&nbsp;dziś</span>.
 people-volunteers-intro: ...i wspaniali wolontariusze
 people-volunteers-text: >-
   Koci Zakątek nie mógłby funkcjonować bez innych: wspaniałych ludzi, wolontariuszy, którzy codziennie
