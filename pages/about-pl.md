@@ -1,30 +1,34 @@
 ---
 layout: about
 title: Fundacja Koci Zakątek | O fundacji
-description:
+meta_description: |
+  This sets the meta description in the head of the page. You can watch the
+  output in the browser or in the generated file _site/about.html.
 permalink: /o-fundacji
 section: about
 language: pl
 name: Fundacja Koci Zakątek | O fundacji
+home-url: /
 logo-alt: logo fundacji
 menu-1: Kim jesteśmy
-menu-link-1: '#about'
+menu-link-1: '/o-fundacji'
 menu-2: Adopcje
-menu-link-2: '#adoptions'
+menu-link-2: '/adopcje'
 menu-3: Jak pomóc
-menu-link-3: '#help'
+menu-link-3: '/jak-pomoc'
 menu-4: Koty we Wrocławiu
-menu-link-4: '#wroclove'
+menu-link-4: '/koty-we-wroclawiu'
 menu-5: Metamorfozy
-menu-link-5: '#metamorphosis'
+menu-link-5: '/szczesliwe-historie'
 menu-6: FAQ
-menu-link-6: '#faq'
+menu-link-6: '/faq'
 menu-7: Kontakt
 menu-link-7: '#footer'
 switcher-link: '/en/about'
 about-intro: O Kocim Zakątku
+about-alt: logo kociego zakątka ze zdjęciami kotów
 about-text-1: >-
-  Kot nie marznie, bo ma futro. Jak zgłodnieje, to sobie coś upoluje. Je, to znaczy, że zdrowy.
+  Kot nie marznie, bo ma futro. Jak zgłodnieje, to sobie coś upoluje. Je,&nbsp;to znaczy, że zdrowy.
   Kot da sobie radę. Kot jest szczęśliwy na dworze.
 about-text-2: >-
   Naprawdę? Wyobraź sobie, że wychodzisz z domu i <strong>jedyne, co czujesz, to strach</strong>. 
@@ -32,13 +36,13 @@ about-text-2: >-
   Aby przeżyć, musisz przemieszczać się cicho, szybko, na ugiętych nogach, udawać, że Cię nie ma.
   Oddychasz swobodniej dopiero, kiedy zapada zmrok, kiedy na ulicy i podwórku jest pusto.
 about-text-3: >-
-  Ludzie, samochody, zatrute gryzonie, wyburzane budynki. Życie kotów wolno żyjących, zwłaszcza
-  w mieście, to codzienna walka o przyszłość. Nawet te, które są regularnie dokarmiane, nie
-  mają gwarancji długiego życia. <strong>Praktycznie wszystkie są na coś chore</strong> 
+  Ludzie, samochody, zatrute gryzonie, wyburzane budynki. <strong>Życie kotów wolno żyjących, zwłaszcza
+  w mieście, to codzienna walka o przyszłość</strong>. Nawet te, które są regularnie dokarmiane, nie
+  mają gwarancji długiego życia. Praktycznie wszystkie są na coś chore
   - co widać dopiero po odłowieniu kota...
 about-text-4: >-
-  Koty w mieście nie przetrwają bez wsparcia od człowieka.
-  <span>Dlatego właśnie powstał Koci Zakątek.</span>
+  Koty w mieście nie przetrwają bez wsparcia od&nbsp;człowieka.
+  <span>Dlatego właśnie powstał Koci&nbsp;Zakątek.</span>
 people-name-1: Edyta
 people-text-1: >-
   Moja przygoda z bezdomniakami zaczęła się w 2009 roku od zabrania z ulicy chorego kociego malucha,
@@ -253,3 +257,4 @@ cta-text-1: Popierasz nasze działania?
 cta-text-2: Ty też możesz wiele zrobić, nawet nie wychodząc z domu!
 cta-link-text: Zobacz, jak możesz pomóc
 cta-link: /
+---

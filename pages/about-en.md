@@ -1,28 +1,32 @@
 ---
 layout: about
 title: Koci Zakatek Foundation | About foundation
-description:
+meta_description: |
+  This sets the meta description in the head of the page. You can watch the
+  output in the browser or in the generated file _site/about.html.
 permalink: /en/about
 section: about
 language: en
 name: Koci Zakatek Foundation | About foundation
+home-url: /
 logo-alt: logo fundacji
 menu-1: About us
-menu-link-1: '#about'
+menu-link-1: '/about'
 menu-2: Adoptions
-menu-link-2: '#adoptions'
+menu-link-2: '/adoptions'
 menu-3: How to help
-menu-link-3: '#help'
+menu-link-3: '/help'
 menu-4: Cats in Wroclaw
-menu-link-4: '#wroclove'
+menu-link-4: '/cats-in-wroclaw'
 menu-5: Metamorphosis
-menu-link-5: '#metamorphosis'
+menu-link-5: '/metamorphosis'
 menu-6: FAQ
-menu-link-6: '#faq'
+menu-link-6: '/faq'
 menu-7: Contact
 menu-link-7: '#footer'
-switcher-link: '/'
+switcher-link: '/o-fundacji'
 about-intro: About Koci Zakątek
+about-alt: koci zakątek logo with photos of cats
 about-text-1: >-
   Kot nie marznie, bo ma futro. Jak zgłodnieje, to sobie coś upoluje. Je, to znaczy, że zdrowy.
   Kot da sobie radę. Kot jest szczęśliwy na dworze.
@@ -38,7 +42,7 @@ about-text-3: >-
   - co widać dopiero po odłowieniu kota...
 about-text-4: >-
   Koty w mieście nie przetrwają bez wsparcia od człowieka.
-  <span>Dlatego właśnie powstał Koci Zakątek.</span>
+  <span>Dlatego właśnie powstał Koci&nbsp;Zakątek.</span>
 people-name-1: Edyta
 people-text-1: >-
   My adventure with homeless cats began in 2009 when I picked up a sick kitten from a street.
@@ -264,3 +268,4 @@ cta-text-1: Popierasz nasze działania?
 cta-text-2: Ty też możesz wiele zrobić, nawet nie wychodząc z domu!
 cta-link-text: Zobacz, jak możesz pomóc
 cta-link: /
+---
