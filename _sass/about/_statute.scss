@@ -1,0 +1,101 @@
+.about-statute {
+  box-sizing: border-box;
+  padding: 50px 20px;
+
+  &_wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  &_header {
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: $font-weight-extrabold;
+  }
+
+  &_text {
+    font-size: 16px;
+    line-height: 26px;
+
+    span {
+      font-weight: $font-weight-extrabold;
+      color: $color-blue;
+    }
+  }
+
+  &_main {
+    max-width: 700px;
+    margin: 30px auto 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+
+    span {
+      font-weight: $font-weight-extrabold;
+      color: $color-blue;
+    }
+  }
+
+  .btn {
+    width: 190px;
+    margin: 40px auto 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .about-statute {
+    padding: 70px 60px;
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .about-statute .btn {
+    width: 240px;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .about-statute {
+    padding: 100px 80px;
+
+    &_text {
+      display: flex;
+      flex-flow: row nowrap;
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        padding-right: 25px;
+      }
+
+      &-right {
+        padding-left: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .about-statute {
+    &_header {
+      margin-bottom: 40px;
+      font-size: 54px;
+      line-height: 70px;  
+    }
+    
+    &_text {
+      &-left {
+        padding-right: 90px;
+      }
+
+      &-right {
+        padding-right: 65px;
+      }
+    }
+  }
+}

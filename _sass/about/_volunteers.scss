@@ -1,0 +1,105 @@
+.about-volunteers {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  width: 100vw;
+  height: 100vh;
+
+  &_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("/assets/about/people-collage.png");
+    background-repeat: repeat;
+  }
+
+  &_box {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+
+    &-header {
+      margin-top: 0;
+      font-size: 28px;
+      line-height: 45px;
+      font-weight: $font-weight-extrabold;
+      color: $color-main;
+    }
+
+    &-text {
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-main;
+
+      span {
+        display: block;
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: $font-weight-extrabold;
+        color: $color-orange;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .about-volunteers {
+    padding: 0 60px;
+
+    &_box {
+      padding: 50px;
+
+      &-header {
+        font-size: 36px;
+        line-height: 50px;
+      }
+
+      &-text {
+        font-size: 16px;
+        line-height: 28px;
+
+        span {
+          margin-top: 35px;
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .about-volunteers {
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .about-volunteers {
+    &_box {
+      &-header {
+        margin-bottom: 30px;
+        font-size: 54px;
+        line-height: 70px;
+      }
+
+      &-text span {
+        font-size: 26px;
+        line-height: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .about-volunteers_box {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 80px 100px;
+  }
+}

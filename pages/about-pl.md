@@ -69,19 +69,21 @@ people-text-3: >-
   do&nbsp;dziś</span>.
 people-volunteers-intro: ...i wspaniali wolontariusze
 people-volunteers-text: >-
-  Koci Zakątek nie mógłby funkcjonować bez innych: wspaniałych ludzi, wolontariuszy, którzy codziennie
-  przychodzą do kotów, aby sprzątać kuwety, karmić, leczyć i bawić, pomagają w wizytach weterynaryjnych.
-  <span>Wszystkim im ogromnie dziękujemy.</span>
+  Koci Zakątek nie mógłby funkcjonować bez innych: <strong>wspaniałych ludzi, wolontariuszy</strong>, którzy
+  codziennie przychodzą do kotów, aby sprzątać kuwety, karmić, leczyć i bawić, pomagają w wizytach weterynaryjnych.
+  <span>Wszystkim im ogromnie dziękujemy.&nbsp;:)</span>
 why-intro: Dlaczego działamy?
-why-text: >-
-  Na terenie Wrocławia żyje szacunkowo ok.&nbsp;40&nbsp;000&nbsp;kotów. Mimo akcji sterylizacji, 
+why-text-1: >-
+  Na terenie Wrocławia żyje <span>szacunkowo ok.&nbsp;40&nbsp;000&nbsp;kotów</span>. Mimo akcji sterylizacji, 
   prowadzonych przez organizacje i osoby prywatne ciągle rodzi się ich zbyt wiele. Ideałem są lokalne 
   kocie populacje, które są sterylizowane, leczone i mają stworzone bezpieczne warunki do życia, niestety
-  takich jest niewiele. Wśród kotów żyjących na dworze jest również wiele kotów oswojonych, które powinny
-  żyć w domu i liczba ich stale rośnie. To skutek nieodpowiedzialnej opieki człowieka. Dlatego staramy się
-  poprawić los choć części z nich. 
+  takich jest niewiele.
+why-text-2: >-
+  Wśród kotów żyjących na dworze jest również wiele kotów oswojonych, które powinny żyć w domu i liczba
+  ich stale rośnie. <strong>To&nbsp;skutek nieodpowiedzialnej opieki człowieka</strong>. Dlatego staramy&nbsp;się poprawić
+  los choć części z nich. 
 why-statut-text: >-
-  Celem statutowym Fundacji jest udzielanie pomocy chorym, krzywdzonym, porzuconym zwierzętom.
+  Celem statutowym Fundacji jest <span>udzielanie pomocy chorym, krzywdzonym, porzuconym zwierzętom</span>.
 why-statut-link: /
 why-statut-cta: Pobierz statut fundacji
 vision-intro: Nasza wizja

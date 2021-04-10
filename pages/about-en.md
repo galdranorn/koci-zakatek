@@ -77,11 +77,11 @@ people-text-3: >-
   Each adoption home is one precious life saved, so I am involved with it to this day.
 people-volunteers-intro: ...and wonderful volunteers
 people-volunteers-text: >-
-  Kitten's Corner could not function without others: wonderful people, volunteers who commit
-  to visit and attend to our shelter cats every day needs from cleaning litter boxes, feeding,
+  Kitten's Corner could not function without others: <strong>wonderful people, volunteers</strong> 
+  who commit to visit and attend to our shelter cats every day needs from cleaning litter boxes, feeding,
   playing to administering medications and facilitating veterinary visits and required
   treatments.
-  <span>WThank you very much to all of them.</span>
+  <span>WThank you very much to all of them. :)</span>
 why-intro: Dlaczego działamy?
 why-text: >-
   Na terenie Wrocławia żyje szacunkowo ok.&nbsp;40&nbsp;000&nbsp;kotów. Mimo akcji sterylizacji, 
