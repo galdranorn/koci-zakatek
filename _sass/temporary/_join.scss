@@ -1,0 +1,144 @@
+.temporary-join{
+    box-sizing: border-box;
+    width: 100%;
+    
+    &-wrapper{
+        padding: 0 20px;
+    }
+
+    &_paragraph {
+        margin:0;
+        padding-top: 15px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: $font-weight-normal;
+        color: $color-main;
+    }
+
+    &-box{
+        margin-top: 15px;
+        border: 2px solid $color-main;
+        border-radius: 15px;
+        padding: 11px 13px;
+
+        p{
+            margin:0;
+            padding-top: 10px;
+        }
+        
+        ul{
+            padding-left: 20px;
+            
+            li{
+                padding-top: 5px;
+            }
+        }
+
+        .btn {
+            box-sizing: border-box;
+            width: 80%px;
+            margin: 10px auto;
+            font-size: 14px;
+            text-align: center;
+        }   
+    }
+
+    &-image img{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width: $breakpoint-xs) {
+    .temporary-join{
+        padding: 0px 20px;
+          
+        &_subheader{
+            margin:0 40px;
+        }
+
+        &_paragraph, &-box{
+            padding: 0;
+            margin:  40px;
+        }
+          
+        &-wrapper{
+            padding:0;
+        
+          &_paragraph:first-of-type{
+              padding-top: 40px;
+            }
+        }
+  
+        &-box{
+            padding: 20px 0;
+            padding-top: 30px;
+
+            
+            p{
+              padding: 0 20px;
+            }
+
+            .btn{
+                width: 80%;
+                margin-top: 15px;
+            }
+            
+            ul{
+                margin: 15px 20px;
+            }
+          }
+  
+        &-image{
+            margin: 40px 0;
+            padding-bottom: 30px;
+            height:340px;
+            overflow: hidden;
+            border-radius: 8px;
+
+            img {
+              width: 100%;
+              border-radius: 8px;
+            }
+        }
+    }
+}
+
+@media(min-width: $breakpoint-sm) {
+    .temporary-join {
+      padding: 0 60px;
+  
+        &-wrapper>*{
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &-box{
+            margin: 40px 30px 30px 30px;
+            padding-top: 30px;
+        }
+
+        &-image{
+            height:370px;
+        }
+    }
+}
+
+@media(min-width: $breakpoint-md) {
+    .temporary-join {
+      padding: 0 80px;
+  
+      &-wrapper>*{
+        margin-left: 0;
+        margin-right: 0;
+        }
+
+        &-box{
+            margin: 40px 50px 30px 50px;
+        }
+
+        &-image{
+            height:400px;
+        }
+    }
+}
