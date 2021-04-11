@@ -117,14 +117,18 @@ action-1-text: >-
   <span>Współpracujemy ze społecznością lokalną</span>: w miarę możliwości wyłapujemy i przyjmujemy zwierzęta
   zgłaszane nam przez mieszkańców Gminy Wrocław. Jeśli, z powodu braku miejsc, nie możemy przyjąć kota do siebie,
   a Ty masz dla niego miejsce, pomagamy odłowić kota lub użyczamy klatki-łapki czy klatki pobytowej.
-action-1-schema-1: Odławiamy koty
-action-1-point-1: Działamy w sposób humanitarny, za&nbsp;pomocą specjalistycznego sprzętu
-action-1-schema-2: Organizujemy zabiegi
-action-1-point-2: Organizujemy finansowanie, umawiamy i&nbsp;transportujemy koty na&nbsp;zabiegi
+action-1-schema-1: Odławiamy <br>koty
+action-1-point-1: Działamy w sposób humanitarny, za&nbsp;pomocą specjalistycznego sprzętu.
+action-1-schema-2: Organizujemy <br>zabiegi
+action-1-point-2: Organizujemy finansowanie, umawiamy i&nbsp;transportujemy koty na&nbsp;zabiegi.
 action-1-schema-3: Opiekujemy&nbsp;się po&nbsp;zabiegu
-action-1-point-3: Organizujemy miejsce pobytu i&nbsp;codzienną pomoc na&nbsp;czas rekonwalescencji
-action-1-schema-4: Szukamy domu lub&nbsp;wypuszczamy
+action-1-point-3: Organizujemy miejsce pobytu i&nbsp;codzienną pomoc na&nbsp;czas rekonwalescencji.
+action-1-schema-4: Szukamy domu lub wypuszczamy
 action-1-point-4: Znajdujemy domy kotom oswojonym i&nbsp;rokującym, a&nbsp;pozostałe powracają na&nbsp;swój teren.
+action-1-icon-1: ikona transportera
+action-1-icon-2: ikona apteczki
+action-1-icon-3: ikona serca na ręce
+action-1-icon-4: ikona domu
 action-2-name: Leczymy
 action-2-description: koty odłowione do sterylizacji oraz z interwencji
 action-2-list-intro: Koty żyjące na dworze narażone są na <strong>szereg chorób i urazów</strong>, takich jak
@@ -139,9 +143,10 @@ action-2-list-8: alergie.
 action-2-text: >- 
   Wszystkie koty, które trafiają pod naszą opiekę, <strong>przechodzą niezbędne badania lekarskie oraz 
   kuracje zdiagnozowanych chorób</strong>. Po zakończeniu leczenia dorosłe koty są sterylizowane.
-  Współpracujemy z najlepszymi weterynarzami i specjalistami we Wrocławiu.
   <br><br>
-  <span>Walczymy o każde życie</span>, które ma szansę. Byliśmy już świadkami wielu cudów
+  Współpracujemy z najlepszymi weterynarzami i specjalistami we Wrocławiu.
+  <span>Walczymy o każde życie</span>, które ma szansę. Byliśmy już świadkami wielu cudów.
+action-3-alt: zdjęcie kota w bandażach
 action-3-name: Szukamy domów stałych
 action-3-description: pomagamy przygotować się do&nbsp;adopcji i&nbsp;dobrać towarzysza
 action-3-point-1: Stosujemy procedury adopcyjne

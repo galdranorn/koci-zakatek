@@ -134,6 +134,10 @@ action-1-schema-3: Opiekujemy&nbsp;się po&nbsp;zabiegu
 action-1-point-3: Organizujemy miejsce pobytu i&nbsp;codzienną pomoc na&nbsp;czas rekonwalescencji
 action-1-schema-4: Szukamy domu lub&nbsp;wypuszczamy
 action-1-point-4: Znajdujemy domy kotom oswojonym i&nbsp;rokującym, a&nbsp;pozostałe powracają na&nbsp;swój teren.
+action-1-icon-1: icon of transporter
+action-1-icon-2: icon of first aid kit
+action-1-icon-3: icon of heart in hand
+action-1-icon-4: icon of home
 action-2-name: Leczymy
 action-2-description: koty odłowione do sterylizacji oraz z interwencji
 action-2-list-intro: Koty żyjące na dworze narażone są na <strong>szereg chorób i urazów</strong>, takich jak
@@ -151,6 +155,7 @@ action-2-text: >-
   <br><br>
   We treat our cats with the best specialists in Wrocław. <span>We fight for every life</span> that has
   a chance. We have already witnessed many miracles.
+action-2-alt: photo of cat with bandages
 action-3-name: Szukamy domów stałych
 action-3-description: pomagamy przygotować się do&nbsp;adopcji i&nbsp;dobrać towarzysza
 action-3-point-1: Stosujemy procedury adopcyjne
