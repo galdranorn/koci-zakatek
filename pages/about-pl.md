@@ -93,6 +93,9 @@ vision-text: >-
   koty tzw. wolno żyjące są ich potomkami, skazanymi na swój los. Człowiek zmienia ich naturalne środowisko, 
   <span>ponosi więc odpowiedzialność za warunki ich życia</span>, jest im winien opiekę i poszanowanie.
 mission-intro: Nasza misja
+mission-alt-1:
+mission-alt-2:
+mission-alt-3:
 mission-name-1: Zapewnienie kompleksowej pomocy
 mission-text-1: kotom - od odłowienia poprzez leczenie,codzienną opiekę do przywrócenia środowisku lub adopcji
 mission-name-2: Zapewnienie profesjonalnej opieki weterynaryjnej
