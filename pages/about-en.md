@@ -102,15 +102,16 @@ vision-text: >-
   environment, and <span>subsequently bear responsibility for their living conditions</span>, owing them protection
   and respect.
 mission-intro: Our mission
-mission-alt-1:
-mission-alt-2:
-mission-alt-3:
+mission-alt-1: photo of small meowing cat
+mission-alt-2: photo of cat hold in hands
+mission-alt-3: photo of cat with scratcher
 mission-name-1: Providing comprehensive assistance
 mission-text-1: kotom - od odłowienia poprzez leczenie,codzienną opiekę do przywrócenia środowisku lub adopcji
 mission-name-2: Offering professional veterinary care
 mission-text-2: kotom wolno żyjącym i bezdomnym, dorównującej opiece nad zwierzętami posiadającymi właścicieli
 mission-name-3: Zapewnienie bezpieczniejszego i&nbsp;dłuższego życia
 mission-text-3: podopiecznym w&nbsp;odpowiedzialnych domach stałych, edukacja opiekunów kotów
+values-alt: photo of cats under the car
 values-intro: Our values
 values-text-1: Every animal <span>has the right to a life</span> free from pain and fear.
 values-text-2: We can't save everyone, but <span>every life saved counts</span>.
