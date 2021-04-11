@@ -94,6 +94,7 @@ why-statut-text: >-
   Celem statutowym Fundacji jest udzielanie pomocy chorym, krzywdzonym, porzuconym zwierzętom.
 why-statut-link: /
 why-statut-cta: Pobierz statut fundacji
+vision-alt: photo of cat
 vision-intro: Our vision
 vision-text: >-
   It is a man who tamed cats long ago, to work for him or to provide entertainment. Modern cats, the so-called

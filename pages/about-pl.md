@@ -86,9 +86,10 @@ why-statut-text: >-
   Celem statutowym Fundacji jest <span>udzielanie pomocy chorym, krzywdzonym, porzuconym zwierzętom</span>.
 why-statut-link: /
 why-statut-cta: Pobierz statut fundacji
+vision-alt: zdjęcie kota
 vision-intro: Nasza wizja
 vision-text: >-
-  To człowiek dawno temu oswoił koty, aby pracowały na jego rzecz lub stanowiły rozrywkę. Współczesne
+  To człowiek dawno temu oswoił koty, aby pracowały na jego rzecz lub&nbsp;stanowiły rozrywkę. Współczesne
   koty tzw. wolno żyjące są ich potomkami, skazanymi na swój los. Człowiek zmienia ich naturalne środowisko, 
   <span>ponosi więc odpowiedzialność za warunki ich życia</span>, jest im winien opiekę i poszanowanie.
 mission-intro: Nasza misja
