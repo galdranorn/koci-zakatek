@@ -156,6 +156,9 @@ action-2-text: >-
   We treat our cats with the best specialists in Wrocław. <span>We fight for every life</span> that has
   a chance. We have already witnessed many miracles.
 action-2-alt: photo of cat with bandages
+action-3-alt-1: ikona
+action-3-alt-2: ikona of house in the hand
+action-3-alt-3: ikona
 action-3-name: Szukamy domów stałych
 action-3-description: pomagamy przygotować się do&nbsp;adopcji i&nbsp;dobrać towarzysza
 action-3-point-1: Stosujemy procedury adopcyjne

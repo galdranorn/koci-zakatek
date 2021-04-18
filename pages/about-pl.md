@@ -146,7 +146,10 @@ action-2-text: >-
   <br><br>
   Współpracujemy z najlepszymi weterynarzami i specjalistami we Wrocławiu.
   <span>Walczymy o każde życie</span>, które ma szansę. Byliśmy już świadkami wielu cudów.
-action-3-alt: zdjęcie kota w bandażach
+action-2-alt: zdjęcie kota w bandażach
+action-3-alt-1: ikona
+action-3-alt-2: ikona domu w ręce
+action-3-alt-3: ikona
 action-3-name: Szukamy domów stałych
 action-3-description: pomagamy przygotować się do&nbsp;adopcji i&nbsp;dobrać towarzysza
 action-3-point-1: Stosujemy procedury adopcyjne

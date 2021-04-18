@@ -1,3 +1,110 @@
 .about-homes {
-  
+  padding: 50px 20px;
+
+  .about-actions {
+    &_subheader {
+      margin-top: 0;
+    }
+
+    &_description {
+      color: $color-blue;
+    }
+  }
+
+  &_list {
+    padding-left: 0;
+    list-style-type: none;
+
+    &-item {
+      text-align: center;
+
+      &_icon {
+        width: 150px;
+        margin: 0 auto;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      &_name {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        color: $color-main;
+      }
+
+      &_text {
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-main;
+      }
+    }
+  }
+}
+
+@media(min-width: $breakpoint-xs) {
+  .about-homes {
+    padding: 70px 60px;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .about-homes {
+    padding: 100px 80px;
+
+    &_list {
+      display: flex;
+      flex-direction: row nowrap;
+      
+      &-item {
+        box-sizing: border-box;
+        width: 33.3%;
+
+        &_name {
+          height: 90px;
+        }
+
+        &:first-of-type { padding-right: 20px; }
+        &:nth-of-type(2) { padding: 0 10px; }
+        &:last-of-type { padding-right: 20px; }
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .about-homes {
+    &_header {
+      font-size: 54px;
+      line-height: 70px;  
+    }
+
+    .about-actions_description {
+      margin-bottom: 40px;
+    }
+
+    &_wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &_list-item {
+      &_name {
+        height: 60px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      &_text {
+        max-width: 310px;
+        margin: 0 auto;
+      }
+
+      &:first-of-type { padding-right: 40px; }
+      &:nth-of-type(2) { padding: 0 20px; }
+      &:last-of-type { padding-left: 40px; }
+    }
+  }
 }
