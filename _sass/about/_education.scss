@@ -177,6 +177,10 @@
       display: flex;
       flex-flow: row nowrap;
 
+      &--campaigns {
+        align-items: center;
+      }
+      
       &-left, &-right {
         box-sizing: border-box;
         width: 50%;
@@ -236,6 +240,10 @@
     }
 
     &_columns {
+      &--campaigns {
+        align-items: flex-end;
+      }
+       
       &-left { 
         padding-right: 80px; 
       }
