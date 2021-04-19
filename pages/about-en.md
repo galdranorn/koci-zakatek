@@ -186,7 +186,7 @@ action-4-list-1: we fight superstitions,
 action-4-list-2: we show the benefits,
 action-4-list-3: we promote models of responsible animal care,
 action-4-list-4: we engage the local communities to support and live in cohesion with their environment.
-action-4-campaigns: Przeprowadziliśmy kampanie edukacyjne we Wrocławiu
+action-4-campaigns: Przeprowadziliśmy <span>kampanie edukacyjne we Wrocławiu</span>
 action-4-campaigns-1: “Nie musisz lubić - toleruj”
 action-4-campaigns-2: “Prawdy i mity o kotach miejskich”
 action-4-campaigns-3: “Stop porzucaniu”

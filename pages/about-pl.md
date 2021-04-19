@@ -177,7 +177,7 @@ action-4-list-1: walczymy z przesądami,
 action-4-list-2: pokazujemy korzyści,
 action-4-list-3: propagujemy wzorce odpowiedzialnej opieki nad zwierzętami,
 action-4-list-4: aktywizujemy społeczność lokalną do działania na rzecz środowiska.
-action-4-campaigns: Przeprowadziliśmy kampanie edukacyjne we Wrocławiu
+action-4-campaigns: Przeprowadziliśmy <span>kampanie edukacyjne we Wrocławiu</span>
 action-4-campaigns-1: “Nie musisz lubić - toleruj”
 action-4-campaigns-2: “Prawdy i mity o kotach miejskich”
 action-4-campaigns-3: “Stop porzucaniu”
