@@ -225,7 +225,7 @@ shelter-link: /wolontariat
 shelter-cta: Zostań wolontariuszem
 protect-intro: Działania strażnicze
 protect-description: >-
-  Od początku działania przyglądamy się rozwiązaniom i praktykom stosowanym we Wrocławiu odnośnie
+  Od początku działania przyglądamy się rozwiązaniom i&nbsp;praktykom stosowanym we Wrocławiu odnośnie
   kotów wolno żyjących.
 protect-time-1: 2011
 protect-text-1: >-
@@ -255,16 +255,19 @@ protect-text-4: >-
   W 2017 roku we współpracy z inną wrocławską organizacją - FOP - <strong>przeprowadziliśmy w ramach
   GDS szkolenie dla służb mundurowych na temat specyfiki kotów wolno żyjących</strong> oraz problemów
   organizacji i opiekunów społecznych, sprawujących opiekę nad kotami.
-protect-time-5: 2016-2020
+protect-time-5: 2016&nbsp;-&nbsp;2020
 protect-text-5: >-
   W okresie działania Grupy Dialogu Społecznego ds zwierząt w mieście uczestniczyliśmy aktywnie
   w spotkaniach, dzieląc się naszym doświadczeniem, <strong>sugerując kierunki koniecznych zmian 
   w praktykach urzędu</strong>, opiniując przedkładane pomysły.
-protect-time-6: 2019-teraz
+protect-time-6: 2019&nbsp;-&nbsp;teraz
 protect-text-6: >- 
-  Rozmawiamy z władzami miasta na temat <strong>utworzenia Ośrodka Kotów Miejskich</strong>.
-  Coś dopisać coś dopisać coś dopisać coś dopisać coś dopisać coś dopisać coś dopisać
-  coś dopisać coś dopisać coś dopisać coś dopisać coś dopisać coś dopisać.
+  Rozmawiamy z władzami miasta na temat <strong>utworzenia Ośrodka Kotów Miejskich</strong>. 
+  Kierując się doświadczeniem swoim, a także wielu mieszkańców Wrocławia, którzy ratują i sterylizują
+  koty uważamy, że takie miejsce w naszym mieście jest bardzo potrzebne. Ośrodek z własnym gabinetem
+  weterynaryjnym i dużym zapleczem do przetrzymywania kotów po zabiegach, <strong>pod opieką ludzi, 
+  którzy kochają koty</strong>.
+
 cta-text-1: Popierasz nasze działania?
 cta-text-2: Ty też możesz wiele zrobić, nawet nie wychodząc z domu!
 cta-link-text: Zobacz, jak możesz pomóc

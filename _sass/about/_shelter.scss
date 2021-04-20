@@ -1,5 +1,6 @@
 .about-shelter {
-  padding: 50px 0;
+  margin-bottom: -25px;
+  padding: 50px 0 0;
 
   &_header, &_description, &_text, &_standards, &_summary,
   &_columns--inverted .about-shelter_columns-right {
@@ -139,6 +140,7 @@
 
 @media (min-width: $breakpoint-xs) {
   .about-shelter {
+    margin-bottom: 0;
     padding: 70px 60px;
 
     &_header, &_description, &_text, &_standards, &_summary,

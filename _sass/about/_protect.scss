@@ -1,0 +1,129 @@
+.about-protect {
+  margin-bottom: -5px;
+  padding: 50px 0 0;
+
+  &_header, &_description, &_list {
+    padding: 0 20px;
+  }
+
+  &_header {
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: $font-weight-extrabold;
+  }
+
+  &_description {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: $font-weight-extrabold;
+    color: $color-blue;
+  }
+
+  &_list {
+    list-style-type: none;
+
+    li {
+      position: relative;
+      padding-top: 10px;
+      padding-left: 20px;
+    }
+
+    &-number {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      font-size: 50px;
+      font-weight: $font-weight-extrabold;
+      color: $color-blue;
+      opacity: .2;
+    }
+
+    &-text {
+      z-index: 2;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  &_image img {
+    width: 100%;
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .about-protect {
+    margin-bottom: 0;
+    padding: 70px 60px;
+
+    &_header, &_description, &_list {
+      padding: 0;
+    }
+
+    &_list {
+      li {
+        padding-top: 40px;
+        padding-left: 0;
+      }
+
+      &-number {
+        top: 0;
+        left: -20px;
+        font-size: 70px;
+      }
+    }
+
+    &_image img {
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .about-protect { 
+    padding: 100px 80px;
+
+    &_wrapper {
+      position: relative;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &_description, &_list {
+      box-sizing: border-box;
+      width: calc(50% - 25px);
+    }
+
+    &_image {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: calc(50% - 25px);
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .about-protect {
+    &_header {
+      margin-bottom: 50px;
+      font-size: 54px;
+      line-height: 70px;  
+    }
+
+    &_description, &_list {
+      box-sizing: border-box;
+      width: calc(50% - 80px);
+    }
+
+    &_description {
+      font-size: 24px;
+      line-height: 40px;
+    }
+
+    &_image {
+      top: 130px;
+    }
+  }
+}
