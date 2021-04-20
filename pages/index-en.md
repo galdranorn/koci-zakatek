@@ -54,7 +54,7 @@ actions-img4: /assets/home/action-education.png
 action-title4: Edukujemy
 action-text4: Walczymy z krzywdzącymi stereotypami na temat kotów, wzywamy do tolerancji i mądrej opieki
 action-cta: Dowiedz się więcej o fundacji
-action-link: /fundacja
+action-link: /en/about
 adoptions-title: Adoptions
 adoptions-text: >-
   Prior to adopting a cat from our foundation we would like to get to know you better. 

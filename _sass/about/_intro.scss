@@ -1,0 +1,163 @@
+.about-intro {
+  padding: 50px 20px;
+
+  &_header {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: $font-weight-extrabold;
+    color: $color-main;
+  }
+
+  &_quote {
+    position: relative;
+    padding: 20px;
+
+    &-text {
+      z-index: 2;
+      margin: 0;
+      font-size: 16px;
+      line-height: 28px;
+      font-style: italic;
+      color: $color-main;
+      opacity: .6;
+    }
+
+    .icon-quotes-left {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      font-size: 60px;
+      color: $color-orange;
+      opacity: .1;
+    }
+  }
+ 
+  &_text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  &_clue {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+
+    span {
+      display: block;
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: $font-weight-extrabold;
+      color: $color-orange;
+    }
+  }
+
+  &_image {
+    width: 100%;
+    text-align: center;
+    
+    img {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .about-intro {
+    padding: 50px 60px;
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .about-intro {
+    padding: 80px 60px 50px;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .about-intro {
+    padding: 100px 80px 80px;
+
+    &_header {
+      min-width: 400px;
+    }
+    
+    &_wrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &_content, &_image {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &_text {
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+    &_image {
+      position: relative;
+      right: -50px;
+
+      img {
+        max-width: 540px;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .about-intro_header {
+    min-width: 550px;
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .about-intro {
+    &_header {
+      min-width: 600px;
+      font-size: 54px;
+      line-height: 70px;
+    }
+
+    &_content {
+      padding-right: 50px;
+    }
+
+    &_quote .icon-quotes-left {
+      top: -20px;
+      left: -25px;
+      font-size: 80px;
+    }
+
+    &_text {
+      font-size: 16px;
+      line-height: 30px;
+    }
+
+    &_clue {
+      margin-top: 40px;
+      
+      span {
+        font-size: 24px;
+        line-height: 40px;
+      }
+    }
+
+    &_image {
+      right: 0;
+    }
+  }
+}
+
+

@@ -1,9 +1,68 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="{{ page.language }}">
+  {% include head.html %}
 
-<h2>{{ page.title }}</h2>
+  <body>
+    {% include header.html %}
 
-{% include page-intro.html %}
+    <main>
+      <section class="full full--white">
+        {% include about/intro.html %}
+      </section>
 
-{{ content }}
+      <section class="full full--white">
+        {% include about/people.html %}
+      </section>
+
+      <section class="full">
+        {% include about/volunteers.html %}
+      </section>
+
+      <section class="full full--white">
+        {% include about/statute.html %}
+      </section>
+
+      <section class="full full--dark">
+        {% include about/vision.html %}
+      </section>
+
+      <section class="full full--white">
+        {% include about/mission.html %}
+      </section>
+
+      <section class="full full--dark">
+        {% include about/values.html %}
+      </section>
+
+      <section class="full full--white">
+        {% include about/actions.html %}
+      </section>
+
+      <section class="full full--grey">
+        {% include about/homes.html %}
+      </section>
+
+      <section class="full full--white">
+        {% include about/education.html %}
+      </section>
+
+      <section class="full full--grey">
+        {% include about/slides.html %}
+      </section>
+
+      <section class="full full--dark">
+        {% include about/shelter.html %}
+      </section>
+
+      <section class="full full--white">
+        {% include about/protect.html %}
+      </section>
+
+      <section class="full full--grey">
+        {% include about/support.html %}
+      </section>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
