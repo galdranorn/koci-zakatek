@@ -20,4 +20,9 @@ main {
     background-color: $color-grey;
     color: $color-main;
   }
+
+  &--white {
+    background-color: $color-white;
+    color: $color-main;
+  }
 }
