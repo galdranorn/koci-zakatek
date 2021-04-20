@@ -202,6 +202,7 @@ action-4-text-4: >-
   faced by homeless and free-roaming cats and encourage practice of friendly coexistence and animal support 
   we also give lectures at conferences, in primary and secondary schools.
 shelter-intro: Kociniec
+shelter-alt: photo from cat shelter
 shelter-text-1: Niektóre koty nie mogą czekać na ulicy, aż znajdzie się dla nich dom tymczasowy.
 shelter-text-2: >-
   Dlatego część z nich trafia na początek do naszych pomieszczeń, gdzie odbywają kwarantannę, a&nbsp;po zakończonym

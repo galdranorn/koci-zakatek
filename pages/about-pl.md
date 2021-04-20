@@ -192,9 +192,10 @@ action-4-text-4: >-
   Występujemy także z wykładami, poświęconymi kotom bezdomnym i wolno żyjącym i propagującymi dobre praktyki
   pomagania zwierzętom: na konferencjach, w gimnazjach i w liceach.
 shelter-intro: Kociniec
-shelter-text-1: Niektóre koty nie mogą czekać na ulicy, aż znajdzie się dla nich dom tymczasowy.
+shelter-alt: zdjęcie z kocińca
+shelter-text-1: Niektóre koty nie mogą czekać na ulicy, aż&nbsp;znajdzie się dla nich dom tymczasowy.
 shelter-text-2: >-
-  Dlatego część z nich trafia na początek do naszych pomieszczeń, gdzie odbywają kwarantannę, a&nbsp;po zakończonym
+  Dlatego część z nich trafia na początek do naszych pomieszczeń, gdzie odbywają kwarantannę, a&nbsp;po&nbsp;zakończonym
   leczeniu i&nbsp;szczepieniu wypuszczane są do&nbsp;pokoju, przystosowanego dla&nbsp;kotów lub są&nbsp;przenoszone 
   do&nbsp;domów tymczasowych.
 shelter-list-intro: Zapewniamy najlepsze możliwe standardy
