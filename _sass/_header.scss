@@ -165,7 +165,7 @@
         transition: $transition;
       }
 
-      &:hover {
+      &:hover, &.active {
         color: $color-orange;
 
         &::after {
