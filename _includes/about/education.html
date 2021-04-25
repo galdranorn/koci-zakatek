@@ -29,65 +29,65 @@
           <li>{{ page.action-4-campaigns-4 }}</li>
         </ul>
       </div>
-      <div class="about-education_columns-right about-education_columns-posters">
-        <div class="about-education_posters-poster">
-          <img src="/assets/about/education-poster-2-prev.jpg" alt="alt" />
+      <div id="education-campaigns" class="about-education_columns-right about-education_columns-posters">
+        <div class="about-education_posters-poster" data-poster="1">
+          <img src="/assets/about/education-poster-1-prev.jpg" alt="alt" />
           <div class="about-education_posters-poster_shadow">
             <img src="/assets/about/education-icon-zoom.png" alt="alt" />
           </div>
         </div>
-        <div class="about-education_posters-poster">
-          <img src="/assets/about/education-poster-3-prev.jpg" alt="alt" />
+        <div class="about-education_posters-poster" data-poster="2">
+          <img src="/assets/about/education-poster-2-prev.jpg" alt="alt" />
           <div class="about-education_posters-poster_shadow">
             <img src="/assets/about/education-icon-zoom.png" alt="alt" />
           </div>
         </div>
       </div>
     </div>
-    <div class="about-education_posters">
-      <div class="about-education_posters-poster">
-        <img src="/assets/about/education-poster-1-prev.jpg" alt="alt" />
+    <div id="education-posters" class="about-education_posters">
+      <div class="about-education_posters-poster" data-poster="3">
+        <img src="/assets/about/education-poster-3-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
         </div>
       </div>
-      <div class="about-education_posters-poster">
+      <div class="about-education_posters-poster" data-poster="4">
         <img src="/assets/about/education-poster-4-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
         </div>
       </div>
-      <div class="about-education_posters-poster">
+      <div class="about-education_posters-poster" data-poster="5">
         <img src="/assets/about/education-poster-5-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
         </div>
       </div>
-      <div class="about-education_posters-poster">
+      <div class="about-education_posters-poster" data-poster="6">
         <img src="/assets/about/education-poster-6-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
         </div>
       </div>
-      <div class="about-education_posters-poster">
+      <div class="about-education_posters-poster" data-poster="7">
         <img src="/assets/about/education-poster-7-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
         </div>
       </div>
-      <div class="about-education_posters-poster">
+      <div class="about-education_posters-poster" data-poster="8">
         <img src="/assets/about/education-poster-8-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
         </div>
       </div>
-      <div class="about-education_posters-poster">
+      <div class="about-education_posters-poster" data-poster="9">
         <img src="/assets/about/education-poster-9-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
         </div>
       </div>
-      <div class="about-education_posters-poster">
+      <div class="about-education_posters-poster" data-poster="10">
         <img src="/assets/about/education-poster-10-prev.jpg" alt="alt" />
         <div class="about-education_posters-poster_shadow">
           <img src="/assets/about/education-icon-zoom.png" alt="alt" />
@@ -95,4 +95,22 @@
       </div>
     </div>
   </div>
+  <div id="education-modal" class="about-education_modal">
+    <div id="education-modal-bgr" class="about-education_modal-background"></div>
+    <span id="education-close-btn" class="icon icon-cross"></span>
+    <div id="education-image" class="about-education_modal-image"></div>
+    <div class="about-education_modal-nav">
+      <div id="education-prev" class="about-education_modal-nav_left">
+        <span class="about-education_modal-nav_left-arrow"></span>
+      </div>
+      <div id="education-next" class="about-education_modal-nav_right">
+        <span class="about-education_modal-nav_right-arrow"></span>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script type="text/javascript">
+  {% include about/education.js %}
+</script>
+
