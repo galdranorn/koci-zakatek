@@ -279,6 +279,8 @@ foundations-costs-text-4: >-
 foundations-costs-thanks: Z całego serca w imieniu kotów <span class="orange">dziękujemy</span> :)
 foundations-costs-image: /assets/wroclove/foundations-2.jpg
 foundations-costs-alt: zdjęcie kota w lecznicy
-foundations-help: Też chcesz nam pomóc?
-foundations-help-subtitle: Zobacz, jak możesz to zrobić
+cta-text-1: Ty też chcesz pomóc kotom we&nbsp;Wrocławiu?
+cta-text-2: Zobacz, jak wiele możesz dla nich zrobić, nawet nie wychodząc z domu!
+cta-link-text: Zobacz, jak możesz pomóc
+cta-link: /
 ---
