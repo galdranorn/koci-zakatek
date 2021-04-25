@@ -74,6 +74,10 @@
     &_shadow img {
       width: 100px;
     }
+
+    &_shadow, img {
+      pointer-events: none;
+    }
   }
 
   &_campaigns {
@@ -102,6 +106,10 @@
 
       &:nth-of-type(odd) { padding-right: 5px; }
       &:nth-of-type(even) { padding-left: 5px; }
+
+      &_shadow, img {
+        pointer-events: none;
+      }
 
       &_shadow img {
         width: 60px;
@@ -136,6 +144,108 @@
         .about-education_posters-poster_shadow {
           opacity: 1;
         }
+      }
+    }
+  }
+
+  &_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    transform: scale(0);
+    transition: .4s;
+    opacity: 0;
+
+    &-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .9);
+    }
+
+    &-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1001;
+      width: 100%;
+      max-width: 98vw;
+      height: 100%;
+      max-height: 80vh;
+      pointer-events: none;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 8px;
+        pointer-events: all;
+      }
+    }
+
+    &.active {
+      transform: none;
+      opacity: 1;
+    }
+
+    .icon-cross {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 1001;
+      font-size: 30px;
+      color: $color-white;
+    }
+
+    &-nav {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      position: absolute;
+      left: 0;
+      bottom: 80px;
+      z-index: 1001;
+      width: 100%;
+      height: 0;
+
+      &_left, &_right {
+        padding: 20px;
+        cursor: pointer;
+
+        &-arrow {
+          display: inline-block;
+          padding: 10px;
+          border: solid $color-white;
+          border-width: 0 5px 5px 0;
+          opacity: 1;
+          transition: opacity .2s;
+          will-change: opacity;
+        }
+      }
+
+      &_left.disabled .about-education_modal-nav_left-arrow {
+        opacity: .2;
+      }
+
+      &_right.disabled .about-education_modal-nav_right-arrow {
+        opacity: .2;
+      }
+
+      &_left-arrow {
+        transform: rotate(135deg);
+      }
+
+      &_right-arrow {
+        transform: rotate(-45deg);
       }
     }
   }
@@ -209,6 +319,11 @@
         &:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(6), &:nth-of-type(7) { padding: 5px; }
         &:nth-of-type(4), &:nth-of-type(8) { padding: 5px 0 5px 10px; }
       }
+    }
+
+    &_modal-nav {
+      top: 50%;
+      transform: translateY(-40px);
     }
   }
 }
