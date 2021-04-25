@@ -1,9 +1,10 @@
 ---
 layout: wroclove
-title: Koty we Wrocławiu
+title: Fundacja Koci Zakątek | Koty we Wrocławiu
 meta_description: |
-  This sets the meta description in the head of the page. You can watch the
-  output in the browser or in the generated file _site/about.html.
+  Osoby dokarmiające i odławiające koty są atakowane przez sąsiadów, przeciwników kotów, 
+  zarządców terenów i nieruchomości. Dowiedz się, jakie przysługują Ci prawa i jaką pomoc 
+  można uzyskać we Wrocławiu.
 permalink: /koty-we-wroclawiu
 section: wroclove
 language: pl
@@ -28,13 +29,13 @@ switcher-link: '/en/cats-in-wroclaw'
 duty-header: Obowiązek opieki
 duty-subheader-1: Ustawa o ochronie zwierząt
 duty-act-1: >-
-  Dokumentem, który reguluje sytuację prawną zwierząt w Polsce, w tym kotów, 
+  Dokumentem, który reguluje sytuację prawną zwierząt w Polsce, w&nbsp;tym&nbsp;kotów, 
   jest <span class="orange">Ustawa z dnia 21&nbsp;sierpnia&nbsp;1997 roku o ochronie zwierząt</span>. 
   Ustawa gwarantuje kotom wolno żyjącym możliwość bytowania w miejscach, w których się 
-  urodziły i mieszkają. W praktyce oznacza to <strong>udostępnianie im pomieszczeń, w których 
+  urodziły i mieszkają. W&nbsp;praktyce oznacza to <strong>udostępnianie im pomieszczeń, w&nbsp;których 
   mogą się schronić</strong> przed zimnem i niebezpieczeństwem, a także możliwość ich dokarmiania.
 duty-act-2: >-
-  Ustawa o ochronie zwierząt jest <span class="orange">dokumentem nadrzędnym</span> w stosunku 
+  Ustawa o ochronie zwierząt jest <span class="orange">dokumentem nadrzędnym</span> w&nbsp;stosunku 
   do regulaminów, statutów i uchwał różnych podmiotów – na przykład zarządów ogródków działkowych 
   czy administratorów budynków wielorodzinnych. Tym samym zabranianie dokarmiania, całkowite 
   odcięcie kotów od piwnic, żądanie zabrania kotów czy umieszczenia ich w schronisku <strong>jest 
@@ -96,7 +97,7 @@ duty-accident-3: >-
   i masz uzasadnione podejrzenia, że kot padł ofiarą agresji ze strony człowieka (mieszkańca, 
   sąsiada, działkowca) – zabezpiecz zwłoki i skontaktuj się ze schroniskiem. Schronisko 
   <strong>może wykonać sekcję zwłok</strong>, która potwierdzi Twoim podejrzenia – lub im zaprzeczy. 
-  <span class="blue">Tylko w ten sposób możemy walczyć z okrucieństwem wobec kotów i ścigać prawnie 
+  <span class="blue">Tylko w ten sposób możemy walczyć z&nbsp;okrucieństwem wobec kotów i ścigać prawnie 
   sprawców!</span>
 
 shelter-header: Schronisko dla bezdomnych zwierząt
@@ -278,6 +279,8 @@ foundations-costs-text-4: >-
 foundations-costs-thanks: Z całego serca w imieniu kotów <span class="orange">dziękujemy</span> :)
 foundations-costs-image: /assets/wroclove/foundations-2.jpg
 foundations-costs-alt: zdjęcie kota w lecznicy
-foundations-help: Też chcesz nam pomóc?
-foundations-help-subtitle: Zobacz, jak możesz to zrobić
+cta-text-1: Ty też chcesz pomóc kotom we&nbsp;Wrocławiu?
+cta-text-2: Zobacz, jak wiele możesz dla nich zrobić, nawet nie wychodząc z domu!
+cta-link-text: Zobacz, jak możesz pomóc
+cta-link: /
 ---

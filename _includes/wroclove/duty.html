@@ -1,9 +1,10 @@
 <div id="01" class="wroclove-duty">
-  <h2 class="wroclove-duty_header">
-    {{ page.duty-header }}
-  </h2>
+  <h1 class="wroclove-header">{{ page.header }}</h1>
   <div class="wroclove-duty_act">
     <div class="wroclove-duty_act-wrapper">
+      <h2 class="wroclove-duty_header">
+        {{ page.duty-header }}
+      </h2>
       <h3 class="wroclove-duty_subheader">
         {{ page.duty-subheader-1 }}
       </h3>
@@ -13,10 +14,10 @@
       <p class="wroclove-duty_paragraph">
         {{ page.duty-act-2 }}
       </p>
+      <a class="btn btn-small btn-orange" href="{{ page.duty-act-link }}">
+        {{ page.duty-act-cta }}
+      </a>
     </div>
-    <a class="btn btn-small btn-orange" href="{{ page.duty-act-link }}">
-      {{ page.duty-act-cta }}
-    </a>
     <div class="wroclove-duty_act-image">
       <img
         src="{{ page.duty-act-image }}"

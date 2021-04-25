@@ -2,8 +2,9 @@
 layout: about
 title: Koci Zakatek Foundation | About foundation
 meta_description: |
-  This sets the meta description in the head of the page. You can watch the
-  output in the browser or in the generated file _site/about.html.
+  We believe that every animal has the right to a life free from pain and fear. We can't
+  save everyone, but every life saved counts. The attitude towards animals is a measure
+  of our humanity.
 permalink: /en/about
 section: about
 language: en

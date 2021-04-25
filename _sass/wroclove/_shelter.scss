@@ -9,8 +9,8 @@
 
   &_header {
     margin-top: 0;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 50px;
     font-weight: $font-weight-bolder;
   }
 
@@ -30,6 +30,7 @@
 
   &_alert {
     margin-top: 30px;
+    text-align: center;
     font-size: 18px;
     line-height: 30px;
     font-weight: $font-weight-bolder;
@@ -92,19 +93,25 @@
       flex-flow: row nowrap;
     }
 
+    &_header {
+      font-size: 54px;
+      line-height: 70px;
+    }
+
     &_text, &_image {
       box-sizing: border-box;
       width: 50%;
     }
 
     &_text {
-      padding-right: 50px;
+      padding-right: 70px;
     }
 
     &_image {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       position: relative;
+      top: 30px;
       left: 50px;
       margin: 0;
     }
@@ -116,6 +123,10 @@
     &_alert {
       font-size: 24px;
       line-height: 36px;
+    }
+
+    &_box {
+      margin: 40px 0;
     }
     
     &_image {

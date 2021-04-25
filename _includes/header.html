@@ -12,37 +12,65 @@
     </a>
     <ul id="navBox" class="header-nav_list">
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="{{ page.menu-link-1 }}" data-nav-link>
+        <a 
+          class="header-nav_item-link {% if page.url contains '/o-fundacji' or page.url contains '/en/about' %}active{% endif%}" 
+          href="{{ page.menu-link-1 }}" 
+          data-nav-link
+        >
           {{ page.menu-1 }}
         </a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="{{ page.menu-link-2 }}" data-nav-link>
+        <a
+          class="header-nav_item-link {% if page.url contains '/adopcje' or page.url contains '/en/adoptions' %}active{% endif%}"
+          href="{{ page.menu-link-2 }}"
+          data-nav-link
+        >
           {{ page.menu-2 }}
         </a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="{{ page.menu-link-3 }}" data-nav-link>
+        <a
+          class="header-nav_item-link {% if page.url contains '/jak-pomoc' or page.url contains '/en/help' %}active{% endif%}"
+          href="{{ page.menu-link-3 }}"
+          data-nav-link
+        >
           {{ page.menu-3 }}
         </a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="{{ page.menu-link-4 }}" data-nav-link>
+        <a
+          class="header-nav_item-link {% if page.url contains '/koty-we-wroclawiu' or page.url contains '/en/cats-in-wroclaw' %}active{% endif%}"
+          href="{{ page.menu-link-4 }}"
+          data-nav-link
+        >
           {{ page.menu-4 }}
         </a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="{{ page.menu-link-5 }}" data-nav-link>
+        <a
+          class="header-nav_item-link {% if page.url contains '/metamorfozy' or page.url contains '/en/metamorphosis' %}active{% endif%}"
+          href="{{ page.menu-link-5 }}"
+          data-nav-link
+        >
           {{ page.menu-5 }}
         </a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="{{ page.menu-link-6 }}" data-nav-link>
+        <a
+          class="header-nav_item-link {% if page.url contains '/faq' or page.url contains '/en/faq' %}active{% endif%}"
+          href="{{ page.menu-link-6 }}"
+          data-nav-link
+        >
           {{ page.menu-6 }}
         </a>
       </li>
       <li class="header-nav_item">
-        <a class="header-nav_item-link" href="{{ page.menu-link-7 }}" data-nav-link>
+        <a
+          class="header-nav_item-link {% if page.url contains '/kontakt' or page.url contains '/en/contact' %}active{% endif%}"
+          href="{{ page.menu-link-7 }}"
+          data-nav-link
+        >
           {{ page.menu-7 }}
         </a>
       </li>

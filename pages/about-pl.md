@@ -2,8 +2,9 @@
 layout: about
 title: Fundacja Koci Zakątek | O fundacji
 meta_description: |
-  This sets the meta description in the head of the page. You can watch the
-  output in the browser or in the generated file _site/about.html.
+  Wierzymy, że każde zwierzę ma prawo do życia wolnego od bólu i strachu. Nie można uratować
+  wszystkich, ale liczy się każde jedno uratowane życie. Stosunek do zwierząt jest miarą
+  człowieczeństwa.
 permalink: /o-fundacji
 section: about
 language: pl
