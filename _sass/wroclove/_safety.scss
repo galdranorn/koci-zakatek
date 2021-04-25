@@ -12,20 +12,20 @@
   &_header {
     margin-top: 0;
     padding-top: 50px;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 50px;
     font-weight: $font-weight-extrabold;
   }
 
   &_subheader {
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 28px;
+    line-height: 42px;
     font-weight: $font-weight-bolder;
   }
 
-  &_paragraph {
+  &_paragraph, &_problems-list {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 28px;
     font-weight: $font-weight-normal;
   }
 
@@ -33,9 +33,6 @@
     &-list {
       padding: 0 20px 0 45px;
       list-style-type: none;
-      font-size: 14px;
-      line-height: 22px;
-      font-weight: $font-weight-normal;
 
       li {
         position: relative;
@@ -44,7 +41,7 @@
         &::before {
           content: '';
           position: absolute;
-          top: 12px;
+          top: 14px;
           left: -25px;
           width: 12px;
           height: 12px;
@@ -145,10 +142,6 @@
 
     &_header, &_subheader, &_paragraph {
       padding: 0 40px;
-    }
-
-    &_header {
-      margin-bottom: 50px;
     }
 
     &_problems {
@@ -252,16 +245,6 @@
   .wroclove-safety {
     padding: 100px 80px;
 
-    &_header {
-      font-size: 40px;
-      line-height: 54px;
-    }
-
-    &_subheader {
-      font-size: 32px;
-      line-height: 48px;
-    }
-
     &_problems-alert {
       font-size: 24px;
       line-height: 40px;
@@ -271,8 +254,20 @@
 
 @media(min-width: $breakpoint-lg) {
   .wroclove-safety {
+    &_header {
+      font-size: 54px;
+      line-height: 70px;
+    }
+
+    &_subheader {
+      min-width: 600px;
+      margin-top: 0;
+      font-size: 40px;
+      line-height: 54px;
+    }
+
     &_problems, &_wroclove {
-      align-items: center;
+      align-items: flex-start;
 
       &-text, &-image {
         box-sizing: border-box;
@@ -281,6 +276,7 @@
 
       &-image {
         position: relative;
+        top: 100px;
         left: 50px;
         margin: 0;
       }
@@ -329,7 +325,6 @@
 
       &-image {
         order: unset;
-        margin-top: 80px;
       }
 
       .btn-blue {
@@ -342,26 +337,24 @@
 
 @media(min-width: $breakpoint-xl) {
   .wroclove-safety {
-    &_problems-image {
-      top: 30px;
-      padding-right: 50px;
+    &_problems {
+      padding-bottom: 50px;
+
+      &-image {
+        padding-right: 50px;
+      }
     }
 
     &_law {
-      padding: 100px 0 50px;
-
-      &-contact {
-        position: relative;
-        top: -55px;
-      }
+      padding: 50px 0;
     }
 
     &_wroclove {
       align-items: flex-start;
 
       &-image {
-        margin-top: 40px;
-        padding-right: 50px;
+        top: 10px;
+        padding-right: 60px;
       }
     }
   }

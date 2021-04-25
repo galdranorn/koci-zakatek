@@ -1,9 +1,10 @@
 ---
 layout: wroclove
-title: Cats in Wroclaw
+title: Koci Zakatek Foundation | Cats in Wroclaw
 meta_description: |
-  This sets the meta description in the head of the page. You can watch the
-  output in the browser or in the generated file _site/about.html.
+  People feeding and trapping cats are attacked by neighbours, opponents of cats, land 
+  and property managers. Find out what your rights are and what help can be obtained 
+  in Wrocław.
 permalink: /en/cats-in-wroclaw
 section: wroclove
 language: en
