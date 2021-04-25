@@ -1,7 +1,9 @@
 ---
 layout: home
-title: Koci Zakątek
-description:
+title: Koci Zakątek Foundation | Homepage
+description: |
+  The Koci Zakątek Foundation was established in 2009. The primary goal of the Foundation
+  is to help sick, injured and abandoned animals. We focus on taking special care of cats.
 permalink: /en
 section: home
 language: en
