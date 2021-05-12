@@ -1,70 +1,70 @@
-.temporary-requirements2{
-    box-sizing: border-box;
-    width: 100%;
+.temporary-requirements2 {
+	box-sizing: border-box;
+	width: 100%;
     
-    &-wrapper{
-        padding: 0 20px;
-    }
+	&-wrapper {
+		padding: 0 20px;
+	}
 
-    &_paragraph {
-        font-size: 16px;
-        line-height: 22px;
-        font-weight: $font-weight-normal;
-        color: $color-main;
-        text-align: justify;
-    }
+	&_paragraph {
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: $font-weight-normal;
+		color: $color-main;
+		text-align: justify;
+	}
 
-    &_frame{
-        border: 2px solid black;
-        border-radius: 15px;
-        padding: 10px 13px;
-        margin-bottom: 20px;
+	&_frame {
+		border: 2px solid black;
+		border-radius: 15px;
+		padding: 10px 13px;
+		margin-bottom: 20px;
 
-        p{
-            margin:0;
-            font-weight:$font-weight-bolder;
-            text-align: center;
-        }
+		p {
+			margin: 0;
+			font-weight: $font-weight-bolder;
+			text-align: center;
+		}
 
-        p:nth-of-type(2){
-            padding-top: 2px;
-            font-size: 14px;
-            font-weight:$font-weight-bold;
-            line-height: 22px;
-        }
-    }
+		p:nth-of-type(2) {
+			padding-top: 2px;
+			font-size: 14px;
+			font-weight: $font-weight-bold;
+			line-height: 22px;
+		}
+  }
 
-    &-image img{
-        width: 100%;
-        margin: 0;
-    }
+	&-image img {
+		width: 100%;
+		margin: 0;
+	}
 }
-
 
 @media (min-width: $breakpoint-xs) {
-    .temporary-requirements2{
-      padding: 0px 20px;
-          
-      &_paragraph,&_frame{
-        margin:  40px;
-      }
-      &_frame{
-          padding: 20px 0;
-          p{
-            padding: 0 20px;
-          }
-        }
-    }
+	.temporary-requirements2 {
+		padding: 0px 20px;
+				
+		&_paragraph_frame {
+			margin:  40px;
+		}
+
+		&_frame {
+			padding: 20px 0;
+			
+			p {
+				padding: 0 20px;
+			}
+		}
+	}
 }
 
-
 @media(min-width: $breakpoint-md) {
-    .temporary-requirements2 {
-      padding: 0 80px;
-  
-      &-wrapper>*{
-        margin-left: 0;
-        margin-right: 0;
-        }
-    }
+	.temporary-requirements2 {
+		padding: 0 80px;
+
+		&-wrapper>* {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
 }
