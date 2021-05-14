@@ -1,0 +1,132 @@
+.temporary-header {
+	margin: 0;
+	padding: 25px 20px;
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: $font-weight-extrabold;
+	color: $color-main;
+}
+
+.temporary-who_could {
+	box-sizing: border-box;
+	width: 100%;
+	
+	&_paragraph {
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: $font-weight-normal;
+		color: $color-main;
+	}
+
+	&_slogan, &_paragraph {
+		padding: 0 20px;
+	}
+
+	&_slogan>p {
+		font-size: 18px;
+	}
+
+	&_paragraph:nth-child(2) {
+		margin-bottom: 10px;
+	}
+
+	&-list {
+		padding: 0 20px;
+		padding-right: 30px;
+	}
+
+	li {
+		padding: 8px 0 8px 15px;
+		list-style-type: none;
+
+		&:first-of-type {
+			margin-top: 0px;
+		}
+	}
+
+	&_image img {
+		width: 100%;
+	}
+}
+
+@media (min-width: $breakpoint-xs) {
+	.temporary-header {
+		margin-bottom: 32px;
+		padding: 50px 60px;
+	}
+
+	.temporary-who_could {    
+		padding: 0px 20px;
+		
+		&_slogan, &_paragraph, &-list {
+			padding: 0 40px;
+		}
+
+		&_image {
+			margin: 40px 0;
+			
+			img {
+				width: 100%;
+				border-radius: 8px;
+			}
+		}
+	}
+}
+
+
+@media(min-width: $breakpoint-sm) {
+	.temporary-who_could {
+		padding: 0 60px;
+
+		&_wrapper>* {
+			padding: 0;
+		}
+
+		&_slogan {
+			margin-bottom: 30px;
+		}
+
+		&_image {
+			margin-top: 25px;
+		}
+	}
+}
+  
+@media(min-width: $breakpoint-md) {
+	.temporary-header {
+    font-size: 54px;
+    line-height: 70px;
+    text-align: center;
+  }
+	.temporary-who_could {
+		padding: 0 80px;
+  
+		&_wrapper>* {
+			padding: 0;
+		}
+	}
+}
+
+@media (min-width: $breakpoint-lg) {
+	.temporary-who_could {
+		
+		align-items: center;
+    display: flex;
+    
+		&_wrapper, &_image {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &_wrapper {
+      padding-right: 50px;
+    }
+
+    &_image {
+      position: relative;
+			left: 50px;
+			margin: 0;
+    }
+	}
+
+}

@@ -1,0 +1,118 @@
+.temporary-requirements2 {
+	box-sizing: border-box;
+	width: 100%;
+    
+	&-wrapper {
+		padding: 0 20px;
+		
+		p:first-of-type {
+			font-size: 18px;
+		}
+	}
+
+	&_paragraph {
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: $font-weight-normal;
+		color: $color-main;
+		text-align: justify;
+	}
+
+	&_frame {
+		border: 1px solid black;
+		border-radius: 8px;
+		padding: 10px 13px;
+		margin-bottom: 20px;
+
+		p {
+			margin: 0;
+			font-weight: $font-weight-bolder;
+			text-align: center;
+		}
+
+		p:nth-of-type(2) {
+			padding-top: 8px;
+			font-size: 15px;
+			font-weight: $font-weight-bold;
+			line-height: 22px;
+		}
+  }
+	
+	&-image img {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media (min-width: $breakpoint-xs) {
+	.temporary-requirements2 {
+		padding: 0px 20px;
+				
+		&_paragraph_frame {
+			margin:  40px;
+		}
+
+		&_frame_wrapper {
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		&_frame {
+			padding: 20px 0;
+			
+			p {
+				padding: 0 20px;
+			}
+		}
+	}
+}
+
+@media(min-width: $breakpoint-md) {
+	.temporary-requirements2 {
+		padding: 0 80px;
+
+		&-wrapper>* {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		&_frame_wrapper {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media(min-width: $breakpoint-lg) {
+	.temporary-requirements2 {
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		margin-top: 50px;
+
+		&-wrapper {
+			padding: 0 0 50px 0;
+		}
+		&_paragraphs {
+      box-sizing: border-box;
+      width: 50%;
+			margin: 0px;
+			padding-right: 50px;
+			float: left;
+    }
+
+    &_frame_wrapper {
+			box-sizing: border-box;
+			position: relative;
+      width: 50%;
+			margin: 0 auto;
+			float: left;			
+			left: 50px;
+			padding-top: 30px;
+    }
+
+		&_frame {
+			padding: 20px 30px;
+		}
+	}
+}

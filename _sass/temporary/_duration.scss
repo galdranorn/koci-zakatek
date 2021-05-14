@@ -1,0 +1,161 @@
+.temporary-duration {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  &_left>p:first-of-type {
+		font-size: 18px;
+	}
+  
+  &_paragraph {
+    margin: 0;
+    padding-top: 15px;
+    color:$color-white !important;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: $font-weight-normal;
+    color: $color-main;
+  }
+
+  &_frame {
+    margin-top: 15px;
+    border: 1px solid $color-white;
+    border-radius: 8px;
+    padding: 11px 13px;
+
+    p {
+      margin: 0;
+      padding-top: 0;
+      text-align: center;
+    }
+  }
+
+  &-image {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .temporary-duration {
+    padding: 0px 20px;
+        
+    &_paragraph,&_frame {
+      padding: 0;
+      margin:  40px;
+    }
+      
+    &_left>&_paragraph:first-of-type {
+      padding-top: 40px;
+    }
+
+    &_frame {
+      padding: 20px 0;
+      p {
+        padding: 0 20px;
+      }
+    }
+
+    &_frame {
+      width: 80%;
+      margin: 0 auto;  
+    }
+    
+    &-image {
+      margin: 40px 0;
+      img {
+      width: 100%;
+      border-radius: 8px;
+      }
+    }
+  }
+}
+    
+@media(min-width: $breakpoint-sm) {
+  .temporary-duration {
+    padding: 0 60px;
+
+    &_left>*, &_right >* {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &_frame {
+      width: 80%;
+      margin: 0 auto;  
+    }
+
+    &_image {
+      margin-top: 25px;
+    }
+  }
+}
+
+@media(min-width: $breakpoint-md) {
+  .temporary-duration {
+    padding: 0 80px;
+
+    &_left>*, &_right>* {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &_frame {
+      width: 80%;
+      margin: 0 auto;  
+    }
+
+    &-image {
+      padding-bottom: 40px;
+    }
+  }
+}
+
+@media(min-width: $breakpoint-lg) {
+  .temporary-duration {
+    padding-bottom: 50px;
+    &-wrapper {
+    align-items: center;
+    display: flex;
+    }
+
+		&_left, &_right {
+      box-sizing: border-box;
+      width: 50%;
+    }
+    
+    &_left {
+      padding-right: 50px;
+    }
+
+    &_right {
+			margin: 0;
+      margin-top: 50px;
+			left: 50px;
+    }
+
+    &_frame {
+      padding: 30px;
+    }
+
+    &-image {
+			margin: 40px 0;
+			padding-bottom: 30px;
+			overflow: hidden;
+			border-radius: 8px;
+
+			img {
+        display: block;
+        width: 100%;
+				border-radius: 8px;
+        margin-top: -5%;
+        margin-bottom:-10.875%;
+			}
+		}
+  }
+}
