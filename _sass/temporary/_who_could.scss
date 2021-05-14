@@ -13,7 +13,7 @@
 	
 	&_paragraph {
 		font-size: 16px;
-		line-height: 22px;
+		line-height: 26px;
 		font-weight: $font-weight-normal;
 		color: $color-main;
 	}
@@ -23,7 +23,7 @@
 	}
 
 	&_slogan>p {
-		font-size: 17px;
+		font-size: 18px;
 	}
 
 	&_paragraph:nth-child(2) {
@@ -36,7 +36,7 @@
 	}
 
 	li {
-		padding: 8px 0px;
+		padding: 8px 0 8px 15px;
 		list-style-type: none;
 
 		&:first-of-type {
@@ -44,7 +44,7 @@
 		}
 	}
 
-	&-image img {
+	&_image img {
 		width: 100%;
 	}
 }
@@ -62,7 +62,7 @@
 			padding: 0 40px;
 		}
 
-		&-image {
+		&_image {
 			margin: 40px 0;
 			
 			img {
@@ -78,7 +78,7 @@
 	.temporary-who_could {
 		padding: 0 60px;
 
-		&-wrapper>* {
+		&_wrapper>* {
 			padding: 0;
 		}
 
@@ -86,18 +86,47 @@
 			margin-bottom: 30px;
 		}
 
-		&-image {
+		&_image {
 			margin-top: 25px;
 		}
 	}
 }
   
 @media(min-width: $breakpoint-md) {
+	.temporary-header {
+    font-size: 54px;
+    line-height: 70px;
+    text-align: center;
+  }
 	.temporary-who_could {
 		padding: 0 80px;
   
-		&-wrapper>* {
+		&_wrapper>* {
 			padding: 0;
 		}
 	}
+}
+
+@media (min-width: $breakpoint-lg) {
+	.temporary-who_could {
+		
+		align-items: center;
+    display: flex;
+    
+		&_wrapper, &_image {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &_wrapper {
+      padding-right: 50px;
+    }
+
+    &_image {
+      position: relative;
+			left: 50px;
+			margin: 0;
+    }
+	}
+
 }
