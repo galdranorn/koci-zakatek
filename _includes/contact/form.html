@@ -3,40 +3,49 @@
     {{ page.form.header }}
   </h2>
   <form name="contact" method="POST" data-netlify="true">
+    <div class="contact-form_person">
+      <p class="contact-form_line">
+        <label class="contact-form_line-label">
+          <span class="contact-form_line-text">
+            {{ page.form.name }}
+          </span>
+          <input
+            class="contact-form_line-input"
+            type="text"
+            name="name"
+            placeholder="{{ page.form.name-placeholder }}"
+          />
+        </label>   
+      </p>
+      <p class="contact-form_line">
+        <label class="contact-form_line-label">
+          <span class="contact-form_line-text">
+            {{ page.form.email }}
+          </span>
+          <input
+            class="contact-form_line-input"
+            type="email"
+            name="email"
+          />
+        </label>
+      </p>
+    </div>
     <p class="contact-form_line">
       <label class="contact-form_line-label">
-        {{ page.form.name }}
-        <input
-          class="contact-form_line-input"
-          type="text"
-          name="name"
-          placeholder="{{ page.form.name-placeholder }}"
-        />
-      </label>   
-    </p>
-    <p class="contact-form_line">
-      <label class="contact-form_line-label">
-        {{ page.form.email }}
-        <input
-          class="contact-form_line-input"
-          type="email"
-          name="email"
-        />
-      </label>
-    </p>
-    <p class="contact-form_line">
-      <label class="contact-form_line-label">
+        <span class="contact-form_line-text">
         {{ page.form.message }}
+        </span>
         <textarea
           class="contact-form_line-textarea"
           name="message"
+          rows="8"
           placeholder="{{ page.form.message-placeholder }}"
         ></textarea>
       </label>
     </p>
     <p class="contact-form_line">
       <button
-        class="contact-form_line-button btn btn-big btn-orange"
+        class="contact-form_line-button btn btn-big btn-blue"
         type="submit"
       >
         {{ page.form.send }}
