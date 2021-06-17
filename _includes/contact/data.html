@@ -1,0 +1,23 @@
+<div class="contact-data">
+  <h1 class="contact-data_header">
+    {{ page.header }}
+  </h1>
+  <div class="contact-data_columns">
+    <div>
+      <p>{{ page.foundation.name }}</p>
+      <p>{{ page.foundation.area }}</p>
+    </div>
+    <div>
+      <p>NIP: {{ page.foundation.nip }}</p>
+      <p>REGON: {{ page.foundation.regon }}</p>
+    </div>
+    <div>
+      <p>E-mail: {{ page.foundation.mail }}</p>
+    </div>
+  </div>
+  <img
+    class="contact-data_map"
+    src="{{ page.images.map }}"
+    alt="{{ page.images.map-alt }}"
+  />
+</div>

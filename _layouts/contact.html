@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="{{ page.language }}">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main>
+      <section class="container">
+        {% include contact/data.html %}
+      </section>
+
+      <section class="container">
+        {% include contact/form.html %}
+      </section>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

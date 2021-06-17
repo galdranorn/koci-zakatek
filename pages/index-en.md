@@ -1,13 +1,13 @@
 ---
 layout: home
-title: Koci Zakątek Foundation | Homepage
+title: Koci Zakatek Foundation | Homepage
 description: |
-  The Koci Zakątek Foundation was established in 2009. The primary goal of the Foundation
+  The Koci Zakatek Foundation was established in 2009. The primary goal of the Foundation
   is to help sick, injured and abandoned animals. We focus on taking special care of cats.
 permalink: /en
 section: home
 language: en
-name: Koci Zakątek Foundation
+name: Koci Zakatek Foundation
 logo-alt: foundation logo
 menu-1: About us
 menu-link-1: '#about'
@@ -28,7 +28,7 @@ meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
 meet-us_img-alt : photo of foundation cats
 meet-us_foundation: >-
-  The Koci Zakątek Foundation was established in 2009 (as the EBRA Foundation).
+  The Koci Zakatek Foundation was established in 2009 (as the EBRA Foundation).
   The primary goal of the Foundation is to help <strong>sick, injured and abandoned
   animals</strong>. In particular, we focus on taking special care of cats.
 meet-us_platform: >-

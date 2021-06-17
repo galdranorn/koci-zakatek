@@ -1,0 +1,52 @@
+<div class="contact-form">
+  <h2 class="contact-form_header">
+    {{ page.form.header }}
+  </h2>
+  <form name="contact" method="POST" data-netlify="true">
+    <p class="contact-form_line">
+      <label class="contact-form_line-label">
+        {{ page.form.name }}
+        <input
+          class="contact-form_line-input"
+          type="text"
+          name="name"
+          placeholder="{{ page.form.name-placeholder }}"
+        />
+      </label>   
+    </p>
+    <p class="contact-form_line">
+      <label class="contact-form_line-label">
+        {{ page.form.email }}
+        <input
+          class="contact-form_line-input"
+          type="email"
+          name="email"
+        />
+      </label>
+    </p>
+    <p class="contact-form_line">
+      <label class="contact-form_line-label">
+        {{ page.form.message }}
+        <textarea
+          class="contact-form_line-textarea"
+          name="message"
+          placeholder="{{ page.form.message-placeholder }}"
+        ></textarea>
+      </label>
+    </p>
+    <p class="contact-form_line">
+      <button
+        class="contact-form_line-button btn btn-big btn-orange"
+        type="submit"
+      >
+        {{ page.form.send }}
+      </button>
+    </p>
+  </form>
+  <img
+    class="contact-form_image"
+    src="{{ page.images.final }}"
+    alt="{{ page.images.final-alt }}"
+  />
+</div>
+
