@@ -26,6 +26,7 @@
             class="contact-form_line-input"
             type="email"
             name="email"
+            placeholder="{{ page.form.email-placeholder }}"
           />
         </label>
       </p>
@@ -45,17 +46,15 @@
     </p>
     <p class="contact-form_line">
       <button
-        class="contact-form_line-button btn btn-big btn-blue"
+        class="contact-form_line-button btn btn-big btn-orange"
         type="submit"
       >
         {{ page.form.send }}
       </button>
     </p>
   </form>
-  <img
-    class="contact-form_image"
-    src="{{ page.images.final }}"
-    alt="{{ page.images.final-alt }}"
-  />
+  <div class="contact-form_image">
+    <img src="{{ page.images.final }}" alt="{{ page.images.final-alt }}"/>
+  </div>
 </div>
 
