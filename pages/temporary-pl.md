@@ -26,23 +26,24 @@ menu-7: Kontakt
 menu-link-7: '/kontakt'
 switcher-link: '/en/temporary-home'
 header: Dom tymczasowy
+intro-list: Dom tymczasowy dla kota (lub kotów) może prowadzić prawie każdy. Często słyszymy
+intro-list-1: „nie mogę wziąć tego kota do domu, bo nie mam warunków”
+intro-list-2: „chciałabym/chciałbym pomóc, ale mam już kota w domu”
+intro-list-3: „chciałabym/chciałbym być domem tymczasowym, ale za pół roku zmieniam mieszkanie”
+intro-list-4: „nie mam osiatkowanego balkonu, aby być domem tymczasowym”
+intro-text: Jednak tak naprawdę...
 conditions-header: >-
   Nie musisz mieć ekstra „warunków”, aby przyjąć kota do siebie.
-conditions-list: Dom tymczasowy dla kota (lub kotów) może prowadzić prawie każdy. Często słyszymy
-conditions-list-1: „nie mogę wziąć tego kota do domu, bo nie mam warunków”
-conditions-list-2: „chciałabym/chciałbym pomóc, ale mam już kota w domu”
-conditions-list-3: „chciałabym/chciałbym być domem tymczasowym, ale za pół roku zmieniam mieszkanie”
-conditions-list-4: „nie mam osiatkowanego balkonu, aby być domem tymczasowym”
-conditions-text: >-
-  Różne osoby, które stale zajmują się pomaganiem kotom, wolontariusze fundacji lub inni ludzie,
-  często mają <strong>w swoich niewielkich mieszkaniach po kilka zwierząt</strong> oczekujących na adopcję.
-conditions-point: >-
-  Jeśli myślisz, że Twój „pokój z kuchnią” to niewystarczająca przestrzeń dla kota – jesteś w błędzie!
 conditions-point-list: Kotu „po przejściach” potrzebne są
 conditions-point-list-1: <strong>schronienie</strong>, w którym nie marznie i nie moknie,
 conditions-point-list-2: napełniana regularnie <strong>miseczka</strong>,
 conditions-point-list-3: <strong>miękki kocyk</strong>,
 conditions-point-list-4: cierpliwy, wyrozumiały i odpowiedzialny <strong>człowiek</strong>.
+conditions-text: >-
+  Różne osoby, które stale zajmują się pomaganiem kotom, wolontariusze fundacji lub inni ludzie,
+  często mają <strong>w swoich niewielkich mieszkaniach po kilka zwierząt</strong> oczekujących na adopcję.
+conditions-point: >-
+  Jeśli myślisz, że Twój „pokój z kuchnią” to niewystarczająca przestrzeń dla kota – jesteś w błędzie!
 cats-header: >-
   Jeśli masz już w domu futrzastego przyjaciela nie wyklucza to przytulenia na jakiś czas drugiego.
 cats-text: >-
@@ -51,7 +52,9 @@ cats-text: >-
   do nowego kociego lokatora.
 cats-point: >-
   Jeśli zgłosisz się do nas, najpierw i tak zaproponujemy Ci spotkanie, aby poznać Ciebie oraz Twojego
-  kota, aby <span>dobrać „kandydata” odpowiedniego wiekiem, płcią czy usposobieniem</span>.
+  kota, aby <strong>dobrać „kandydata” odpowiedniego wiekiem, płcią czy usposobieniem</strong>.
+cats-image: /assets/temporary/cats.jpeg
+cats-alt: zdjęcie kotów w fundacji
 time-header: >-
   Dom tymczasowy określa czy może gościć kota do czasu znalezienie mu domu stałego czy też
   na przykład na 2 miesiące. 

@@ -1,11 +1,18 @@
 <div class="temporary-cats">
-  <h2 class="temporary-cats_header">
-    {{ page.cats-header }}
-  </h2>
-  <p class="temporary-cats_text">
-    {{ page.cats-text }}
-  </p>
-  <p class="temporary-cats_point">
-    {{ page.cats-point }}
-  </p>
+  <div class="temporary-cats_columns">
+    <div class="temporary-cats_columns-left">
+      <h2 class="temporary-cats_header">
+        {{ page.cats-header }}
+      </h2>
+      <p class="temporary-cats_text">
+        {{ page.cats-text }}
+      </p>
+      <p class="temporary-cats_point">
+        {{ page.cats-point }}
+      </p>
+    </div>
+    <div class="temporary-cats_columns-right">
+      <img src="{{ page.cats-image }}" alt="{{ page.cats-image-alt }}" />
+    </div>
+  </div>
 </div>
