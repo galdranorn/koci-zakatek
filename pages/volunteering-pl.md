@@ -38,11 +38,11 @@ image-alt: zdjęcie wolontariuszki z kotami
 shift-header: Dyżury w kocińcu
 shift-text-1: >-
   Idealnym miejscem pobytu naszych kotów są domy tymczasowe. Niestety jest ich ciągle za mało
-  w stosunku do potrzeb. Dlatego też spora część kocich podopiecznych Fundacji mieszka tymczasowo
-  w naszych pomieszczeniach biurowych i potrzebuje codziennych wizyt wolontariuszy.
+  w stosunku do potrzeb. Dlatego też spora część kocich podopiecznych Fundacji <strong>mieszka tymczasowo
+  w naszych pomieszczeniach biurowych i potrzebuje codziennych wizyt wolontariuszy</strong>.
 shift-text-2: >-
   Dyżur w kocińcu to przede wszystkim sprzątanie. Nawet jeśli jesteś osobą dobrze zorganizowaną,
-  jeden dyżur (samodzielny, bez drugiej osoby) zajmie Ci 3-4 godziny.
+  <span>jeden dyżur (samodzielny, bez drugiej osoby) zajmie Ci 3-4 godziny</span>.
 shift-list-intro: W ramach obowiązków są
 shift-list-1: sprzątanie i mycie kuwet,
 shift-list-2: sprzątanie klatek pobytowych, w których przebywa część kotów,
@@ -50,13 +50,19 @@ shift-list-3: sprzątanie pomieszczeń (drapaków, podłogi itp.,łazienki)
 shift-list-4: podawanie kotom pożywienia
 shift-list-5: podawanie części leków
 shift-list-6: socjalizowanie kotów (zabawa, nauka dotyku itp.)
+shift-icon-1: /assets/volunteering/icon-calendar.png
+shift-icon-1-alt: ikona kalendarza
 shift-point-1: Dyżury odbywają się 2x dziennie przez 7 dni w tygodniu
 shift-details-1: >-
   Wystarczy nam, jeśli będziesz mógł/mogła przyjść do kotów 1x w tygodniu, to już ogromna pomoc!
+shift-icon-2: /assets/volunteering/icon-schedule.png
+shift-icon-2-alt: ikona harmonogramu
 shift-point-2: Grafik dyżurów ustalany jest z tygodnia na tydzień
 shift-details-2: >-
   Możesz przychodzić w stały dzień lub inaczej w każdym tygodniu, jeśli masz np. zmienny grafik
   pracy czy zajęć na uczelni.
+shift-icon-3: /assets/volunteering/icon-team.png
+shift-icon-3-alt: ikona zespołu
 shift-point-3: Wszystkim „nowicjuszom” zapewniamy przeszkolenie
 shift-details-3: Najpierw wspólne dyżury z doświadczoną osobą, dopiero potem samodzielne.
 transport-header: Transport

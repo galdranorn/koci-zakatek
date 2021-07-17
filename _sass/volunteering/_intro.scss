@@ -34,7 +34,7 @@
   &_image {
     box-sizing: border-box;
     width: 100%;
-    margin-top: 25px;
+    margin: 25px 0;
 
     img {
       width: 180%;
@@ -45,14 +45,14 @@
   
 @media (min-width: $breakpoint-xs) {
   .volunteering-intro {
-    padding: 50px 20px;
+    padding: 50px 20px 0;
 
     &_header, &_text {
       padding: 0 40px;
     }
 
     &_image {
-      margin-top: 40px;
+      margin: 40px 0;
 
       img {
         width: 100%;
@@ -71,10 +71,8 @@
       padding: 0;
     }
 
-    &_text {
-      &-big {
-        text-align: left;
-      }
+    &_text-big {
+      text-align: left;
     }
   }
 }
