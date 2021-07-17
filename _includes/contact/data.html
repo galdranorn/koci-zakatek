@@ -1,0 +1,32 @@
+<div class="contact-data">
+  <h1 class="contact-data_header">
+    {{ page.header }}
+  </h1>
+  <div class="contact-data_columns">
+    <div class="contact-data_columns-left">
+      <h2 class="contact-data_name">
+        {{ page.foundation.name }}
+      </h2>
+      <p class="contact-data_area">{{ page.foundation.area }}</p>
+      <div class="contact-data_number">
+        <h3 class="contact-data_number-name">NIP:</h3>
+        <span class="contact-data_number-value">{{ page.foundation.nip }}</span>
+      </div>
+      <div class="contact-data_number">
+        <h3 class="contact-data_number-name">REGON:</h3>
+        <span class="contact-data_number-value">{{ page.foundation.regon }}</span>
+      </div>
+      <div class="contact-data_email">
+        <h3 class="contact-data_email-name">E-mail:</h3>
+        <a href="mailto:{{ page.foundation.mail }}">{{ page.foundation.mail }}</a>
+      </div>
+    </div>
+    <div class="contact-data_columns-right">
+      <img
+        class="contact-data_map"
+        src="{{ page.images.map }}"
+        alt="{{ page.images.map-alt }}"
+      />
+    </div>
+  </div>
+</div>

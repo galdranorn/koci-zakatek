@@ -27,16 +27,6 @@
 ;
 
 @import
-  "wroclove/duty",
-  "wroclove/shelter",
-  "wroclove/safety",
-  "wroclove/commune",
-  "wroclove/card",
-  "wroclove/foundations",
-  "wroclove/support"
-;
-
-@import
   "about/intro",
   "about/people",
   "about/volunteers",
@@ -51,4 +41,19 @@
   "about/shelter",
   "about/protect",
   "about/support"
+;
+
+@import
+  "wroclove/duty",
+  "wroclove/shelter",
+  "wroclove/safety",
+  "wroclove/commune",
+  "wroclove/card",
+  "wroclove/foundations",
+  "wroclove/support"
+;
+
+@import
+  "contact/data",
+  "contact/form"
 ;

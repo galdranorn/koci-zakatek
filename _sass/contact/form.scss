@@ -1,0 +1,142 @@
+.contact-form {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px;
+
+  &_header {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+
+  &_line {
+    margin-bottom: 10px;
+
+    &-text {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    &-input, &-textarea {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15px;
+      border: 1px solid $color-orange;
+      box-shadow: none;
+
+      &::placeholder {
+        color: $color-orange;
+        opacity: .5;
+      }
+    }
+
+    &-input {
+      border-radius: 30px;
+    }
+
+    &-textarea {
+      background-color: $color-white;
+      border-radius: 8px 8px 0 8px;
+    }
+  }
+
+  &_image {
+    position: relative;
+    bottom: -5px;
+    right: -20px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .btn {
+    margin: 0;
+    margin-bottom: -130px;
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .contact-form {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .contact-form {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+    &_header {
+      width: 100%;
+    }
+
+    form {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &_image {
+      position: absolute;
+      bottom: -5px;
+      right: -60px;
+      width: 65%;
+    }
+
+    .btn {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .contact-form {
+    padding: 0 80px;
+
+    &_image {
+      bottom: -5px;
+      right: -20px;
+      z-index: -1;
+      width: 70%;
+      max-width: 600px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .contact-form {
+    &_header {
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+
+    &_person {
+      display: flex;
+      flex-flow: row nowrap;
+      margin-bottom: 40px;
+
+      .contact-form_line {
+        box-sizing: border-box;
+        width: 50%;
+
+        &:first-of-type {
+          padding-right: 25px;
+        }
+
+        &:last-of-type {
+          padding-left: 25px;
+        }
+      }
+    }
+
+    &_image {
+      left: calc(50% - 10px);
+      right: auto;
+    }
+    
+    .btn {
+      margin-top: 30px;
+    }
+  }
+}

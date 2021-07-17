@@ -1,0 +1,122 @@
+.contact-data {
+  position: relative;
+  padding: 50px 20px;
+
+  &_header {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: $font-weight-extrabold;
+    color: $color-main;
+  }
+
+  &_name {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  &_area {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-orange;
+  }
+
+  &_number-name, &_email-name {
+    display: inline-block;
+    width: 85px;
+    min-width: 85px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  &_email  {
+    margin-bottom: 30px;
+
+    a {
+      text-decoration: none;
+      color: $color-orange;
+    }
+  }
+
+  &_map {
+    width: 100%;
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .contact-data {
+    padding: 50px 60px;
+
+    &_columns-right {
+      text-align: center;
+    }
+
+    &_map {
+      width: 350px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .contact-data {
+    padding: 80px 60px 20px;
+
+    &_map {
+      position: absolute;
+      top: 120px;
+      right: 20px;
+      width: 40%;
+      max-width: 450px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .contact-data {
+    padding: 100px 80px 80px;
+
+    &_map {
+      top: 110px;
+      right: 50px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .contact-data {
+    &_header {
+      margin-bottom: 60px;
+      font-size: 50px;
+      line-height: 65px;
+    }
+   
+    &_name {
+      font-size: 36px;
+    }
+    
+    &_area {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-size: 16px;
+    }
+
+    &_number, &_email {
+      font-size: 18px;
+
+      &-name {
+        width: 120px;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .contact-data {
+    &_map {
+      right: 150px;
+    }
+  }
+}
