@@ -22,7 +22,7 @@ menu-link-5: '#metamorphosis'
 menu-6: FAQ
 menu-link-6: '#faq'
 menu-7: Contact
-menu-link-7: '#footer'
+menu-link-7: '/contact'
 switcher-link: '/'
 meet-us_text: Meet us closer
 meet-us_img : /assets/home/meet-us.jpg
