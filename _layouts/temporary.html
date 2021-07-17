@@ -1,9 +1,32 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="{{ page.language }}">
+  {% include head.html %}
 
-<h2>{{ page.title }}</h2>
+  <body>
+    {% include header.html %}
 
-{% include page-intro.html %}
+    <main>
+      <section class="container">
+        {% include temporary/conditions.html %}
+      </section>
 
-{{ content }}
+      <section class="full full--dark">
+        {% include temporary/cats.html %}
+      </section>
+
+      <section class="container">
+        {% include temporary/time.html %}
+      </section>
+
+      <section class="full full--dark">
+        {% include temporary/process.html %}
+      </section>
+
+      <section class="container">
+        {% include temporary/help.html %}
+      </section>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
