@@ -1,13 +1,13 @@
 ---
 layout: volunteering
-title: Wolontariat
+title: Fundacja Koci Zakątek | Wolontariat
 meta_description: |
   Wolontariat potrzebny w każdej możliwej formie! Możesz robić to, w czym czujesz się pewnie
   i na co pozwala Ci Twój czas. Sam/sama decydujesz, w jakim stopniu i wymiarze czasowym chcesz działać.
 permalink: /wolontariat
 section: volunteering
 language: pl
-name: Fundacja Koci Zakątek | Wolontariat
+name: Wolontariat
 home-url: /
 logo-alt: logo fundacji
 menu-1: Kim jesteśmy
