@@ -1,0 +1,75 @@
+.volunteering-help {
+  margin-bottom: -5px;
+  padding: 50px 0 0;
+  text-align: center;
+  
+  &_header, &_text {
+    padding: 0 20px;
+  }
+
+  &_header {
+    margin: 0 0 20px;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: $font-weight-extrabold;
+  }
+
+  &_text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: $font-weight-bold;
+  }
+
+  &_image {
+    box-sizing: border-box;
+    width: 100%;
+    
+    img {
+      width: 150%;
+      transform: translate(-20%);
+    }
+  }
+
+  .btn {
+    width: 210px;
+    margin: 30px auto 50px;
+  }
+}
+
+@media (min-width: $breakpoint-xs) {
+  .volunteering-help {
+    padding: 50px 20px;
+
+    &_header, &_text {
+      padding: 0 40px;
+    }
+
+    &_image img {
+      width: 100%;
+      transform: none;
+      border-radius: 30px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .volunteering-help {
+    padding: 80px;
+
+    &_header, &_text {
+      padding: 0;
+    }
+
+    .btn {
+      width: 280px;
+      margin: 40px auto 70px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .volunteering-help_header {
+    font-size: 48px;
+    line-height: 62px;
+  }
+}
