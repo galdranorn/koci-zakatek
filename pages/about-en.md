@@ -9,22 +9,22 @@ permalink: /en/about
 section: about
 language: en
 name: Koci Zakatek Foundation | About foundation
-home-url: /
+home-url: /en
 logo-alt: logo fundacji
 menu-1: About us
-menu-link-1: '/about'
+menu-link-1: '/en/about'
 menu-2: Adoptions
-menu-link-2: '/adoptions'
+menu-link-2: '/en/adoptions'
 menu-3: How to help
-menu-link-3: '/help'
+menu-link-3: '/en/help'
 menu-4: Cats in Wroclaw
-menu-link-4: '/cats-in-wroclaw'
+menu-link-4: '/en/cats-in-wroclaw'
 menu-5: Metamorphosis
-menu-link-5: '/metamorphosis'
+menu-link-5: '/en/metamorphosis'
 menu-6: FAQ
-menu-link-6: '/faq'
+menu-link-6: '/en/faq'
 menu-7: Contact
-menu-link-7: '#footer'
+menu-link-7: '/en/contact'
 switcher-link: '/o-fundacji'
 about-intro: About Koci Zakątek
 about-alt: koci zakątek logo with photos of cats
@@ -82,7 +82,7 @@ people-volunteers-text: >-
   who commit to visit and attend to our shelter cats every day needs from cleaning litter boxes, feeding,
   playing to administering medications and facilitating veterinary visits and required
   treatments.
-  <span>WThank you very much to all of them. :)</span>
+  <span>Thank you very much to all of them. :)</span>
 why-intro: Dlaczego działamy?
 why-text: >-
   Na terenie Wrocławia żyje szacunkowo ok.&nbsp;40&nbsp;000&nbsp;kotów. Mimo akcji sterylizacji, 

@@ -6,24 +6,24 @@ meta_description: |
   injured and abandoned animals. We focus on taking special care of cats.
 permalink: /en/contact
 section: contact
-language: pl
+language: en
 name: Koci Zakatek Foundation | Contact
-home-url: /
+home-url: /en
 logo-alt: foundation logo
 menu-1: About us
-menu-link-1: '#about'
+menu-link-1: '/en/about'
 menu-2: Adoptions
-menu-link-2: '#adoptions'
+menu-link-2: '/en/adoptions'
 menu-3: How to help
-menu-link-3: '#help'
+menu-link-3: '/en/help'
 menu-4: Cats in Wroclaw
-menu-link-4: '#wroclove'
+menu-link-4: '/en/cats-in-wroclaw'
 menu-5: Metamorphosis
-menu-link-5: '#metamorphosis'
+menu-link-5: '/en/metamorphosis'
 menu-6: FAQ
-menu-link-6: '#faq'
+menu-link-6: '/en/faq'
 menu-7: Contact
-menu-link-7: '/contact'
+menu-link-7: '/en/contact'
 switcher-link: '/kontakt'
 
 header: Contact
