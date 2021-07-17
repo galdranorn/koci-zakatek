@@ -119,7 +119,10 @@ other-contact-text: Skontaktuj się z nami bezpośrednio pod adresem
 other-contact-mail: edyta.gal@kocizakatek.pl
 other-image: /assets/volunteering/other.png
 other-image-alt: grafika z wolontariuszem i kotami
-help-text: Nie możesz dołączyć do wolontariatu? Nadal możesz nam pomóc!
-help-cta: Zobacz wszystkie formy pomocy
+help-intro: Nie możesz dołączyć do&nbsp;wolontariatu?
+help-text: Nadal możesz nam pomóc!
+help-cta: Zobacz jak możesz pomóc
 help-link: /pomoc
+help-image: /assets/volunteering/help.jpeg
+help-image-alt: zdjęcie kota na rękach wolontariusza
 ---

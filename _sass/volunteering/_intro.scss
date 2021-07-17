@@ -17,7 +17,6 @@
 
   &_text {
     &-big {
-      text-align: center;
       font-size: 20px;
       line-height: 30px;
       font-weight: $font-weight-extrabold;
@@ -69,10 +68,6 @@
 
     &_header, &_text {
       padding: 0;
-    }
-
-    &_text-big {
-      text-align: left;
     }
   }
 }
