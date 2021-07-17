@@ -106,15 +106,19 @@ adoption-image: /assets/volunteering/adoption.jpg
 adoption-image-alt: zdjęcie kota w klatce
 other-header: Inne formy wolontariatu
 other-text: >-
-  Potrzebujemy także Twojego wsparcia w obszarach, które są kluczowe dla rozwoju naszej organizacji.
-other-list-1: fundraising
-other-list-2: poszukiwanie sponsorów
-other-list-3: organizacja imprez charytatywnych na rzecz podopiecznych Fundacji
+  Potrzebujemy także Twojego wsparcia w obszarach, które są <span>kluczowe dla rozwoju naszej
+  organizacji</span>, takich jak:
+other-list-1: fundraising,
+other-list-2: poszukiwanie sponsorów,
+other-list-3: organizacja imprez charytatywnych na rzecz podopiecznych Fundacji,
 other-list-4: >-
   nawiązywanie relacji z potencjalnymi partnerami Fundacji, jak na przykład producenci/dystrybutorzy
-  karm i akcesoriów dla zwierząt
-other-contact: Chcesz pomóc? Skontaktuj się z nami bezpośrednio pod adresem
+  karm i akcesoriów dla zwierząt.
+other-contact-intro: Chcesz pomóc?
+other-contact-text: Skontaktuj się z nami bezpośrednio pod adresem
 other-contact-mail: edyta.gal@kocizakatek.pl
+other-image: /assets/volunteering/other.png
+other-image-alt: grafika z wolontariuszem i kotami
 help-text: Nie możesz dołączyć do wolontariatu? Nadal możesz nam pomóc!
 help-cta: Zobacz wszystkie formy pomocy
 help-link: /pomoc
