@@ -1,26 +1,40 @@
 <div class="volunteering-transport">
-  <h2 class="volunteering-transport_header">
-    {{ page.transport-header }}
-  </h2>
-  <p class="volunteering-transport_text">
-    {{ page.transport-text }}
-  </p>
-  <div>
-    <p>{{ page.transport-list-intro }}</p>
-    <ul>
-      <li>{{ page.transport-list-1 }}</li>
-      <li>{{ page.transport-list-2 }}</li>
-      <li>{{ page.transport-list-3 }}</li>
-      <li>{{ page.transport-list-4 }}</li>
-    </ul>
+  <div class="volunteering-transport_wrapper">
+    <div class="volunteering-transport_columns">
+      <div class="volunteering-transport_columns-left">
+        <h2 class="volunteering-transport_header">
+          {{ page.transport-header }}
+        </h2>
+        <p class="volunteering-transport_intro">
+          {{ page.transport-intro }}
+        </p>
+        <p class="volunteering-transport_text">
+          {{ page.transport-text }}
+        </p>
+        <div class="volunteering-transport_list">
+          <p>{{ page.transport-list-intro }}:</p>
+          <ul class="volunteering-transport_list-items">
+            <li>{{ page.transport-list-1 }}</li>
+            <li>{{ page.transport-list-2 }}</li>
+            <li>{{ page.transport-list-3 }}</li>
+            <li>{{ page.transport-list-4 }}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="volunteering-transport_columns-right">
+        <img src="{{ page.transport-image }}" alt="{{ page.transport-image-alt }}" />
+      </div>
+    </div>
+    <div class="volunteering-transport_contact">
+      <p class="volunteering-transport_contact-intro">
+        {{ page.transport-contact-intro }}
+      </p>
+      <p class="volunteering-transport_contact-text">
+        {{ page.transport-contact-text }}
+      </p>
+      <a href="mailto:{{ page.transport-contact-mail }}">
+        {{ page.transport-contact-mail }}
+      </a>
+    </p>
   </div>
-  <p>
-    {{ page.transport-contact }}
-  </p>
-  <p>
-    {{ page.transport-contact-intro }}
-    <a href="mailto:{{ page.transport-contact-mail }}">
-      {{ page.transport-contact-mail }}
-    </a>
-  </p>
 </div>

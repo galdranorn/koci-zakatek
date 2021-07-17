@@ -66,10 +66,9 @@ shift-icon-3-alt: ikona zespołu
 shift-point-3: Wszystkim „nowicjuszom” zapewniamy przeszkolenie
 shift-details-3: Najpierw wspólne dyżury z doświadczoną osobą, dopiero potem samodzielne.
 transport-header: Transport
-transport-text: >-
-  Niestety nie posiadamy samochodu służbowego, korzystamy więc z uprzejmości osób prywatnych,
-  kiedy tylko jest to możliwe.
-transport-list-intro: Potrzebujemy pomocy w
+transport-intro: Niestety nie posiadamy samochodu służbowego.
+transport-text: Korzystamy więc z uprzejmości osób prywatnych, kiedy tylko jest to możliwe.
+transport-list-intro: Potrzebujemy pomocy&nbsp;w
 transport-list-1: >-
   wożeniu kotów na wizyty u weterynarzy (samodzielnie bądź w asyście osoby z Fundacji)
 transport-list-2: >-
@@ -82,8 +81,11 @@ transport-list-4: >-
 transport-contact: >-
   Jeśli od czasu do czasu mógłbyś/mogłabyś pomóc, podaj kontakt i z wyprzedzeniem zadzwonimy
   lub napiszemy sms-a z pytaniem o konkretny termin.
-transport-contact-intro: Skontaktuj się z nami bezpośrednio pod adresem
+transport-contact-intro: Możesz pomóc?
+transport-contact-text: Skontaktuj się z nami bezpośrednio pod adresem
 transport-contact-mail: edyta.gal@kocizakatek.pl
+transport-image: /assets/volunteering/transport.jpg
+transport-image-alt: zdjęcie wolontariuszki z kotem
 adoption-header: Proces adopcji
 adoption-text-1: Szukamy osób, które wirtualnie lub osobiście pomogłyby nam w adopcjach kotów.
 adoption-text-2: >-
