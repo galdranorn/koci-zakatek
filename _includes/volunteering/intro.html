@@ -6,8 +6,16 @@
     <p class="volunteering-intro_text-big">
       {{ page.subheader }}
     </p>
-    <p class="volunteering-intro_text-small">
-      {{ page.text }}
-    </p>
+    <div class="volunteering-intro_text-columns">
+      <p class="volunteering-intro_text-columns_left">
+        {{ page.text-1 }}
+      </p>
+      <p class="volunteering-intro_text-columns_right">
+        {{ page.text-2 }}
+      </p>
+    </div>
+  </div>
+  <div class="volunteering-intro_image">
+    <img src="{{ page.image }}" alt={{ page.image-alt }}/>
   </div>
 </div>

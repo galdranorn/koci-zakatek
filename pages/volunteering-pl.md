@@ -1,6 +1,6 @@
 ---
 layout: volunteering
-title: Wolontatiat
+title: Wolontariat
 meta_description: |
   Wolontariat potrzebny w każdej możliwej formie! Możesz robić to, w czym czujesz się pewnie
   i na co pozwala Ci Twój czas. Sam/sama decydujesz, w jakim stopniu i wymiarze czasowym chcesz działać.
@@ -27,11 +27,14 @@ menu-link-7: '/kontakt'
 switcher-link: '/en/volunteering'
 header: Wolontariat
 subheader: Potrzebny w każdej możliwej formie!
-text: >-
-  Możesz robić to, w czym czujesz się pewnie i na co pozwala Ci Twój czas. Sam/sama decydujesz,
-  w jakim stopniu i wymiarze czasowym chcesz działać. Możliwa jest współpraca długofalowa lub konkretne
-  działania raz na jakiś czas. Mogą być to działania związane bezpośrednio z kontaktem z kotami
-  lub działania wirtualne.
+text-1: >-
+  Możesz robić to, w czym czujesz się pewnie i na co pozwala Ci Twój czas. <strong>Sam/sama decydujesz,
+  w jakim stopniu i wymiarze czasowym chcesz działać</strong>.
+text-2: >-
+  Możliwa jest współpraca długofalowa lub konkretne działania raz na jakiś czas. Mogą być
+  to działania związane <strong>bezpośrednio z kontaktem z kotami lub działania wirtualne</strong>.
+image: /assets/volunteering/intro.jpg
+image-alt: zdjęcie wolontariuszki z kotami
 shift-header: Dyżury w kocińcu
 shift-text-1: >-
   Idealnym miejscem pobytu naszych kotów są domy tymczasowe. Niestety jest ich ciągle za mało
@@ -54,7 +57,7 @@ shift-point-2: Grafik dyżurów ustalany jest z tygodnia na tydzień
 shift-details-2: >-
   Możesz przychodzić w stały dzień lub inaczej w każdym tygodniu, jeśli masz np. zmienny grafik
   pracy czy zajęć na uczelni.
-shift-point-3: Wszystkim „nowicjuszom” zapewniamy przeszkolenie.
+shift-point-3: Wszystkim „nowicjuszom” zapewniamy przeszkolenie
 shift-details-3: Najpierw wspólne dyżury z doświadczoną osobą, dopiero potem samodzielne.
 transport-header: Transport
 transport-text: >-
