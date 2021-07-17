@@ -67,7 +67,7 @@ time-text-2: >-
 time-point: >-
   Oczywiście najlepiej dla kota, aby nie musiał za często zmieniać miejsc pobytu i zdecydowanie preferujemy
   długofalową opiekę tymczasową.
-process-header: Proces zostania domem tymczasowym nie jest skomplikowany
+process-header: Proces zostania domem tymczasowym nie jest skomplikowany.
 process-text-1: >-
   Jeśli zgłosisz się do nas zapytamy Cię o <strong>Twoje doświadczenia</strong> w opiece nad kotami,
   o to <strong>ilu lokatorów</strong> przebywa w Twoim mieszkaniu, poprosimy o <strong>możliwość spotkania</strong>.
@@ -79,8 +79,10 @@ process-list-1: organizujemy i opłacamy leczenie,
 process-list-2: zapewniamy karmę i akcesoria, jeśli nie możesz tego zaoferować,
 process-list-3: jeździmy do weterynarzy, jeśli opiekun tymczasowy nie może,
 process-list-4: szukamy domów stałych.
-process-cta: Zapoznaj się z treścią umowy
+process-cta: Zapoznaj się z umową
 process-link: /
+process-image: /assets/temporary/process.jpg
+process-image-alt: zdjęcie małego kota na rękach
 help-intro: Nie możesz zostać domem tymczasowym?
 help-text: Nadal możesz nam pomóc w inny sposób!
 help-cta: Zobacz jak możesz pomóc
