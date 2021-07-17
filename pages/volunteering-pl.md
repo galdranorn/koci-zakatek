@@ -87,18 +87,21 @@ transport-contact-mail: edyta.gal@kocizakatek.pl
 adoption-header: Proces adopcji
 adoption-text-1: Szukamy osób, które wirtualnie lub osobiście pomogłyby nam w adopcjach kotów.
 adoption-text-2: >-
-  Pomoc wirtualna to zamieszczanie ogłoszeń adopcyjnych na różnych portalach i stronach,
-  poszukiwanie nowych miejsc w sieci, gdzie można zamieścić ogłoszenia, podbijanie
+  <strong>Pomoc wirtualna</strong> to zamieszczanie ogłoszeń adopcyjnych na różnych portalach
+  i stronach, poszukiwanie nowych miejsc w sieci, gdzie można zamieścić ogłoszenia, podbijanie
   zamieszczonych ogłoszeń.
 adoption-text-3: >-
-  Potrzebujemy także pomocy w tzw. wizytach przed- i poadopcyjnych. Jeśli lubisz kontakt z ludźmi,
-  nie masz oporów przed zadawaniem pytań, jesteś osobą dociekliwą, ale jednocześnie taktowną
+  Potrzebujemy także pomocy w tzw. <strong>wizytach przed- i poadopcyjnych</strong>. Jeśli lubisz kontakt
+  z ludźmi, nie masz oporów przed zadawaniem pytań, jesteś osobą dociekliwą, ale jednocześnie taktowną
   i możesz poświęcić swój czas przynajmniej raz w tygodniu - czekamy na Ciebie!
 adoption-text-4: >-
   Zależy nam na osobach odpowiedzialnych, które po przeszkoleniu zostaną z nami
   <span>co najmniej 2-3 miesiące</span>, idealnie jeszcze dłużej.
-adoption-contact-intro: Ten opis pasuje do Ciebie? Skontaktuj się z nami bezpośrednio pod adresem
+adoption-contact-intro: Ten opis pasuje do Ciebie?
+adoption-contact-text: Skontaktuj się z nami bezpośrednio pod adresem
 adoption-contact: adopcje@kocizakatek.pl
+adoption-image: /assets/volunteering/adoption.jpg
+adoption-image-alt: zdjęcie kota w klatce
 other-header: Inne formy wolontariatu
 other-text: >-
   Potrzebujemy także Twojego wsparcia w obszarach, które są kluczowe dla rozwoju naszej organizacji.

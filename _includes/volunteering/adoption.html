@@ -2,14 +2,30 @@
   <h2 class="volunteering-adoption_header">
     {{ page.adoption-header }}
   </h2>
-  <div class="volunteering-adoption_text">
-    <p>{{ page.adoption-text-1 }}</p>
-    <p>{{ page.adoption-text-2 }}</p>
-    <p>{{ page.adoption-text-3 }}</p>
-    <p>{{ page.adoption-text-4 }}</p>
+  <p class="volunteering-adoption_intro">
+    {{ page.adoption-text-1 }}
+  </p>
+  <div class="volunteering-adoption_columns">
+    <p class="volunteering-adoption_columns-left">
+      {{ page.adoption-text-2 }}
+    </p>
+    <p class="volunteering-adoption_columns-right">
+      {{ page.adoption-text-3 }}
+    </p>
   </div>
+  <div class="volunteering-adoption_image">
+    <img src="{{ page.adoption-image }}" alt="{{ page.adoption-image-alt }}" />
+  </div>
+  <p class="volunteering-adoption_text">
+    {{ page.adoption-text-4 }}
+  </p>
   <div class="volunteering-adoption_contact">
-    <p>{{ page.adoption-contact-intro }}</p>
+    <p class="volunteering-adoption_contact-intro">
+      {{ page.adoption-contact-intro }}
+    </p>
+    <p class="volunteering-adoption_contact-text">
+      {{ page.adoption-contact-text }}
+    </p>
     <a href="mailto:{{ page.adoption-contact }}">
       {{ page.adoption-contact }}
     </a>
